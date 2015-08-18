@@ -1,0 +1,29 @@
+#Object files
+*.o
+
+#Log files
+*.log
+
+#Libraries
+*.lib
+*.a
+
+#Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+#Executables
+*.exe
+*.out
+*.app
+
+#OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
