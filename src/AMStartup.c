@@ -124,7 +124,7 @@ main(int argc, char **argv)
 
     //make sure that all the options were present and that all the necessary variables were set
     if(nAvatars < 1 || nAvatars > AM_MAX_AVATAR){
-      printf("There must be between 1 and 10 Avatars\n");
+      printf("There must be between 1 and 10 Avatars. You entered: %i\n", nAvatars);
       exit(EXIT_FAILURE);
     }
     if((difficulty < 1) || (difficulty > AM_MAX_DIFFICULTY)){
@@ -169,7 +169,7 @@ main(int argc, char **argv)
      init_message->init.Difficulty = difficulty;
      htonl(init_message);
 
-    send(sockfd, init_message, AM_MAX_MESSAGE, 0);
+     send(sockfd, init_message, AM_MAX_MESSAGE, 0);
 
      // recieve AM_INIT_OK <- contains unique mazePort, which is the TCP/IP 
      // port number to communicate with server, server begins listening on the new port immediately
