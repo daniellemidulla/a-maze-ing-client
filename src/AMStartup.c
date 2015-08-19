@@ -120,6 +120,7 @@ main(int argc, char **argv)
     };
     
   int option_index = 0;
+  //Set the necessary variables from the given parameters
   while((c = getopt_long (argc, argv, "n:d:h:", long_options, &option_index)) != -1){  
     /* Break at the end of options */
     switch (c)
@@ -169,6 +170,7 @@ main(int argc, char **argv)
       }
     }
 
+    //make sure that all the options were present and that all the necessary variables were set
     if(nAvatars == 0){
       printf("There must be at least 1 Avatar\n");
       exit(EXIT_FAILURE);
