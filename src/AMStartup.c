@@ -13,52 +13,7 @@
 		(e.g., special compilation options, platform limitations, etc.) 
 	
 ======================================================================*/
-// do not remove any of these sections, even if they are empty
-//
-// ---------------- Open Issues 
 
-// ---------------- System includes e.g., <stdio.h>
-/*	file.c	one-line description
-
-	Copyright 2015 (if any)
-
-	License (if any)
-
-	Project name:
-	Component name:
-
-	This file contains ...
-	
-	Primary Author:	
-	Date Created:	
-
-	Special considerations:  
-		(e.g., special compilation options, platform limitations, etc.) 
-	
-======================================================================*/
-// do not remove any of these sections, even if they are empty
-//
-// ---------------- Open Issues 
-
-// ---------------- System includes e.g., <stdio.h>
-/*	file.c	one-line description
-
-	Copyright 2015 (if any)
-
-	License (if any)
-
-	Project name:
-	Component name:
-
-	This file contains ...
-	
-	Primary Author:	
-	Date Created:	
-
-	Special considerations:  
-		(e.g., special compilation options, platform limitations, etc.) 
-	
-======================================================================*/
 // do not remove any of these sections, even if they are empty
 //
 // ---------------- Open Issues 
@@ -91,15 +46,12 @@
 
 /*====================================================================*/
 
-//Note by Danielle: I don't think you need a SERV_PORT since amazing.h defines a AM_SERVER_PORT constant
-//#define SERV_PORT 3000 /*port*/
-
 
 int
 main(int argc, char **argv) 
 {
-	// int sockfd;
-  // struct sockaddr_in servaddr;
+	int sockfd;
+  struct sockaddr_in servaddr;
 	int c;
   int i;
   int nAvatars;
@@ -171,54 +123,58 @@ main(int argc, char **argv)
     }
 
     //make sure that all the options were present and that all the necessary variables were set
-    if(nAvatars == 0){
-      printf("There must be at least 1 Avatar\n");
+    if(nAvatars < 1 || nAvatars > AM_MAX_AVATAR){
+      printf("There must be between 1 and 10 Avatars\n");
       exit(EXIT_FAILURE);
     }
-    if((difficulty < 1) || (difficulty > 9)){
+    if((difficulty < 1) || (difficulty > AM_MAX_DIFFICULTY)){
       printf("The difficulty level must be on the scale of 1(easy) to 9(extremely difficult).\n");
       exit(EXIT_FAILURE);
     }
-    if(!hostname){
-      printf("There must be a hostname present.\n");
+    if(!hostname || strcmp(hostname, "pierce.cs.dartmouth.edu") != 0){
+      printf("The hostname must be pierce.cs.dartmouth.edu.\n");
       exit(EXIT_FAILURE);
     }
 
-     //TODO: check the validity of the hostname!!!!!
-     //TODO : basic check of the arguments
-     //additional checks can be inserted
-     //if (argc !=2) {
-     //     perror("Usage: TCPClient <IP address of the server"); 
-     //     exit(1);
-     //}
+     //Socket stuff
 	
      //Create a socket for the client
      //If sockfd<0 there was an error in the creation of the socket
-     // if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
-     //      perror("Problem in creating the socket");
-     //      exit(2);
-     // }
+     if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
+          perror("Problem in creating the socket");
+          exit(2);
+     }
 	
-     // //Creation of the socket
-     // memset(&servaddr, 0, sizeof(servaddr));
-     // servaddr.sin_family = AF_INET;
-     // servaddr.sin_addr.s_addr= inet_addr(argv[1]);
-     // servaddr.sin_port =  htons(SERV_PORT); //convert to big-endian order
+     //Creation of the socket
+     memset(&servaddr, 0, sizeof(servaddr));
+     servaddr.sin_family = AF_INET;
+     servaddr.sin_addr.s_addr= inet_addr(argv[1]);
+     servaddr.sin_port =  htons(AM_SERVER_PORT); //convert to big-endian order
 	
-     // //Connection of the client to the socket 
-     // if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr))<0) {
-     //      perror("Problem in connecting to the server");
-     //      exit(3);
-     // }
+     //Connection of the client to the socket 
+     if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr))<0) {
+          perror("Problem in connecting to the server");
+          exit(3);
+     }
 	
      // send and recieve stuff here
-
-     // send nAvatars, Difficulty
+          char recvline[AM_MAX_MESSAGE];
+          // send nAvatars, Difficulty
+          send(sockfd, AM_INIT, AM_MAX_MESSAGE, 0);
+    
+          if (recv(sockfd, recvline, AM_MAX_MESSAGE,0) == 0){
+               //error: server terminated prematurely
+               perror("The server terminated prematurely"); 
+               exit(4);
+          }
+          printf("%s", "String received from the server: ");
+          fputs(recvline, stdout);
+     
      // recieve AM_INIT_OK <- contains unique mazePort, which is the TCP/IP 
-     // port number to communiat with server, server begins listening on the new port immediately
+     // port number to communicate with server, server begins listening on the new port immediately
      // INIT message also has mazeWidth and mazeHeight
 
-     // extract MazePort from message, and start up N threads/processes running the main lient software
+     // extract MazePort from message, and start up N threads/processes running the main client software
 
      exit(0);
 }
