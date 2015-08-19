@@ -29,6 +29,8 @@
 #include <getopt.h>           //getopt_long, struct option
 #include <string.h>           //strlen
 #include <ctype.h>            //isdigit
+#include <errno.h>            // get ip address
+#include <netdb.h>            // get ip address
 
 // ---------------- Local includes  e.g., "file.h"
 
@@ -43,6 +45,7 @@
 // ---------------- Private variables 
 
 // ---------------- Private prototypes 
+int get_ip(char *  , char *);
 
 /*====================================================================*/
 
@@ -58,11 +61,8 @@ main(int argc, char **argv)
   int difficulty;
   char * hostname;
 
-	printf("\ncompiled\n");
 
 	// get set opt to validate args/switches?
-	printf("arg checking \n");
-
 	static struct option long_options[] =
     {
       {"nAvatars",     required_argument,       0, 'n'},
@@ -123,11 +123,12 @@ main(int argc, char **argv)
     }
 
     //make sure that all the options were present and that all the necessary variables were set
-    if(nAvatars < 1 || nAvatars > AM_MAX_AVATAR){
+    // NOTE - right now we are not checking that all options are present. idk how to
+    if(!nAvatars || nAvatars < 1 || nAvatars > AM_MAX_AVATAR){
       printf("There must be between 1 and 10 Avatars. You entered: %i\n", nAvatars);
       exit(EXIT_FAILURE);
     }
-    if((difficulty < 1) || (difficulty > AM_MAX_DIFFICULTY)){
+    if(!difficulty || (difficulty < 1) || (difficulty > AM_MAX_DIFFICULTY)){
       printf("The difficulty level must be on the scale of 1(easy) to 9(extremely difficult).\n");
       exit(EXIT_FAILURE);
     }
@@ -136,8 +137,10 @@ main(int argc, char **argv)
       exit(EXIT_FAILURE);
     }
 
-     //Socket stuff
-	
+     //Socket  stuff - modelled after code from lecture 23
+	   
+     // get IP address
+
      //Create a socket for the client
      //If sockfd<0 there was an error in the creation of the socket
      if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
@@ -148,7 +151,14 @@ main(int argc, char **argv)
      //Creation of the socket
      memset(&servaddr, 0, sizeof(servaddr));
      servaddr.sin_family = AF_INET;
-     servaddr.sin_addr.s_addr= inet_addr(argv[1]);
+//     // TODO : IP address?
+     char ip[100];
+     get_ip(hostname, ip);
+
+ //    //Test IP
+     printf("%s resolved to %s", hostname, ip);
+
+     servaddr.sin_addr.s_addr= inet_addr(ip);
      servaddr.sin_port =  htons(AM_SERVER_PORT); //convert to big-endian order
 	
      //Connection of the client to the socket 
@@ -159,7 +169,7 @@ main(int argc, char **argv)
 	
      // send and recieve stuff here
      // create a message
-     AM_Message * init_message = malloc(sizeof(AM_Message));
+     AM_Message *init_message = malloc(sizeof(AM_Message));
      if(!init_message){
         perror("No memory\n");
         exit(4);
@@ -178,4 +188,23 @@ main(int argc, char **argv)
      // extract MazePort from message, and start up N threads/processes running the main client software
 
      exit(0);
+}
+
+
+//////////////////////////// Helper Functions /////////////////////////////
+
+
+// helper function taken from: https://srishcomp.wordpress.com/2013/01/15/a-c-program-to-get-ip-address-from-the-hostname/
+int get_ip(char * hostname , char* ip) 
+{  struct hostent *he;     
+   struct in_addr **addr_list;     
+   int i;     
+   if ( (he = gethostbyname( hostname ) ) == NULL)     
+   { perror("gethostbyname");         
+     return 1;}     
+   addr_list = (struct in_addr **) he->h_addr_list;
+    for(i = 0; addr_list[i] != NULL; i++)
+    {   strcpy(ip , inet_ntoa(*addr_list[i]) );
+        return 0;}
+    return 1;
 }
