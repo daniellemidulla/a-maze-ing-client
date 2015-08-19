@@ -11,6 +11,7 @@
 *.dylib
 
 #Executables
+maze
 *.exe
 *.out
 *.app
