@@ -64,15 +64,17 @@
 // ---------------- Open Issues 
 
 // ---------------- System includes e.g., <stdio.h>
-#include <sys/socket.h>				// socket funtions
-#include <stdlib.h>
-#include <stdio.h>
+#include <sys/socket.h>				//socket funtions
+#include <stdlib.h>           //exit, atoi
+#include <stdio.h>            //printf
 #include <sys/types.h>
 #include <netinet/in.h>
 #include <string.h>
 #include <arpa/inet.h>
-#include <getopt.h>
-#include <string.h>
+#include <getopt.h>           //getopt_long, struct option
+#include <string.h>           //strlen
+#include <ctype.h>            //isdigit
+
 // ---------------- Local includes  e.g., "file.h"
 
 #include "amazing.h"
@@ -89,78 +91,98 @@
 
 /*====================================================================*/
 
-#define SERV_PORT 3000 /*port*/
+//Note by Danielle: I don't think you need a SERV_PORT since amazing.h defines a AM_SERVER_PORT constant
+//#define SERV_PORT 3000 /*port*/
 
 
 int
 main(int argc, char **argv) 
 {
-	 // int sockfd;
-     // struct sockaddr_in servaddr;
+	// int sockfd;
+  // struct sockaddr_in servaddr;
 	int c;
+  int i;
+  int nAvatars;
+  int difficulty;
+  char * hostname;
 
 	printf("\ncompiled\n");
 
 	// get set opt to validate args/switches?
 	printf("arg checking \n");
 
-	while (1)
-    {
 	static struct option long_options[] =
-        {
-          {"nAvatars",     required_argument,       0, 'n'},
-          {"difficulty",  required_argument,       0, 'd'},
-          {"hostname",  required_argument, 0, 'h'},
-          {0, 0, 0, 0}
-        };
-      
-      
-         int option_index = 0;
-         c = getopt_long (argc, argv, "n:d:h:",
-                       long_options, &option_index);  
-
-      /* Break at the end of options */
-      if (c == -1)
+    {
+      {"nAvatars",     required_argument,       0, 'n'},
+      {"difficulty",  required_argument,       0, 'd'},
+      {"hostname",  required_argument, 0, 'h'},
+      {0, 0, 0, 0}
+    };
+    
+  int option_index = 0;
+  while((c = getopt_long (argc, argv, "n:d:h:", long_options, &option_index)) != -1){  
+    /* Break at the end of options */
+    switch (c)
+      {
+      case 0:
+        if (long_options[option_index].flag != 0) break;
+        
+        if (optarg)
+          
+        printf("\n");
         break;
 
-      switch (c)
-        {
-        case 0:
-          if (long_options[option_index].flag != 0)
-            break;
-          
-          if (optarg)
-            
-          printf("\n");
-          break;
-
-        // flags: 
-
-        case 'n':
-          // TODO : check and assign var
-          printf("\nnAvatars = %s", optarg);
-          break;
-
-        case 'd':
-          
-          printf("\ndifficulty = %s", optarg);
-          break;
-
-        case 'h':
-          
-          printf("\nhostname = %s", optarg);
-          break;
-
-        case '?':
-          /* getopt_long already printed an error message. */
-          break;
-
-        default:
-          abort();
+      // flags: 
+      case 'n':
+        for(i = 0; i < strlen(optarg); i++){
+          if (isdigit(optarg[i]) == 0){
+            printf("nAvatars must be a number.\n%s is not a decimal number.\n", optarg);
+            exit(EXIT_FAILURE);
+          }
         }
+        nAvatars = atoi(optarg);
+        printf("nAvatars = %d\n", nAvatars);
+        break;
+
+      case 'd':
+        for(i = 0; i < strlen(optarg); i++){
+          if (isdigit(optarg[i]) == 0){
+            printf("Difficulty must be a number.\n%s is not a decimal number.\n", optarg);
+            exit(EXIT_FAILURE);
+          }
+        }
+        difficulty = atoi(optarg);
+        printf("difficulty = %d\n", difficulty);
+        break;
+
+      case 'h':
+        hostname = optarg;
+        printf("hostname = %s\n", hostname);
+        break;
+
+      case '?':
+        /* getopt_long already printed an error message. */
+        break;
+
+      default:
+        abort();
+      }
     }
 
-     
+    if(nAvatars == 0){
+      printf("There must be at least 1 Avatar\n");
+      exit(EXIT_FAILURE);
+    }
+    if((difficulty < 1) || (difficulty > 9)){
+      printf("The difficulty level must be on the scale of 1(easy) to 9(extremely difficult).\n");
+      exit(EXIT_FAILURE);
+    }
+    if(!hostname){
+      printf("There must be a hostname present.\n");
+      exit(EXIT_FAILURE);
+    }
+
+     //TODO: check the validity of the hostname!!!!!
      //TODO : basic check of the arguments
      //additional checks can be inserted
      //if (argc !=2) {

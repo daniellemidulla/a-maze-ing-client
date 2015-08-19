@@ -5,16 +5,19 @@ CFLAGS = -Wall -pedantic -std=c11 -ggdb
 # my project details
 #LIBFLAG = -lcurl -lm
 EXEC = maze
-#OBJS = 
+OBJS = AMStartup.o
 SRCS = AMStartup.c
 
 # luckily, make has comments too!  
 
-AMStartup: $(SRCS)
-	$(CC) $(CFLAGS) -o maze $(SRCS) 
+$(EXEC): $(OBJS)
+	$(CC) $(CFLAGS) -o $(EXEC) $(OBJS) 
 
+AMStartup.o: AMStartup.c
+	$(CC) $(CFLAGS) -c AMStartup.c
 
 clean:
 	rm -f *.o
 	rm -f *.log
 	rm -f *.a
+	rm -f $(EXEC)
