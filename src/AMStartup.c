@@ -158,18 +158,19 @@ main(int argc, char **argv)
      }
 	
      // send and recieve stuff here
-          char recvline[AM_MAX_MESSAGE];
-          // send nAvatars, Difficulty
-          send(sockfd, AM_INIT, AM_MAX_MESSAGE, 0);
-    
-          if (recv(sockfd, recvline, AM_MAX_MESSAGE,0) == 0){
-               //error: server terminated prematurely
-               perror("The server terminated prematurely"); 
-               exit(4);
-          }
-          printf("%s", "String received from the server: ");
-          fputs(recvline, stdout);
-     
+     // create a message
+     AM_Message * init_message = malloc(sizeof(AM_Message));
+     if(!init_message){
+        perror("No memory\n");
+        exit(4);
+     }
+     init_message->type = AM_INIT;
+     init_message->init.nAvatars = nAvatars;
+     init_message->init.Difficulty = difficulty;
+     htonl(init_message);
+
+    send(sockfd, init_message, AM_MAX_MESSAGE, 0);
+
      // recieve AM_INIT_OK <- contains unique mazePort, which is the TCP/IP 
      // port number to communicate with server, server begins listening on the new port immediately
      // INIT message also has mazeWidth and mazeHeight
