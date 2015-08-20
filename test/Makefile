@@ -3,7 +3,7 @@ CC = gcc
 CFLAGS = -Wall -pedantic -std=c11 -ggdb
 
 EXEC = maze_test
-OBJS = maze.o maze_test.o 
+OBJS = maze_test.o maze.o
 SRCS = maze_test.c
 
 $(EXEC): $(OBJS)

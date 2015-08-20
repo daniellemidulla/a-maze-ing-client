@@ -145,7 +145,10 @@ int TestInitMaze1(){
 // Result is for returned MazeNode** to be NULL (and an error to be thrown?).
 int TestInitMaze2(){
   START_TEST_CASE;
-
+  MazeNode ** maze;
+  maze = initMaze(5, 0);
+  SHOULD_BE(maze == NULL);
+  CleanupMaze();
   END_TEST_CASE;
 }
 
@@ -154,7 +157,14 @@ int TestInitMaze2(){
 // Result is for returned MazeNode** to have 1 node with 4 walls
 int TestInitMaze3(){
   START_TEST_CASE;
-
+  MazeNode ** maze;
+  maze = initMaze(1, 1);
+  SHOULD_BE(maze != NULL);
+  SHOULD_BE(maze[0][0].north_wall == 1);
+  SHOULD_BE(maze[0][0].south_wall == 1);
+  SHOULD_BE(maze[0][0].west_wall == 1);
+  SHOULD_BE(maze[0][0].east_wall == 1);
+  CleanupMaze();
   END_TEST_CASE;
 }
 
@@ -230,9 +240,9 @@ int main(int argc, char** argv) {
   int cnt = 0;
 
   RUN_TEST(TestInitMaze1, "initMaze() Test case 1");
-  // RUN_TEST(TestInitMaze2, "initMaze() Test case 2");
-  // RUN_TEST(TestInitMaze3, "initMaze() Test case 3");
-  // RUN_TEST(TestInitMaze4, "initMaze() Test case 4");
+  RUN_TEST(TestInitMaze2, "initMaze() Test case 2");
+  RUN_TEST(TestInitMaze3, "initMaze() Test case 3");
+  RUN_TEST(TestInitMaze4, "initMaze() Test case 4");
   // RUN_TEST(TestRHR1, "rightHandRule() Test case 1");
   // RUN_TEST(TestRHR2, "rightHandRule() Test case 2");
   // RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
