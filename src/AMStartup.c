@@ -31,6 +31,8 @@
 #include <ctype.h>            //isdigit
 #include <errno.h>            // get ip address
 #include <netdb.h>            // get ip address
+#include <unistd.h>           // close()
+#include <time.h>
 
 // ---------------- Local includes  e.g., "file.h"
 
@@ -46,6 +48,7 @@
 
 // ---------------- Private prototypes 
 int get_ip(char *  , char *);
+FILE* initLog(int difficulty, int nAvatars);
 
 /*====================================================================*/
 
@@ -61,9 +64,15 @@ main(int argc, char **argv)
   int difficulty;
   char * hostname;
   char ip[100];
+  int MazePort;
+  int MazeWidth;
+  int MazeHeight;
 
 
-	// get set opt to validate args/switches?
+/////////////////////////////////////////// argument checks ///////////////////////////////////////////////
+
+
+
 	static struct option long_options[] =
     {
       {"nAvatars",     required_argument,       0, 'n'},
@@ -95,7 +104,6 @@ main(int argc, char **argv)
           }
         }
         nAvatars = atoi(optarg);
-        printf("nAvatars = %d\n", nAvatars);
         break;
 
       case 'd':
@@ -106,12 +114,10 @@ main(int argc, char **argv)
           }
         }
         difficulty = atoi(optarg);
-        printf("difficulty = %d\n", difficulty);
         break;
 
       case 'h':
         hostname = optarg;
-        printf("hostname = %s\n", hostname);
         break;
 
       case '?':
@@ -140,13 +146,13 @@ main(int argc, char **argv)
 
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////Socket Stuff///////////////////////////////////////////////////////////
 
      //Socket  stuff - modelled after code from lecture 23
 	   
      // get IP address
       get_ip(hostname, ip);
-      printf("%s resolved to %s\n", hostname, ip);
+      printf("\n\n%s resolved to %s\n", hostname, ip);
 
 
      //Create a socket for the client
@@ -207,13 +213,14 @@ main(int argc, char **argv)
       // TODO : set global variables from these values? 
 
       if(ntohl(rec_message->type) == AM_INIT_OK){
-        printf("\n returned AM_INIT_OK");
-        printf("\n mazeport: %i", ntohl(rec_message->init_ok.MazePort));
-        printf("\n maze width: %i", ntohl(rec_message->init_ok.MazeWidth));
-        printf("\n maze height: %i", ntohl(rec_message->init_ok.MazeHeight));
+        printf("\nReturned AM_INIT_OK");
+        MazePort = ntohl(rec_message->init_ok.MazePort);
+        MazeWidth = ntohl(rec_message->init_ok.MazeWidth);
+        MazeHeight = ntohl(rec_message->init_ok.MazeHeight);
+
       }
       if(ntohl(rec_message->type) == AM_INIT_FAILED){
-        printf("\n initialization failed");
+        printf("\nInitialization failed.");
         exit(5);
       }
       // use nohtl on message to parse
@@ -221,24 +228,39 @@ main(int argc, char **argv)
       free(rec_message);
       
 
+//////////////////////////////////////////////////// Create logfile ///////////////////////////////////////////////////
+      
+
+      // start up log file and throw in initial information
+      printf("\nCreating logfile - check out log directory for further information on this run.\n\n");
+      FILE *pLog = initLog(difficulty, nAvatars);
+      fprintf(pLog, "\n\nMazeport: %i", MazePort);
+      fprintf(pLog, "\nMaze width: %i", MazeWidth);
+      fprintf(pLog, "\nMaze height: %i", MazeHeight);
 
 
-     // start up N threads/processes running the main client software : input =  mazeport
+//////////////////////////////////////////////////////// Start Avatars ////////////////////////////////////////////////////
+     
 
-     // on exit, stop all thread/processes, free memory, close port, exit
+     // TODO : start up N threads/processes running the main client software : input =  avatarID, No of avatars, difficulty, ip address, mazeport, logfile,
+
+     // on exit, stop all thread/processes, free memory, close port, close logfile, exit
      // exit conditions: 
           // an Avatar's socket connection to the server is broken,
           // the maximum number of moves (a function of AM_MAX_MOVES and Difficulty) is exceeded,
           // the server's AM_WAIT_TIME timer expires, or
           // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
 
-      //close(MazePort);
+     close(MazePort);
+     close(sockfd);
+     fprintf(pLog, "\n\nCleared Memory");
+     fclose(pLog);
 
      exit(0);
 }
 
 
-//////////////////////////// Helper Functions /////////////////////////////
+//////////////////////////////////////////////// Helper Functions /////////////////////////////////////////////////
 
 
 // helper function taken from: https://srishcomp.wordpress.com/2013/01/15/a-c-program-to-get-ip-address-from-the-hostname/
@@ -247,7 +269,7 @@ int get_ip(char * hostname , char* ip)
    struct in_addr **addr_list;     
    int i;     
    if ( (he = gethostbyname( hostname ) ) == NULL)     
-   { perror("gethostbyname");         
+   { perror("Error in gethostbyname. ");         
      return 1;}     
    addr_list = (struct in_addr **) he->h_addr_list;
     for(i = 0; addr_list[i] != NULL; i++)
@@ -255,3 +277,38 @@ int get_ip(char * hostname , char* ip)
         return 0;}
     return 1;
 }
+
+
+/// Helper function to start up logfile 
+FILE* initLog(int difficulty, int nAvatars){
+// get date for name
+  FILE *pLog;
+  char str[200];
+  char buff[100];
+  time_t mytime;
+  mytime = time(NULL);
+  strftime (buff, 100, "%a_%d_'%y:%H:%M", localtime(&mytime));
+  sprintf(str, "./logs/%s_%i_%i.log", buff, difficulty, nAvatars);
+
+
+// open log up in a log folder to append 
+  pLog = fopen(str, "a");
+  if(pLog){
+    char date[100];
+    strftime(date, 100, "%a %d %Y, %H:%M", localtime(&mytime));
+    fprintf(pLog, "Log: %s\n", date);
+    fprintf(pLog, "Difficulty: %i\nNumber of Avatars: %i\n", difficulty, nAvatars);
+  }
+
+  return(pLog);
+
+}
+
+
+
+
+
+
+
+
+
