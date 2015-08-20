@@ -230,7 +230,10 @@ int TestInitMaze4(){
 // Result is for the returned direction to be empty (and an error to be thrown?).
 int TestRHR1(){
   START_TEST_CASE;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
 
+  CleanupMaze();
   END_TEST_CASE;
 }
 
@@ -239,7 +242,11 @@ int TestRHR1(){
 // Result is for the returned direction to be "right" of the position avatar is facing
 int TestRHR2(){
   START_TEST_CASE;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
 
+
+  CleanupMaze();
   END_TEST_CASE;
 }
 
@@ -248,7 +255,10 @@ int TestRHR2(){
 // Result is for the returned direction to be in the direction that avatar is facing
 int TestRHR3(){
   START_TEST_CASE;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
 
+  CleanupMaze();
   END_TEST_CASE;
 }
 
@@ -257,7 +267,10 @@ int TestRHR3(){
 // Result is for the returned direction to be "left" of the position avatar is facing
 int TestRHR4(){
   START_TEST_CASE;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
 
+  CleanupMaze();
   END_TEST_CASE;
 }
 
@@ -266,7 +279,10 @@ int TestRHR4(){
 // Result is for the returned direction to be "backwards" from the position avatar is facing
 int TestRHR5(){
   START_TEST_CASE;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
 
+  CleanupMaze();
   END_TEST_CASE;
 }
 
