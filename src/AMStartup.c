@@ -203,19 +203,36 @@ main(int argc, char **argv)
       }
 
       printf("\nParsing server reply.");
+
+      // TODO : set global variables from these values? 
+
       if(ntohl(rec_message->type) == AM_INIT_OK){
         printf("\n returned AM_INIT_OK");
+        printf("\n mazeport: %i", ntohl(rec_message->init_ok.MazePort));
+        printf("\n maze width: %i", ntohl(rec_message->init_ok.MazeWidth));
+        printf("\n maze height: %i", ntohl(rec_message->init_ok.MazeHeight));
       }
       if(ntohl(rec_message->type) == AM_INIT_FAILED){
         printf("\n initialization failed");
+        exit(5);
       }
       // use nohtl on message to parse
+
       free(rec_message);
       
 
 
 
-     // extract MazePort from message, and start up N threads/processes running the main client software
+     // start up N threads/processes running the main client software : input =  mazeport
+
+     // on exit, stop all thread/processes, free memory, close port, exit
+     // exit conditions: 
+          // an Avatar's socket connection to the server is broken,
+          // the maximum number of moves (a function of AM_MAX_MOVES and Difficulty) is exceeded,
+          // the server's AM_WAIT_TIME timer expires, or
+          // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
+
+      //close(MazePort);
 
      exit(0);
 }
