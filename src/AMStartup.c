@@ -132,11 +132,11 @@ main(int argc, char **argv)
     //make sure that all the options were present and that all the necessary variables were set
     // NOTE - right now we are not checking that all options are present. idk how to
     if(!nAvatars || nAvatars < 1 || nAvatars > AM_MAX_AVATAR){
-      printf("There must be between 1 and 10 Avatars. You entered: %i\n", nAvatars);
+      printf("There must be between 1 and %d Avatars. You entered: %i\n", AM_MAX_AVATAR, nAvatars);
       exit(EXIT_FAILURE);
     }
-    if(!difficulty || (difficulty < 1) || (difficulty > AM_MAX_DIFFICULTY)){
-      printf("The difficulty level must be on the scale of 1(easy) to 9(extremely difficult).\n");
+    if(!difficulty || (difficulty < 0) || (difficulty > AM_MAX_DIFFICULTY)){
+      printf("The difficulty level must be on the scale of 0(easy) to %d(extremely difficult).\n", AM_MAX_DIFFICULTY);
       exit(EXIT_FAILURE);
     }
     if(!hostname || strcmp(hostname, "pierce.cs.dartmouth.edu") != 0){
