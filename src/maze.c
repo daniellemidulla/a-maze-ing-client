@@ -37,8 +37,44 @@
 
 
 /*====================================================================*/
+MazeNode[][] initMaze(int r, int c){
+	MazeNode[r][c] maze;
+	int x;
+	int y;
+	for(x= 0; x < r ; x++){
+		for(y=0; y < c; y++){
+			//set the north and south walls based on x
+			if (x = 0){
+				maze[x][y].north_wall = 1;
+				maze[x][y].south_wall = 0;
+			}
+			else if(x = r-1){
+				maze[x][y].north_wall = 0;
+				maze[x][y].south_wall = 1;
+			}
+			else{
+				maze[x][y].north_wall = 0;
+				maze[x][y].south_wall = 0;
+			}
+			//set the east and west walls based on y
+			if(y = 0){
+				maze[x][y].east_wall = 0;
+				maze[x][y].west_wall = 1;
+			}
+			else if(y = c - 1){
+				maze[x][y].east_wall = 1;
+				maze[x][y].west_wall = 0;
+			}
+			else{
+				maze[x][y].east_wall = 0;
+				maze[x][y].west_wall = 0;
+			}
+		}
+	}
+	return maze;
+}
 
 XYPos rightHandRule(Avatar avatar){
-	
-	
+
+
 }
