@@ -4,11 +4,13 @@ CFLAGS = -Wall -pedantic -std=c11 -ggdb
 
 SUBDIRS = src/ util/
 
+.PHONY: maze test
+
 maze: $(SUBDIRS)
 	cd src/ && make maze
 
-# test: $(SUBDIRS) test/
-# 	cd test/ && make maze_test
+test: $(SUBDIRS) test/*
+	cd test/ && make maze_test
 
 clean:
 	cd src/; make clean
