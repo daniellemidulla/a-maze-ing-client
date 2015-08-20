@@ -8,6 +8,7 @@
 //
 // It uses these files but they are not unit tested in this test harness:
 //
+// void CleanupMaze();
 // 
 // It tests the following functions:
 // 
@@ -132,7 +133,10 @@
 // Result is for returned MazeNode** to be NULL (and an error to be thrown?).
 int TestInitMaze1(){
   START_TEST_CASE;
-
+  MazeNode ** maze;
+  maze = initMaze(0, 5);
+  SHOULD_BE(maze == NULL);
+  CleanupMaze();
   END_TEST_CASE;
 }
 
@@ -226,14 +230,14 @@ int main(int argc, char** argv) {
   int cnt = 0;
 
   RUN_TEST(TestInitMaze1, "initMaze() Test case 1");
-  RUN_TEST(TestInitMaze2, "initMaze() Test case 2");
-  RUN_TEST(TestInitMaze3, "initMaze() Test case 3");
-  RUN_TEST(TestInitMaze4, "initMaze() Test case 4");
-  RUN_TEST(TestRHR1, "rightHandRule() Test case 1");
-  RUN_TEST(TestRHR2, "rightHandRule() Test case 2");
-  RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
-  RUN_TEST(TestRHR4, "rightHandRule() Test case 4");
-  RUN_TEST(TestRHR5, "rightHandRule() Test case 5");
+  // RUN_TEST(TestInitMaze2, "initMaze() Test case 2");
+  // RUN_TEST(TestInitMaze3, "initMaze() Test case 3");
+  // RUN_TEST(TestInitMaze4, "initMaze() Test case 4");
+  // RUN_TEST(TestRHR1, "rightHandRule() Test case 1");
+  // RUN_TEST(TestRHR2, "rightHandRule() Test case 2");
+  // RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
+  // RUN_TEST(TestRHR4, "rightHandRule() Test case 4");
+  // RUN_TEST(TestRHR5, "rightHandRule() Test case 5");
   
   if (!cnt) {
     printf("All passed!\n"); return 0;

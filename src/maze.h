@@ -35,6 +35,7 @@ MazeNode** initMaze(int r, int c); //initializes a 2D MazeNode array with r rows
 /* rightHandRule - returns the direction that the Avatar should move */
 int rightHandRule(Avatar avatar); //examines the avatar and returns the direction in which it should move, following the right hand rule
 
-
+/* CleanupMaze */
+void CleanupMaze();//frees all the memory associated with the maze
 
 #endif // MAZE_H

@@ -15,6 +15,7 @@ test: $(SUBDIRS) test/*
 clean:
 	cd src/; make clean
 	cd util/; make clean
+	cd test/; make clean
 	rm -f *.o
 	rm -f *.log
 	rm -f *.a
