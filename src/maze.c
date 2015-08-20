@@ -46,39 +46,27 @@ MazeNode** initMaze(int r, int c){
   num_rows = r;
   num_col = c;
   maze = calloc(num_rows, sizeof(MazeNode *)); //(MazeNode **) 
-  int x;
-  int y;
-  for(x= 0; x < num_rows ; x++){
-    maze[x] = (MazeNode *)calloc(num_col, sizeof(MazeNode));
-    for(y=0; y < num_col; y++){
+  int i;
+  int j;
+  for(i= 0; i < num_rows ; i++){
+    maze[i] = (MazeNode *)calloc(num_col, sizeof(MazeNode));
+    for(j=0; j < num_col; j++){
       MazeNode current_node;
-      //set the north and south walls based on x
-      if (x == 0){
-        current_node.north_wall = 1;
-        current_node.south_wall = 0;
-      }
-      else if(x == r-1){
-        current_node.north_wall = 0;
-        current_node.south_wall = 1;
-      }
-      else{
-        current_node.north_wall = 0;
-        current_node.south_wall = 0;
-      }
-      //set the east and west walls based on y
-      if(y == 0){
-        current_node.east_wall = 0;
-        current_node.west_wall = 1;
-      }
-      else if(y == c - 1){
-        current_node.east_wall = 1;
-        current_node.west_wall = 0;
-      }
-      else{
-        current_node.east_wall = 0;
-        current_node.west_wall = 0;
-      }
-      maze[x][y] = current_node;
+      current_node.x = i;
+      current_node.y = j;
+      current_node.north_wall = (i == 0) ? 1 : 0;
+      current_node.south_wall = (i == r - 1) ? 1 : 0;
+      current_node.west_wall = (j == 0) ? 1 : 0;
+      current_node.east_wall = (j == c - 1) ? 1 : 0;
+      
+      // //set the east and west walls based on j
+      // if(j == 0){
+      //   current_node.west_wall = 1;
+      // }
+      // if(j == c - 1){
+      //   current_node.east_wall = 1;
+      // }
+      maze[i][j] = current_node;
     }
   }
   return maze;
@@ -90,9 +78,9 @@ MazeNode** initMaze(int r, int c){
 // }
 
 void CleanupMaze(){
-  int x;
-  for(x = 0; x < num_rows; x++){
-    free(maze[x]);
+  int i;
+  for(i = 0; i < num_rows; i++){
+    free(maze[i]);
   }
   free(maze);
 }
