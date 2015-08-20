@@ -21,7 +21,7 @@
 
 // ---------------- Constants
 /* Server parameters */
-#define AM_SERVER_PORT  "17235"              // Server management port, ASCII "CS"
+#define AM_SERVER_PORT  17235              // Server management port, ASCII "CS"
 #define AM_MAX_MESSAGE     128               // max message length in bytes
 #define AM_MAX_DIFFICULTY    9               // max # of maze difficulty levels
 #define AM_MAX_AVATAR       10               // max # of avatars for any MazePort

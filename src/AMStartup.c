@@ -60,6 +60,7 @@ main(int argc, char **argv)
   int nAvatars;
   int difficulty;
   char * hostname;
+  char ip[100];
 
 
 	// get set opt to validate args/switches?
@@ -140,6 +141,9 @@ main(int argc, char **argv)
      //Socket  stuff - modelled after code from lecture 23
 	   
      // get IP address
+      get_ip(hostname, ip);
+      printf("%s resolved to %s\n", hostname, ip);
+
 
      //Create a socket for the client
      //If sockfd<0 there was an error in the creation of the socket
@@ -151,13 +155,6 @@ main(int argc, char **argv)
      //Creation of the socket
      memset(&servaddr, 0, sizeof(servaddr));
      servaddr.sin_family = AF_INET;
-//     // TODO : IP address?
-     char ip[100];
-     get_ip(hostname, ip);
-
- //    //Test IP
-     printf("%s resolved to %s", hostname, ip);
-
      servaddr.sin_addr.s_addr= inet_addr(ip);
      servaddr.sin_port =  htons(AM_SERVER_PORT); //convert to big-endian order
 	
@@ -174,6 +171,8 @@ main(int argc, char **argv)
         perror("No memory\n");
         exit(4);
      }
+
+     printf("Building message\n");
      init_message->type = AM_INIT;
      init_message->init.nAvatars = nAvatars;
      init_message->init.Difficulty = difficulty;
@@ -184,6 +183,12 @@ main(int argc, char **argv)
      // recieve AM_INIT_OK <- contains unique mazePort, which is the TCP/IP 
      // port number to communicate with server, server begins listening on the new port immediately
      // INIT message also has mazeWidth and mazeHeight
+
+     // Recvd
+     
+
+
+
 
      // extract MazePort from message, and start up N threads/processes running the main client software
 
