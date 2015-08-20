@@ -178,25 +178,34 @@ main(int argc, char **argv)
 
      printf("Building message\n");
      init_message->type = AM_INIT;
-     init_message->init.nAvatars = nAvatars;
-     init_message->init.Difficulty = difficulty;
-     //htonl(init_message);
-
+     init_message->init.nAvatars = htonl(nAvatars);
+     init_message->init.Difficulty = htonl(difficulty);
+  
+     // send init message to server
      send(sockfd, init_message, AM_MAX_MESSAGE, 0);
+     free(init_message);
 
      // recieve AM_INIT_OK <- contains unique mazePort, which is the TCP/IP 
      // port number to communicate with server, server begins listening on the new port immediately
      // INIT message also has mazeWidth and mazeHeight
 
      // Recvd
-     char recvline[AM_MAX_MESSAGE];
-      if (recv(sockfd, recvline, AM_MAX_MESSAGE,0) == 0){
+     AM_Message *rec_message = malloc(sizeof(AM_Message));
+     if(!rec_message){
+      perror("\nNo memory");
+      exit(4);
+     }
+
+      if (recv(sockfd, rec_message, AM_MAX_MESSAGE,0) == 0){
                //error: server terminated prematurely
                perror("The server terminated prematurely"); 
                exit(4);
       }
-      printf("%s", "String received from the server: ");
-      fputs(recvline, stdout);
+
+      printf("\nParsing server reply.");
+      // use nohtl on message to parse
+      free(rec_message);
+      
 
 
 
