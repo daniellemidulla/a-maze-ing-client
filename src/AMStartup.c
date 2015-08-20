@@ -177,7 +177,7 @@ main(int argc, char **argv)
      }
 
      printf("Building message\n");
-     init_message->type = AM_INIT;
+     init_message->type = htonl(AM_INIT);
      init_message->init.nAvatars = htonl(nAvatars);
      init_message->init.Difficulty = htonl(difficulty);
   
@@ -203,6 +203,12 @@ main(int argc, char **argv)
       }
 
       printf("\nParsing server reply.");
+      if(ntohl(rec_message->type) == AM_INIT_OK){
+        printf("\n returned AM_INIT_OK");
+      }
+      if(ntohl(rec_message->type) == AM_INIT_FAILED){
+        printf("\n initialization failed");
+      }
       // use nohtl on message to parse
       free(rec_message);
       
