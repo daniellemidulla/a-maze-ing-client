@@ -138,6 +138,10 @@ main(int argc, char **argv)
       exit(EXIT_FAILURE);
     }
 
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
      //Socket  stuff - modelled after code from lecture 23
 	   
      // get IP address
@@ -176,7 +180,7 @@ main(int argc, char **argv)
      init_message->type = AM_INIT;
      init_message->init.nAvatars = nAvatars;
      init_message->init.Difficulty = difficulty;
-     htonl(init_message);
+     //htonl(init_message);
 
      send(sockfd, init_message, AM_MAX_MESSAGE, 0);
 
@@ -185,8 +189,14 @@ main(int argc, char **argv)
      // INIT message also has mazeWidth and mazeHeight
 
      // Recvd
-     
-
+     char recvline[AM_MAX_MESSAGE];
+      if (recv(sockfd, recvline, AM_MAX_MESSAGE,0) == 0){
+               //error: server terminated prematurely
+               perror("The server terminated prematurely"); 
+               exit(4);
+      }
+      printf("%s", "String received from the server: ");
+      fputs(recvline, stdout);
 
 
 
