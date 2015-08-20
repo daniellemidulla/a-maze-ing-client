@@ -9,8 +9,8 @@ SRCS = maze_test.c
 $(EXEC): $(OBJS)
 	$(CC) $(CFLAGS) -o $(EXEC) $(OBJS)
 
-maze_test.o: maze_test.c
-	$(CC) $(CFLAGS) -c maze_test.c
+maze_test.o: maze_test.c ../src/maze.h
+	$(CC) $(CFLAGS) -c maze_test.c ..src/maze.h
 
 maze.o: ../src/maze.c ../src/maze.h
 	$(CC) $(CFLAGS) -c ../src/maze.c

@@ -173,7 +173,55 @@ int TestInitMaze3(){
 // Result is for returned MazeNode** to have r*c nodes and walls along the outside(rows 0 & r-1 & columns 0 & c-1)
 int TestInitMaze4(){
   START_TEST_CASE;
-
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  SHOULD_BE(maze != NULL);
+  //top left corner
+  SHOULD_BE(maze[0][0].north_wall == 1);
+  SHOULD_BE(maze[0][0].west_wall == 1);
+  SHOULD_BE(maze[0][0].south_wall == 0);
+  SHOULD_BE(maze[0][0].east_wall == 0);
+  //top middle node
+  SHOULD_BE(maze[0][1].north_wall == 1);
+  SHOULD_BE(maze[0][1].west_wall == 0);
+  SHOULD_BE(maze[0][1].south_wall == 0);
+  SHOULD_BE(maze[0][1].east_wall == 0);
+  //top right corner
+  SHOULD_BE(maze[0][2].north_wall == 1);
+  SHOULD_BE(maze[0][2].west_wall == 0);
+  SHOULD_BE(maze[0][2].south_wall == 0);
+  SHOULD_BE(maze[0][2].east_wall == 1);
+  //center left node
+  SHOULD_BE(maze[1][0].north_wall == 0);
+  SHOULD_BE(maze[1][0].west_wall == 1);
+  SHOULD_BE(maze[1][0].south_wall == 0);
+  SHOULD_BE(maze[1][0].east_wall == 0);
+  //center middle node
+  SHOULD_BE(maze[1][1].north_wall == 0);
+  SHOULD_BE(maze[1][1].west_wall == 0);
+  SHOULD_BE(maze[1][1].south_wall == 0);
+  SHOULD_BE(maze[1][1].east_wall == 0);
+  //center right node
+  SHOULD_BE(maze[1][2].north_wall == 0);
+  SHOULD_BE(maze[1][2].west_wall == 0);
+  SHOULD_BE(maze[1][2].south_wall == 0);
+  SHOULD_BE(maze[1][2].east_wall == 1);
+  //bottom left corner
+  SHOULD_BE(maze[2][0].north_wall == 0);
+  SHOULD_BE(maze[2][0].west_wall == 1);
+  SHOULD_BE(maze[2][0].south_wall == 1);
+  SHOULD_BE(maze[2][0].east_wall == 0);
+  //bottom middle node
+  SHOULD_BE(maze[2][1].north_wall == 0);
+  SHOULD_BE(maze[2][1].west_wall == 0);
+  SHOULD_BE(maze[2][1].south_wall == 1);
+  SHOULD_BE(maze[2][1].east_wall == 0);
+  //bottom right corner
+  SHOULD_BE(maze[2][2].north_wall == 0);
+  SHOULD_BE(maze[2][2].west_wall == 0);
+  SHOULD_BE(maze[2][2].south_wall == 1);
+  SHOULD_BE(maze[2][2].east_wall == 1);
+  CleanupMaze();
   END_TEST_CASE;
 }
 

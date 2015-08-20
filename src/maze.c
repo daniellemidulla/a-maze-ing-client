@@ -58,14 +58,6 @@ MazeNode** initMaze(int r, int c){
       current_node.south_wall = (i == r - 1) ? 1 : 0;
       current_node.west_wall = (j == 0) ? 1 : 0;
       current_node.east_wall = (j == c - 1) ? 1 : 0;
-      
-      // //set the east and west walls based on j
-      // if(j == 0){
-      //   current_node.west_wall = 1;
-      // }
-      // if(j == c - 1){
-      //   current_node.east_wall = 1;
-      // }
       maze[i][j] = current_node;
     }
   }
