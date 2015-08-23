@@ -20,6 +20,7 @@
 typedef struct MazeNode {
     int x;
     int y;
+    //walls have the following values: -1 for unknown, 0 for no wall, 1 for a real wall, 2 for an assumed wall(a dead end)
     int north_wall;
     int south_wall;
     int east_wall;

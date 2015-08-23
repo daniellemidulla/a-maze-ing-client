@@ -179,46 +179,46 @@ int TestInitMaze4(){
   //top left corner
   SHOULD_BE(maze[0][0].north_wall == 1);
   SHOULD_BE(maze[0][0].west_wall == 1);
-  SHOULD_BE(maze[0][0].south_wall == 0);
-  SHOULD_BE(maze[0][0].east_wall == 0);
+  SHOULD_BE(maze[0][0].south_wall == -1);
+  SHOULD_BE(maze[0][0].east_wall == -1);
   //top middle node
   SHOULD_BE(maze[0][1].north_wall == 1);
-  SHOULD_BE(maze[0][1].west_wall == 0);
-  SHOULD_BE(maze[0][1].south_wall == 0);
-  SHOULD_BE(maze[0][1].east_wall == 0);
+  SHOULD_BE(maze[0][1].west_wall == -1);
+  SHOULD_BE(maze[0][1].south_wall == -1);
+  SHOULD_BE(maze[0][1].east_wall == -1);
   //top right corner
   SHOULD_BE(maze[0][2].north_wall == 1);
-  SHOULD_BE(maze[0][2].west_wall == 0);
-  SHOULD_BE(maze[0][2].south_wall == 0);
+  SHOULD_BE(maze[0][2].west_wall == -1);
+  SHOULD_BE(maze[0][2].south_wall == -1);
   SHOULD_BE(maze[0][2].east_wall == 1);
   //center left node
-  SHOULD_BE(maze[1][0].north_wall == 0);
+  SHOULD_BE(maze[1][0].north_wall == -1);
   SHOULD_BE(maze[1][0].west_wall == 1);
-  SHOULD_BE(maze[1][0].south_wall == 0);
-  SHOULD_BE(maze[1][0].east_wall == 0);
+  SHOULD_BE(maze[1][0].south_wall == -1);
+  SHOULD_BE(maze[1][0].east_wall == -1);
   //center middle node
-  SHOULD_BE(maze[1][1].north_wall == 0);
-  SHOULD_BE(maze[1][1].west_wall == 0);
-  SHOULD_BE(maze[1][1].south_wall == 0);
-  SHOULD_BE(maze[1][1].east_wall == 0);
+  SHOULD_BE(maze[1][1].north_wall == -1);
+  SHOULD_BE(maze[1][1].west_wall == -1);
+  SHOULD_BE(maze[1][1].south_wall == -1);
+  SHOULD_BE(maze[1][1].east_wall == -1);
   //center right node
-  SHOULD_BE(maze[1][2].north_wall == 0);
-  SHOULD_BE(maze[1][2].west_wall == 0);
-  SHOULD_BE(maze[1][2].south_wall == 0);
+  SHOULD_BE(maze[1][2].north_wall == -1);
+  SHOULD_BE(maze[1][2].west_wall == -1);
+  SHOULD_BE(maze[1][2].south_wall == -1);
   SHOULD_BE(maze[1][2].east_wall == 1);
   //bottom left corner
-  SHOULD_BE(maze[2][0].north_wall == 0);
+  SHOULD_BE(maze[2][0].north_wall == -1);
   SHOULD_BE(maze[2][0].west_wall == 1);
   SHOULD_BE(maze[2][0].south_wall == 1);
-  SHOULD_BE(maze[2][0].east_wall == 0);
+  SHOULD_BE(maze[2][0].east_wall == -1);
   //bottom middle node
-  SHOULD_BE(maze[2][1].north_wall == 0);
-  SHOULD_BE(maze[2][1].west_wall == 0);
+  SHOULD_BE(maze[2][1].north_wall == -1);
+  SHOULD_BE(maze[2][1].west_wall == -1);
   SHOULD_BE(maze[2][1].south_wall == 1);
-  SHOULD_BE(maze[2][1].east_wall == 0);
+  SHOULD_BE(maze[2][1].east_wall == -1);
   //bottom right corner
-  SHOULD_BE(maze[2][2].north_wall == 0);
-  SHOULD_BE(maze[2][2].west_wall == 0);
+  SHOULD_BE(maze[2][2].north_wall == -1);
+  SHOULD_BE(maze[2][2].west_wall == -1);
   SHOULD_BE(maze[2][2].south_wall == 1);
   SHOULD_BE(maze[2][2].east_wall == 1);
   CleanupMaze();
@@ -226,13 +226,14 @@ int TestInitMaze4(){
 }
 
 // Test case: rightHandRule: 1
-// This test case calls rightHandRule() for the condition where Avatar avatar is empty
-// Result is for the returned direction to be empty (and an error to be thrown?).
+// This test case calls rightHandRule() for the condition where Avatar avatar (position and direction) is empty
+// Result is for the returned value to be -1.
 int TestRHR1(){
   START_TEST_CASE;
   MazeNode ** maze;
+  Avatar avatar;
   maze = initMaze(3, 3);
-
+  SHOULD_BE(rightHandRule(avatar) == -1);
   CleanupMaze();
   END_TEST_CASE;
 }
@@ -243,9 +244,18 @@ int TestRHR1(){
 int TestRHR2(){
   START_TEST_CASE;
   MazeNode ** maze;
+  Avatar avatar;
   maze = initMaze(3, 3);
-
-
+  avatar.pos.x = 1;
+  avatar.pos.y = 1;
+  avatar.fd = M_NORTH;
+  SHOULD_BE(rightHandRule(avatar) == M_EAST);
+  avatar.fd = M_EAST;
+  SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
+  avatar.fd = M_SOUTH;
+  SHOULD_BE(rightHandRule(avatar) == M_WEST);
+  avatar.fd = M_WEST;
+  SHOULD_BE(rightHandRule(avatar) == M_NORTH);
   CleanupMaze();
   END_TEST_CASE;
 }
@@ -256,7 +266,24 @@ int TestRHR2(){
 int TestRHR3(){
   START_TEST_CASE;
   MazeNode ** maze;
+  Avatar avatar;
   maze = initMaze(3, 3);
+  avatar.pos.x = 0;
+  avatar.pos.y = 1;
+  avatar.fd = M_WEST;
+  SHOULD_BE(rightHandRule(avatar) == M_WEST);
+  avatar.pos.x = 1;
+  avatar.pos.y = 0;
+  avatar.fd = M_SOUTH;
+  SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
+  avatar.pos.x = 1;
+  avatar.pos.y = 2;
+  avatar.fd = M_NORTH;
+  SHOULD_BE(rightHandRule(avatar) == M_NORTH);
+  avatar.pos.x = 2;
+  avatar.pos.y = 1;
+  avatar.fd = M_EAST;
+  SHOULD_BE(rightHandRule(avatar) == M_EAST);
 
   CleanupMaze();
   END_TEST_CASE;
@@ -268,15 +295,31 @@ int TestRHR3(){
 int TestRHR4(){
   START_TEST_CASE;
   MazeNode ** maze;
+  Avatar avatar;
   maze = initMaze(3, 3);
-
+  avatar.pos.x = 0;
+  avatar.pos.y = 0;
+  avatar.fd = M_WEST;
+  SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
+  avatar.pos.x = 0;
+  avatar.pos.y = 2;
+  avatar.fd = M_NORTH;
+  SHOULD_BE(rightHandRule(avatar) == M_WEST);
+  avatar.pos.x = 2;
+  avatar.pos.y = 0;
+  avatar.fd = M_SOUTH;
+  SHOULD_BE(rightHandRule(avatar) == M_EAST);
+  avatar.pos.x = 2;
+  avatar.pos.y = 2;
+  avatar.fd = M_EAST;
+  SHOULD_BE(rightHandRule(avatar) == M_NORTH);
   CleanupMaze();
   END_TEST_CASE;
 }
 
 // Test case: rightHandRule: 5
 // This test case calls DisplayResults() for the condition where Avatar avatar is in a node with 3 walls - right, front, & left
-// Result is for the returned direction to be "backwards" from the position avatar is facing
+// Result is for the returned direction to be "backwards" from the position avatar is facing and for the maze to have a new wall
 int TestRHR5(){
   START_TEST_CASE;
   MazeNode ** maze;
@@ -307,11 +350,11 @@ int main(int argc, char** argv) {
   RUN_TEST(TestInitMaze2, "initMaze() Test case 2");
   RUN_TEST(TestInitMaze3, "initMaze() Test case 3");
   RUN_TEST(TestInitMaze4, "initMaze() Test case 4");
-  // RUN_TEST(TestRHR1, "rightHandRule() Test case 1");
-  // RUN_TEST(TestRHR2, "rightHandRule() Test case 2");
-  // RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
-  // RUN_TEST(TestRHR4, "rightHandRule() Test case 4");
-  // RUN_TEST(TestRHR5, "rightHandRule() Test case 5");
+  RUN_TEST(TestRHR1, "rightHandRule() Test case 1");
+  RUN_TEST(TestRHR2, "rightHandRule() Test case 2");
+  RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
+  RUN_TEST(TestRHR4, "rightHandRule() Test case 4");
+  RUN_TEST(TestRHR5, "rightHandRule() Test case 5");
   
   if (!cnt) {
     printf("All passed!\n"); return 0;
