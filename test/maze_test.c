@@ -323,8 +323,37 @@ int TestRHR4(){
 int TestRHR5(){
   START_TEST_CASE;
   MazeNode ** maze;
+  Avatar avatar;
   maze = initMaze(3, 3);
-
+  avatar.pos.x = 1;
+  avatar.pos.y = 1;
+  avatar.fd = M_NORTH;
+  maze[1][1].west_wall = 1;
+  maze[1][1].north_wall = 1;
+  maze[1][1].east_wall = 1;
+  SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
+  SHOULD_BE(maze[1][1].south_wall == 2);
+  avatar.fd = M_WEST;
+  maze[1][1].west_wall = 1;
+  maze[1][1].north_wall = 1;
+  maze[1][1].east_wall = 0;
+  maze[1][1].south_wall = 1;
+  SHOULD_BE(rightHandRule(avatar) == M_EAST);
+  SHOULD_BE(maze[1][1].east_wall == 2);
+  avatar.fd = M_SOUTH;
+  maze[1][1].west_wall = 1;
+  maze[1][1].north_wall = 0;
+  maze[1][1].east_wall = 1;
+  maze[1][1].south_wall = 1;
+  SHOULD_BE(rightHandRule(avatar) == M_NORTH);
+  SHOULD_BE(maze[1][1].north_wall == 2);
+  avatar.fd = M_EAST;
+  maze[1][1].west_wall = 0;
+  maze[1][1].north_wall = 1;
+  maze[1][1].east_wall = 1;
+  maze[1][1].south_wall = 1;
+  SHOULD_BE(rightHandRule(avatar) == M_WEST);
+  SHOULD_BE(maze[1][1].west_wall == 2);
   CleanupMaze();
   END_TEST_CASE;
 }
