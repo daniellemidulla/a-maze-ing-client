@@ -108,16 +108,16 @@ int getRight(int dir_facing, XYPos current_pos){
   y = current_pos.y;
   switch(dir_facing){
     case M_NORTH:
-      new_dir = (maze[x][y].north_wall < 1) ? M_EAST : -1;
+      new_dir = (maze[x][y].east_wall < 1) ? M_EAST : -1;
       break;
     case M_SOUTH:
-      new_dir = (maze[x][y].south_wall < 1) ? M_WEST : -1;
+      new_dir = (maze[x][y].west_wall < 1) ? M_WEST : -1;
       break;
     case M_WEST:
-      new_dir = (maze[x][y].west_wall < 1) ? M_NORTH : -1;
+      new_dir = (maze[x][y].north_wall < 1) ? M_NORTH : -1;
       break;
     case M_EAST:
-      new_dir = (maze[x][y].east_wall < 1) ? M_SOUTH : -1;
+      new_dir = (maze[x][y].south_wall < 1) ? M_SOUTH : -1;
       break;
     default:
       new_dir = -1;
@@ -157,16 +157,16 @@ int getLeft(int dir_facing, XYPos current_pos){
   y = current_pos.y;
   switch(dir_facing){
     case M_NORTH:
-      new_dir = (maze[x][y].north_wall < 1) ? M_WEST : -1;
+      new_dir = (maze[x][y].west_wall < 1) ? M_WEST : -1;
       break;
     case M_SOUTH:
-      new_dir = (maze[x][y].south_wall < 1) ? M_EAST : -1;
+      new_dir = (maze[x][y].east_wall < 1) ? M_EAST : -1;
       break;
     case M_WEST:
-      new_dir = (maze[x][y].west_wall < 1) ? M_SOUTH : -1;
+      new_dir = (maze[x][y].south_wall < 1) ? M_SOUTH : -1;
       break;
     case M_EAST:
-      new_dir = (maze[x][y].east_wall < 1) ? M_NORTH : -1;
+      new_dir = (maze[x][y].north_wall < 1) ? M_NORTH : -1;
       break;
     default:
       new_dir = -1;
@@ -181,16 +181,16 @@ int getBack(int dir_facing, XYPos current_pos){
   y = current_pos.y;
   switch(dir_facing){
     case M_NORTH:
-      new_dir = (maze[x][y].north_wall < 1) ? M_SOUTH : -1;
+      new_dir = (maze[x][y].south_wall < 1) ? M_SOUTH : -1;
       break;
     case M_SOUTH:
-      new_dir = (maze[x][y].south_wall < 1) ? M_NORTH : -1;
+      new_dir = (maze[x][y].north_wall < 1) ? M_NORTH : -1;
       break;
     case M_WEST:
-      new_dir = (maze[x][y].west_wall < 1) ? M_EAST : -1;
+      new_dir = (maze[x][y].east_wall < 1) ? M_EAST : -1;
       break;
     case M_EAST:
-      new_dir = (maze[x][y].east_wall < 1) ? M_WEST : -1;
+      new_dir = (maze[x][y].west_wall < 1) ? M_WEST : -1;
       break;
     default:
       new_dir = -1;
