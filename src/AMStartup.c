@@ -33,6 +33,7 @@
 #include <netdb.h>            // get ip address
 #include <unistd.h>           // close()
 #include <time.h>
+#include <pthread.h>            //pthread_create
 
 // ---------------- Local includes  e.g., "file.h"
 
@@ -130,7 +131,9 @@ main(int argc, char **argv)
     }
 
     //make sure that all the options were present and that all the necessary variables were set
-    // NOTE - right now we are not checking that all options are present. idk how to
+    // NOTE-We can check that all arguments are present based on argument count,it will check the argument contents first for additional user info and then at the end if there aren't even 4 parameters it will exit. 
+    // Also note- when I run it with maze 4 2 pierce.cs.dartmouth.edu, I get back a message complaining about an nAvatars value. 
+   
     if(!nAvatars || nAvatars < 1 || nAvatars > AM_MAX_AVATAR){
       printf("There must be between 1 and %d Avatars. You entered: %i\n", AM_MAX_AVATAR, nAvatars);
       exit(EXIT_FAILURE);
@@ -144,9 +147,10 @@ main(int argc, char **argv)
       exit(EXIT_FAILURE);
     }
 
-
-
-//////////////////////////////////////////////////////////Socket Stuff///////////////////////////////////////////////////////////
+    if (argc != 4){
+    printf("You don't have the proper number of arguments. Please enter [AVATARS 0-10] [    DIFFICULTY 0-50] [HOST NAME \"pierce.cs.dartmouth.edu\"]\n You entered %d arguments.", argc);
+     }
+    //////////////////////////////////////////////////////////Socket Stuff///////////////////////////////////////////////////////////
 
      //Socket  stuff - modelled after code from lecture 23
 	   
@@ -250,6 +254,22 @@ main(int argc, char **argv)
           // the maximum number of moves (a function of AM_MAX_MOVES and Difficulty) is exceeded,
           // the server's AM_WAIT_TIME timer expires, or
           // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
+    printf("*******THREADS*******");
+    //Allocate N avatar threads
+    pthread_t threads[nAvatars];   
+    /*pthread_t threads = malloc(sizeof(pthread_t) * nAvatars); 
+     if (threads == NULL){
+         printf("No Memory allocated for avatar threads");
+         exit (1);
+     }
+     */
+     int a;
+     for (a = 0; a < nAvatars; a++){
+     if ((pthread_create(&threads[i], NULL, NULL,NULL)) != 0){
+        fprintf(pLog, "\nNew Thread: %i", threads[i]);
+        printf("\nNew Thread: %i", threads[i]);
+        }
+    }
 
      close(MazePort);
      close(sockfd);

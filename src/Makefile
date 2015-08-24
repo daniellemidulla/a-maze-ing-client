@@ -4,6 +4,7 @@ CFLAGS = -Wall -pedantic -std=c11 -ggdb
 
 # my project details
 #LIBFLAG = -lcurl -lm
+TFLAG = -pthread
 EXEC = maze
 OBJS = AMStartup.o
 SRCS = AMStartup.c
@@ -11,7 +12,7 @@ SRCS = AMStartup.c
 # luckily, make has comments too!  
 
 $(EXEC): $(OBJS)
-	$(CC) $(CFLAGS) -o $(EXEC) $(OBJS) 
+	$(CC) $(CFLAGS) $(TFLAG) -o $(EXEC) $(OBJS) 
 
 AMStartup.o: AMStartup.c
 	$(CC) $(CFLAGS) -c AMStartup.c
