@@ -147,7 +147,7 @@ main(int argc, char **argv)
       exit(EXIT_FAILURE);
     }
 
-    if (argc != 4){
+    if (argc != 7){
     printf("You don't have the proper number of arguments. Please enter [AVATARS 0-10] [    DIFFICULTY 0-50] [HOST NAME \"pierce.cs.dartmouth.edu\"]\n You entered %d arguments.", argc);
      }
     //////////////////////////////////////////////////////////Socket Stuff///////////////////////////////////////////////////////////
