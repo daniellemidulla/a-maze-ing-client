@@ -39,65 +39,42 @@
 
 /*====================================================================*/
 
+// create avatar pseudocode
 
+        // while not exit conditions (given in lab notes)
 
+            // if avatarID matches TurnID
+                // make a turn from rule
+                // update maze knowledge
+                // write to log
+        // close port with fclose(sockfd) 
 
+void initializeMazeport(int id, int nAvatars, int diff, char ip, int MazePort, FILE *plog){
+    int sockfd;
+    struct sockaddr_in servaddr;
 
+    //Create a socket for the client
+     //If sockfd<0 there was an error in the creation of the socket
+     if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
+          perror("Problem in creating the socket");
+          exit(2);
+     }
+    
+     //Creation of the socket
+     memset(&servaddr, 0, sizeof(servaddr));
+     servaddr.sin_family = AF_INET;
+     servaddr.sin_addr.s_addr= inet_addr(ip);
+     servaddr.sin_port =  htons(MazePort); //convert to big-endian order
+    
+     //Connection of the client to the socket 
+     if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr))<0) {
+          perror("Problem in connecting to the server");
+          exit(3);
+     }
+    
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // do cool stuff after initialized
+}
 
 
 
