@@ -264,8 +264,9 @@ main(int argc, char **argv)
      }
      */
      int a;
+     //For each avatar, creating a thread. each 0-n avatar will run on thread[0-n]. Working out logistics
      for (a = 0; a < nAvatars; a++){
-     if ((pthread_create(&threads[i], NULL, NULL,NULL)) != 0){
+     if ((pthread_create(&threads[i], NULL, createAvatar, i, nAvatars, diffculty, ip, MazePort, plog)) != 0){
         fprintf(pLog, "\nNew Thread: %i", threads[i]);
         printf("\nNew Thread: %i", threads[i]);
         }
