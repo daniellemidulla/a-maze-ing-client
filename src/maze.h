@@ -18,8 +18,8 @@
 
 // ---------------- Structures/Types
 typedef struct MazeNode {
-    int x;
-    int y;
+    int row;  //the row of the MazeNode
+    int col;  //the column of the MazeNode
     //walls have the following values: -1 for unknown, 0 for no wall, 1 for a real wall, 2 for an assumed wall(a dead end)
     int north_wall;
     int south_wall;

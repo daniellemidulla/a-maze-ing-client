@@ -37,12 +37,34 @@ int num_rows;
 int num_col;
 
 // ---------------- Private prototypes 
-int getRight(int dir_facing, XYPos current_pos);
-int getFront(int dir_facing, XYPos current_pos);
-int getLeft(int dir_facing, XYPos current_pos);
-int getBack(int dir_facing, XYPos current_pos);
+/* getRight - returns the direction "right" of the avatar" */
+int getRight(int dir_facing, XYPos current_pos);  //gets the direction to the right of the avatar
+
+/* getFront - returns the direction "front" of the avatar" */
+int getFront(int dir_facing, XYPos current_pos);  //gets the direction in front of the avatar
+
+/* getLeft - returns the direction "left" of the avatar" */
+int getLeft(int dir_facing, XYPos current_pos);   //gets the direction to the left of the avatar
+
+/* getBack - returns the direction "back" of the avatar" */
+int getBack(int dir_facing, XYPos current_pos);   //gets the direction behind the avatar
+
+/* isDeadEnd - returns the direction to move to escape the dead end or -1 (if not a dead end) */
+int isDeadEnd(XYPos current_pos);                 //checks if current position is a dead end and returns the direction to escape
 
 /*====================================================================*/
+
+/* MazeNode** initMaze(int r, int c);
+ *
+ * Description: initializes a 2D MazeNode array with r rows and c columns and with enclosing walls
+ * 
+ * Input:
+ *  - r => the desired number of rows for the maze
+ *  - c => the desired number of columns for the maze
+ * 
+ * Output: a 2D pointer array containing the initialized MazeNodes with walls around the outside
+ *
+ */
 MazeNode** initMaze(int r, int c){
   if (r == 0) return NULL;
   if(c == 0) return NULL;
@@ -55,8 +77,8 @@ MazeNode** initMaze(int r, int c){
     maze[i] = (MazeNode *)calloc(num_col, sizeof(MazeNode));
     for(j=0; j < num_col; j++){
       MazeNode current_node;
-      current_node.x = i;
-      current_node.y = j;
+      current_node.row = i;
+      current_node.col = j;
       current_node.north_wall = (i == 0) ? 1 : -1;
       current_node.south_wall = (i == r - 1) ? 1 : -1;
       current_node.west_wall = (j == 0) ? 1 : -1;
@@ -67,8 +89,23 @@ MazeNode** initMaze(int r, int c){
   return maze;
 }
 
+/* int rightHandRule(Avatar avatar); 
+ *
+ * Description: examines the avatar and returns the direction in which it should move, following the right hand rule
+ *
+ * Input: the Avatar for which we would like to get a direction
+ *
+ * Output: the direction that the Avatar should move
+ *
+ */
 int rightHandRule(Avatar avatar){
   int new_dir;
+  new_dir = isDeadEnd(avatar.pos);
+  if(new_dir != -1){
+    //add the wall
+    //return the new_dir
+  }
+  
   new_dir = getRight(avatar.fd, avatar.pos);
   if (new_dir == -1) {
     new_dir = getFront(avatar.fd, avatar.pos);
@@ -94,6 +131,16 @@ int rightHandRule(Avatar avatar){
   return new_dir;
 }
 
+
+/* void CleanupMaze();
+ *
+ * Description: frees all the memory associated with the maze
+ *
+ * Input: none
+ *
+ * Output: none
+ *
+ */
 void CleanupMaze(){
   int i;
   for(i = 0; i < num_rows; i++){
@@ -102,6 +149,17 @@ void CleanupMaze(){
   free(maze);
 }
 
+/* int getRight(int dir_facing, XYPos current_pos);
+ *
+ * Description: checks the current position and gets the direction to the right of the avatar if there is no wall
+ * 
+ * Input:
+ *  - dir_facing => the direction that the avatar is currently facing
+ *  - current_pos => the current position of the avatar
+ * 
+ * Output: The direction "right" of the avatar" or -1 (if there is a wall)
+ *
+ */
 int getRight(int dir_facing, XYPos current_pos){
   int x, y, new_dir;
   x = current_pos.x;
@@ -126,6 +184,17 @@ int getRight(int dir_facing, XYPos current_pos){
   return new_dir;
 }
 
+/* int getFront(int dir_facing, XYPos current_pos);
+ *
+ * Description: checks the current position and gets the direction in front of the avatar if there is no wall
+ * 
+ * Input:
+ *  - dir_facing => the direction that the avatar is currently facing
+ *  - current_pos => the current position of the avatar
+ * 
+ * Output: The direction in front of the avatar" or -1 (if there is a wall)
+ *
+ */
 int getFront(int dir_facing, XYPos current_pos){
   int x, y, new_dir;
   x = current_pos.x;
@@ -150,7 +219,17 @@ int getFront(int dir_facing, XYPos current_pos){
   return new_dir;
 }
 
-
+/* int getLeft(int dir_facing, XYPos current_pos);
+ *
+ * Description: checks the current position and gets the direction to the left of the avatar if there is no wall
+ * 
+ * Input:
+ *  - dir_facing => the direction that the avatar is currently facing
+ *  - current_pos => the current position of the avatar
+ * 
+ * Output: The direction "left" of the avatar" or -1 (if there is a wall)
+ *
+ */
 int getLeft(int dir_facing, XYPos current_pos){
   int x, y, new_dir;
   x = current_pos.x;
@@ -175,6 +254,17 @@ int getLeft(int dir_facing, XYPos current_pos){
   return new_dir;
 }
 
+/* int getBack(int dir_facing, XYPos current_pos);
+ *
+ * Description: checks the current position and gets the direction behind of the avatar if there is no wall
+ * 
+ * Input:
+ *  - dir_facing => the direction that the avatar is currently facing
+ *  - current_pos => the current position of the avatar
+ * 
+ * Output: The direction behind the avatar" or -1 (if there is a wall)
+ *
+ */
 int getBack(int dir_facing, XYPos current_pos){
   int x, y, new_dir;
   x = current_pos.x;
@@ -197,4 +287,18 @@ int getBack(int dir_facing, XYPos current_pos){
       break;
   }
   return new_dir;
+}
+
+/* int isDeadEnd(XYPos current_pos);
+ *
+ * Description: checks if current position is a dead end and returns the direction to escape
+ * 
+ * Input: the position we would like to check
+ * 
+ * Output: The direction to move to escape the dead end.
+ *          If the current position is not a dead end, returns -1
+ *
+ */
+int isDeadEnd(XYPos current_pos){
+  MazeNode current_node = maze[current_pos.x][current_pos.y];
 }
