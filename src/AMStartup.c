@@ -256,6 +256,7 @@ main(int argc, char **argv)
           // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
     printf("*******THREADS*******");
     //Allocate N avatar threads
+    
     pthread_t threads[nAvatars];   
     /*pthread_t threads = malloc(sizeof(pthread_t) * nAvatars); 
      if (threads == NULL){
@@ -263,7 +264,7 @@ main(int argc, char **argv)
          exit (1);
      }
      */
-     int a;
+    /* int a;
      //For each avatar, creating a thread. each 0-n avatar will run on thread[0-n]. Working out logistics
      for (a = 0; a < nAvatars; a++){
      if ((pthread_create(&threads[i], NULL, createAvatar, i, nAvatars, diffculty, ip, MazePort, plog)) != 0){
@@ -271,7 +272,7 @@ main(int argc, char **argv)
         printf("\nNew Thread: %i", threads[i]);
         }
     }
-
+*/
      close(MazePort);
      close(sockfd);
      fprintf(pLog, "\n\nCleared Memory");
