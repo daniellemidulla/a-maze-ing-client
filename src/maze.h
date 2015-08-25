@@ -25,6 +25,8 @@ typedef struct MazeNode {
     int south_wall;
     int east_wall;
     int west_wall;
+    int backpointer_direction;
+    int dfs_visited;
 } MazeNode;
 
 // ---------------- Public Variables
@@ -41,5 +43,7 @@ void CleanupMaze();//frees all the memory associated with the maze
 
 /* AddWall */
 void AddWall(int r, int c, int dir, int value); //adds a wall to the given cell and the adjacent cell
+
+int * DepthFirstSearch(int start_r, int start_c, int end_r, int end_c);
 
 #endif // MAZE_H

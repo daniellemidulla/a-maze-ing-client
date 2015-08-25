@@ -366,3 +366,10 @@ void AddWall(int r, int c, int dir, int value){
     }
   }
 }
+
+int * DepthFirstSearch(int start_r, int start_c, int end_r, int end_c){
+  MazeNode * start_node, * end_node;
+  start_node = &maze[start_r][start_c];
+  end_node = &maze[end_r][end_c];
+}
+
