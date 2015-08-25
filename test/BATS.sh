@@ -30,7 +30,8 @@ fails=0
 #TODO: insert the tests for the avatars and the startup client HERE!!!!!
 
 #Write the results of each step of the test build to the log file
-cd ../test
+make clean > /dev/null
+cd ../test/
 make maze_test >> $logfile 2>&1
 echo >> $logfile
 
@@ -60,6 +61,46 @@ echo "Command: ./maze_test" >> $logfile
 echo "Exit code should be: $expected_exit_code" >> $logfile
 echo -e "Output should be:\n$expected_output" >> $logfile
 output=$(./maze_test 2>&1)
+echo -e "Output was:\n$output" >> $logfile
+exit_code=$?
+echo "Exit code was: $exit_code" >> $logfile
+if [ $exit_code -ne $expected_exit_code ]
+then
+  echo "Incorrect exit code!" >> $logfile
+  echo "Test failed!" >> $logfile
+  fails=$(( fails+1 ))
+else
+  echo "Exit code is correct!" >> $logfile
+  output=$(echo -n "$output" | sed 's/\n/ /g')
+  expected_output=$(echo -en "$expected_output" | sed 's/\n/ /g')
+  if [ "$output" == "$expected_output" ]
+    then
+    echo "Output matches!" >> $logfile
+    echo "Test passed!" >> $logfile
+    passes=$(( passes+1 ))
+  else
+    echo "Incorrect output!" >> $logfile
+    echo "Test failed!" >> $logfile
+    fails=$(( fails+1 ))
+  fi
+fi
+echo >> $logfile
+
+#Write the results of each step of the test build to the log file
+make clean > /dev/null
+make list_test >> $logfile 2>&1
+echo >> $logfile
+
+#Test valid arguments => Run the unit tests for the maze
+expected_exit_code=$pass_exit_code
+expected_output="Test AddNode() Test case 1 passed\n\
+Test PopNode() Test case 9 passed\n\
+All passed!"
+echo "Testing valid arguments - running the unit tests for the maze." >> $logfile
+echo "Command: ./list_test" >> $logfile
+echo "Exit code should be: $expected_exit_code" >> $logfile
+echo -e "Output should be:\n$expected_output" >> $logfile
+output=$(./list_test 2>&1)
 echo -e "Output was:\n$output" >> $logfile
 exit_code=$?
 echo "Exit code was: $exit_code" >> $logfile
