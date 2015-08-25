@@ -6,8 +6,8 @@ CFLAGS = -Wall -pedantic -std=c11 -ggdb
 #LIBFLAG = -lcurl -lm
 TFLAG = -pthread
 EXEC = maze
-OBJS = AMStartup.o
-SRCS = AMStartup.c
+OBJS = AMStartup.o avatar.o
+SRCS = AMStartup.c avatar.c
 
 # luckily, make has comments too!  
 
