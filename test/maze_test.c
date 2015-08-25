@@ -14,6 +14,7 @@
 // 
 // MazeNode** initMaze(int r, int c);
 // int rightHandRule(Avatar avatar);
+// void AddWall(int r, int c, int dir, int value);
 // 
 // If any of the tests fail it prints status.
 // If all tests pass it prints status.
@@ -31,53 +32,6 @@
 // 
 // The test harness dummies out the real hash function and through the use of a valiable called index manipulates
 // where WordNodes are inserted into the HashTable.
-// 
-// 
-// 
-// The following test cases are for function:
-// 
-// MazeNode** initMaze(int r, int c);
-// 
-// Test case: initMaze: 1
-// This test case calls initMaze() for the condition where r is 0
-// Result is for returned MazeNode** to be NULL (and an error to be thrown?).
-// 
-// Test case: initMaze: 2
-// This test case calls initMaze() for the condition where c is 0
-// Result is for returned MazeNode** to be NULL (and an error to be thrown?).
-// 
-// Test case: initMaze: 3
-// This test case calls initMaze() for the condition where r= 1 and c = 1 
-// Result is for returned MazeNode** to have 1 node with 4 walls
-// 
-// Test case: initMaze: 4
-// This test case calls initMaze() for the condition where r > 1 and c > 1 
-// Result is for returned MazeNode** to have r*c nodes and walls along the outside(rows 0 & r-1 & columns 0 & c-1)
-// 
-// 
-// The following test cases are for function:
-// 
-// int rightHandRule(Avatar avatar);
-// 
-// Test case: rightHandRule: 1
-// This test case calls rightHandRule() for the condition where Avatar avatar is empty
-// Result is for the returned direction to be empty (and an error to be thrown?).
-// 
-// Test case: rightHandRule: 2
-// This test case calls DisplayResults() for the condition where Avatar avatar is in a node without walls
-// Result is for the returned direction to be "right" of the position avatar is facing
-// 
-// Test case: rightHandRule: 3
-// This test case calls DisplayResults() for the condition where Avatar avatar is in a node with a wall to the Avatar's right
-// Result is for the returned direction to be in the direction that avatar is facing
-//
-// Test case: rightHandRule: 4
-// This test case calls DisplayResults() for the condition where Avatar avatar is in a node with 2 walls - right & front
-// Result is for the returned direction to be "left" of the position avatar is facing
-//
-// Test case: rightHandRule: 5
-// This test case calls DisplayResults() for the condition where Avatar avatar is in a node with 3 walls - right, front, & left
-// Result is for the returned direction to be "backwards" from the position avatar is facing
 // 
 // 
 // 
@@ -128,6 +82,10 @@
 }
 
 
+// The following test cases are for function:
+// 
+// MazeNode** initMaze(int r, int c);
+// 
 // Test case: initMaze: 1
 // This test case calls initMaze() for the condition where r is 0
 // Result is for returned MazeNode** to be NULL (and an error to be thrown?).
@@ -225,6 +183,10 @@ int TestInitMaze4(){
   END_TEST_CASE;
 }
 
+// The following test cases are for function:
+// 
+// int rightHandRule(Avatar avatar);
+// 
 // Test case: rightHandRule: 1
 // This test case calls rightHandRule() for the condition where Avatar avatar (position and direction) is empty
 // Result is for the returned value to be -1.
@@ -268,22 +230,22 @@ int TestRHR3(){
   MazeNode ** maze;
   Avatar avatar;
   maze = initMaze(3, 3);
-  avatar.pos.x = 0;
-  avatar.pos.y = 1;
+  avatar.pos.x = 1; //avatar is in column 1
+  avatar.pos.y = 0; //avatar is in row 0
   avatar.fd = M_WEST;
   SHOULD_BE(rightHandRule(avatar) == M_WEST);
-  avatar.pos.x = 1;
-  avatar.pos.y = 0;
+  avatar.pos.x = 0; //avatar is in column 0
+  avatar.pos.y = 1; //avatar is in row 1
   avatar.fd = M_SOUTH;
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
-  avatar.pos.x = 1;
-  avatar.pos.y = 2;
-  avatar.fd = M_NORTH;
-  SHOULD_BE(rightHandRule(avatar) == M_NORTH);
-  avatar.pos.x = 2;
-  avatar.pos.y = 1;
+  avatar.pos.x = 1; //avatar is in column 1
+  avatar.pos.y = 2; //avatar is in row 2
   avatar.fd = M_EAST;
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
+  avatar.pos.x = 2; //avatar is in column 2
+  avatar.pos.y = 1; //avatar is in row 1
+  avatar.fd = M_NORTH;
+  SHOULD_BE(rightHandRule(avatar) == M_NORTH);
 
   CleanupMaze();
   END_TEST_CASE;
@@ -297,22 +259,26 @@ int TestRHR4(){
   MazeNode ** maze;
   Avatar avatar;
   maze = initMaze(3, 3);
+  //avatar in the top left corner facing west, should go south
   avatar.pos.x = 0;
   avatar.pos.y = 0;
   avatar.fd = M_WEST;
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
+  //avatar in the bottom left corner facing south, should go east
   avatar.pos.x = 0;
   avatar.pos.y = 2;
-  avatar.fd = M_NORTH;
-  SHOULD_BE(rightHandRule(avatar) == M_WEST);
-  avatar.pos.x = 2;
-  avatar.pos.y = 0;
   avatar.fd = M_SOUTH;
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
+  //avatar in the bottom right corner facing east, should go north
   avatar.pos.x = 2;
   avatar.pos.y = 2;
   avatar.fd = M_EAST;
   SHOULD_BE(rightHandRule(avatar) == M_NORTH);
+  //avatar in the top right corner facing north, should go west
+  avatar.pos.x = 2;
+  avatar.pos.y = 0;
+  avatar.fd = M_NORTH;
+  SHOULD_BE(rightHandRule(avatar) == M_WEST);
   CleanupMaze();
   END_TEST_CASE;
 }
@@ -325,35 +291,219 @@ int TestRHR5(){
   MazeNode ** maze;
   Avatar avatar;
   maze = initMaze(3, 3);
+  //avatar is in the middle of the maze
   avatar.pos.x = 1;
   avatar.pos.y = 1;
+  //avatar facing north in a maze node with north, east, and west walls
   avatar.fd = M_NORTH;
-  maze[1][1].west_wall = 1;
-  maze[1][1].north_wall = 1;
-  maze[1][1].east_wall = 1;
-  SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
-  SHOULD_BE(maze[1][1].south_wall == 2);
+  AddWall(1, 1, M_NORTH, 1);
+  AddWall(1, 1, M_EAST, 1);
+  AddWall(1, 1, M_WEST, 1);
+  SHOULD_BE(rightHandRule(avatar) == M_SOUTH); //avatar will go south
+  SHOULD_BE(maze[1][1].south_wall == 2); //maze node where the avatar was now has a 4th wall
+  SHOULD_BE(maze[2][1].north_wall == 2); //maze node the avatar will move to has a "fake" north wall
+  //avatar facing west in a maze node with north, south, and west walls
   avatar.fd = M_WEST;
-  maze[1][1].west_wall = 1;
-  maze[1][1].north_wall = 1;
-  maze[1][1].east_wall = 0;
-  maze[1][1].south_wall = 1;
-  SHOULD_BE(rightHandRule(avatar) == M_EAST);
-  SHOULD_BE(maze[1][1].east_wall == 2);
+  AddWall(1, 1, M_NORTH, 1);
+  AddWall(1, 1, M_EAST, 0); //reset value of east wall to 0
+  AddWall(1, 1, M_WEST, 1);
+  AddWall(1, 1, M_SOUTH, 1);
+  SHOULD_BE(rightHandRule(avatar) == M_EAST); //avatar will go east
+  SHOULD_BE(maze[1][1].east_wall == 2); //maze node where the avatar was now has a 4th wall
+  SHOULD_BE(maze[1][2].west_wall == 2); //maze node the avatar will move to has a "fake" west wall
+  //avatar facing south in a maze node with east, south, and west walls
   avatar.fd = M_SOUTH;
-  maze[1][1].west_wall = 1;
-  maze[1][1].north_wall = 0;
-  maze[1][1].east_wall = 1;
-  maze[1][1].south_wall = 1;
-  SHOULD_BE(rightHandRule(avatar) == M_NORTH);
-  SHOULD_BE(maze[1][1].north_wall == 2);
+  AddWall(1, 1, M_NORTH, 0); //reset value of north wall to 0
+  AddWall(1, 1, M_EAST, 1);
+  AddWall(1, 1, M_WEST, 1);
+  AddWall(1, 1, M_SOUTH, 1);
+  SHOULD_BE(rightHandRule(avatar) == M_NORTH); //avatar will go north
+  SHOULD_BE(maze[1][1].north_wall == 2); //maze node where the avatar was now has a 4th wall
+  SHOULD_BE(maze[0][1].south_wall == 2); //maze node the avatar will move to has a "fake" south wall
+  //avatar facing east in a maze node with north, south, and west walls
   avatar.fd = M_EAST;
-  maze[1][1].west_wall = 0;
-  maze[1][1].north_wall = 1;
-  maze[1][1].east_wall = 1;
-  maze[1][1].south_wall = 1;
-  SHOULD_BE(rightHandRule(avatar) == M_WEST);
-  SHOULD_BE(maze[1][1].west_wall == 2);
+  AddWall(1, 1, M_NORTH, 1);
+  AddWall(1, 1, M_EAST, 1);
+  AddWall(1, 1, M_WEST, 0); //reset value of north wall to 0
+  AddWall(1, 1, M_SOUTH, 1);
+  SHOULD_BE(rightHandRule(avatar) == M_WEST); //avatar will go east
+  SHOULD_BE(maze[1][1].west_wall == 2); //maze node where the avatar was now has a 4th wall
+  SHOULD_BE(maze[1][0].east_wall == 2); //maze node the avatar will move to has a "fake" east wall
+  CleanupMaze();
+  END_TEST_CASE;
+}
+// The following test cases are for function:
+// 
+// void AddWall(int r, int c, int dir, int value);
+// 
+// Test case: AddWall: 1
+// This test case calls AddWall() for the condition where dir is not M_NORTH, M_SOUTH, M_EAST, or M_WEST
+// Result is for nothing to happen to the maze.
+int TestAddWall1(){
+  START_TEST_CASE;
+  int north, south, east, west;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  north = maze[1][1].north_wall;
+  south = maze[1][1].south_wall;
+  east = maze[1][1].east_wall;
+  west = maze[1][1].west_wall;
+  AddWall(1, 1, -1, 2);
+  SHOULD_BE(maze[1][1].north_wall == north);
+  SHOULD_BE(maze[1][1].south_wall == south);
+  SHOULD_BE(maze[1][1].east_wall == east);
+  SHOULD_BE(maze[1][1].west_wall == west);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: AddWall: 2
+// This test case calls AddWall() for the condition where r is 0 and we are changing the value of a north wall
+// Result is for nothing to happen to the maze.
+int TestAddWall2(){
+  START_TEST_CASE;
+  int north, south, east, west;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  north = maze[0][1].north_wall;
+  south = maze[0][1].south_wall;
+  east = maze[0][1].east_wall;
+  west = maze[0][1].west_wall;
+  AddWall(0, 1, M_NORTH, 2);
+  SHOULD_BE(maze[0][1].north_wall == north);
+  SHOULD_BE(maze[0][1].south_wall == south);
+  SHOULD_BE(maze[0][1].east_wall == east);
+  SHOULD_BE(maze[0][1].west_wall == west);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: AddWall: 3
+// This test case calls AddWall() for the condition where r is the last row and we are changing the value of a south wall
+// Result is for nothing to happen to the maze.
+int TestAddWall3(){
+  START_TEST_CASE;
+  int north, south, east, west;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  north = maze[2][1].north_wall;
+  south = maze[2][1].south_wall;
+  east = maze[2][1].east_wall;
+  west = maze[2][1].west_wall;
+  AddWall(2, 1, M_SOUTH, 2);
+  SHOULD_BE(maze[2][1].north_wall == north);
+  SHOULD_BE(maze[2][1].south_wall == south);
+  SHOULD_BE(maze[2][1].east_wall == east);
+  SHOULD_BE(maze[2][1].west_wall == west);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: AddWall: 4
+// This test case calls AddWall() for the condition where c = 0 and we are changing the value of a west wall
+// Result is for nothing to happen to the maze.
+int TestAddWall4(){
+  START_TEST_CASE;
+  int north, south, east, west;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  north = maze[1][0].north_wall;
+  south = maze[1][0].south_wall;
+  east = maze[1][0].east_wall;
+  west = maze[1][0].west_wall;
+  AddWall(1, 0, M_WEST, 2);
+  SHOULD_BE(maze[1][0].north_wall == north);
+  SHOULD_BE(maze[1][0].south_wall == south);
+  SHOULD_BE(maze[1][0].east_wall == east);
+  SHOULD_BE(maze[1][0].west_wall == west);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: AddWall: 5
+// This test case calls AddWall() for the condition where c is the last column and we are changing the value of an east wall
+// Result is for nothing to happen to the maze.
+int TestAddWall5(){
+  START_TEST_CASE;
+  int north, south, east, west;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  north = maze[1][2].north_wall;
+  south = maze[1][2].south_wall;
+  east = maze[1][2].east_wall;
+  west = maze[1][2].west_wall;
+  AddWall(1, 2, M_EAST, 2);
+  SHOULD_BE(maze[1][2].north_wall == north);
+  SHOULD_BE(maze[1][2].south_wall == south);
+  SHOULD_BE(maze[1][2].east_wall == east);
+  SHOULD_BE(maze[1][2].west_wall == west);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: AddWall: 6
+// This test case calls AddWall() for the condition where r is not the first nor the last row and we add a north wall
+// Result is for a north wall to be added to maze[r][c] and a south wall of the same value to be added to maze[r-1][c]
+int TestAddWall6(){
+  START_TEST_CASE;
+  int r, c;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  r = 1;
+  c = 1;
+  AddWall(r, c, M_NORTH, 2);
+  SHOULD_BE(maze[r][c].north_wall == 2);
+  SHOULD_BE(maze[r-1][c].south_wall == 2);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: AddWall: 7
+// This test case calls AddWall() for the condition where r is not the first nor the last row and we add a south wall
+// Result is for a south wall to be added to maze[r][c] and a north wall of the same value to be added to maze[r+1][c]
+int TestAddWall7(){
+  START_TEST_CASE;
+  int r, c;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  r = 1;
+  c = 1;
+  AddWall(r, c, M_SOUTH, 2);
+  SHOULD_BE(maze[r][c].south_wall == 2);
+  SHOULD_BE(maze[r+1][c].north_wall == 2);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: AddWall: 8
+// This test case calls AddWall() for the condition where c is not the first nor the last column and we add a west wall
+// Result is for a west wall to be added to maze[r][c] and an east wall of the same value to be added to maze[r][c-1]
+int TestAddWall8(){
+  START_TEST_CASE;
+  int r, c;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  r = 1;
+  c = 1;
+  AddWall(r, c, M_WEST, 2);
+  SHOULD_BE(maze[r][c].west_wall == 2);
+  SHOULD_BE(maze[r][c-1].east_wall == 2);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+// Test case: AddWall: 9
+// This test case calls AddWall() for the condition where c is not the first nor the last column and we add an east wall
+// Result is for an east wall to be added to maze[r][c] and a west wall of the same value to be added to maze[r][c+1]
+int TestAddWall9(){
+  START_TEST_CASE;
+  int r, c;
+  MazeNode ** maze;
+  maze = initMaze(3, 3);
+  r = 1;
+  c = 1;
+  AddWall(r, c, M_EAST, 2);
+  SHOULD_BE(maze[r][c].east_wall == 2);
+  SHOULD_BE(maze[r][c+1].west_wall == 2);
   CleanupMaze();
   END_TEST_CASE;
 }
@@ -384,6 +534,15 @@ int main(int argc, char** argv) {
   RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
   RUN_TEST(TestRHR4, "rightHandRule() Test case 4");
   RUN_TEST(TestRHR5, "rightHandRule() Test case 5");
+  RUN_TEST(TestAddWall1, "AddWall() Test case 1");
+  RUN_TEST(TestAddWall2, "AddWall() Test case 2");
+  RUN_TEST(TestAddWall3, "AddWall() Test case 3");
+  RUN_TEST(TestAddWall4, "AddWall() Test case 4");
+  RUN_TEST(TestAddWall5, "AddWall() Test case 5");
+  RUN_TEST(TestAddWall6, "AddWall() Test case 6");
+  RUN_TEST(TestAddWall7, "AddWall() Test case 7");
+  RUN_TEST(TestAddWall8, "AddWall() Test case 8");
+  RUN_TEST(TestAddWall9, "AddWall() Test case 9");
   
   if (!cnt) {
     printf("All passed!\n"); return 0;
