@@ -129,7 +129,8 @@ int TestPopNode1(){
 int main(int argc, char** argv) {
   int cnt = 0;
 
-  // RUN_TEST(TestInitMaze1, "initMaze() Test case 1");
+  RUN_TEST(TestAddNode1, "AddNode () Test case 1");
+  RUN_TEST(TestPopNode1, "PopNode() Test case 1");
 
   
   if (!cnt) {

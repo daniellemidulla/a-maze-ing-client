@@ -48,6 +48,7 @@
  *
  */
 void AddNode(MazeNode * maze_node){
+  if (!maze_node) return;
   ListNode * new_node;
   new_node = (ListNode *) calloc(1, sizeof(ListNode));
   new_node->node = maze_node;
@@ -76,6 +77,7 @@ void AddNode(MazeNode * maze_node){
  *
  */
 MazeNode * PopNode(){
+  if(!stack.head) return NULL;
   MazeNode * maze_node;
   ListNode * head_node;
   head_node = stack.head;
