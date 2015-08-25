@@ -1,2 +1,8 @@
 Group name: fantastic floor()
 Group Members: James Jia, Danielle Midulla, Kathleen Sprout, Pritika Vig
+
+Test information:
+ - To perform a build and run an automated test, change into the test/ directory and run BATS.sh.
+ - To perform a unit test of the maze:
+   -> from project directory, run 'make test' and then run './test/maze_test'
+   -> from test/ directory, run 'make maze_test' and then run './maze_test'
