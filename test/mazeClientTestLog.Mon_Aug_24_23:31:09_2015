@@ -1,26 +1,15 @@
-Test Start: Mon 24 Aug 2015 11:13:59 PM EDT
+Test Start: Mon 24 Aug 2015 11:31:09 PM EDT
 hostname: moose.cs.dartmouth.edu
 operating system: GNU/Linux
 
-make: 'maze' is up to date.
+gcc -Wall -pedantic -std=c11 -ggdb -c AMStartup.c
+AMStartup.c: In function ‘main’:
+AMStartup.c:260:15: warning: unused variable ‘threads’ [-Wunused-variable]
+     pthread_t threads[nAvatars];   
+               ^
+gcc -Wall -pedantic -std=c11 -ggdb -pthread -o maze AMStartup.o 
 
 gcc -Wall -pedantic -std=c11 -ggdb -c maze_test.c
-maze_test.c: In function ‘TestRHR1’:
-maze_test.c:195:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
-   MazeNode ** maze;
-               ^
-maze_test.c: In function ‘TestRHR2’:
-maze_test.c:208:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
-   MazeNode ** maze;
-               ^
-maze_test.c: In function ‘TestRHR3’:
-maze_test.c:230:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
-   MazeNode ** maze;
-               ^
-maze_test.c: In function ‘TestRHR4’:
-maze_test.c:259:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
-   MazeNode ** maze;
-               ^
 gcc -Wall -pedantic -std=c11 -ggdb -c ../src/maze.c
 gcc -Wall -pedantic -std=c11 -ggdb -o maze_test maze_test.o maze.o
 
@@ -76,4 +65,4 @@ Test Summary:
 Passes: 1
 Fails: 0
 
-Test End: Mon 24 Aug 2015 11:13:59 PM EDT
+Test End: Mon 24 Aug 2015 11:31:09 PM EDT
