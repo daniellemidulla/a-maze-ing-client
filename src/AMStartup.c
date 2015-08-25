@@ -256,15 +256,28 @@ printf("Pritika is working on this and doesn't know how to merge stuff.\n");
           // the server's AM_WAIT_TIME timer expires, or
           // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
     printf("*******THREADS*******");
-    
+
     // create fake threads
     pthread_t t1[nAvatars];
-    printf("creating thread");
     int iret1;
-    int a;
-    for (a = 0; a < nAvatars; a++){
+
+    for (int a = 0; a < nAvatars; a++){
+
+      // create args
+
+        int *arg = malloc(sizeof(*arg));
+        if ( arg == NULL ) {
+            fprintf(stderr, "Couldn't allocate memory for thread arg.\n");
+            exit(EXIT_FAILURE);
+        }
+
+        *arg = i;
+
+
+      // other thread stuff
       printf("\nthread for avatar: %i", a);
-      iret1 = pthread_create(&t1[a], NULL, print_i, a);
+      iret1 = pthread_create(&t1[a], NULL, print_i, arg);
+      printf("\nsuccess?: %i", iret1);
       if(iret1){
         printf("pthread_create failed");
         exit(iret1);

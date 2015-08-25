@@ -53,11 +53,13 @@
 /*====================================================================*/
 // function to test threads
 // This function will run concurrently.
-void* print_i(int i) {
-    printf("THREAD %i", i);
-    while(1){
-            printf("\nentered thread %i", i);
-         }
+void* print_i(void* ptr) {
+    int a = *((int *) ptr);
+    printf("\nTHREAD %i", a);
+    //while(1){
+            printf("\nentered thread %i", a);
+    //     }
+    return NULL;
         
 }
 
