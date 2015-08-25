@@ -39,4 +39,7 @@ int rightHandRule(Avatar avatar); //examines the avatar and returns the directio
 /* CleanupMaze */
 void CleanupMaze();//frees all the memory associated with the maze
 
+/* AddWall */
+void AddWall(int r, int c, int dir, int value); //adds a wall to the given cell and the adjacent cell
+
 #endif // MAZE_H

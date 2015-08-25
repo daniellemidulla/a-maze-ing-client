@@ -102,8 +102,7 @@ int rightHandRule(Avatar avatar){
   int new_dir;
   new_dir = isDeadEnd(avatar.pos);
   if(new_dir != -1){
-    //add the wall
-    //return the new_dir
+    return new_dir;
   }
   
   new_dir = getRight(avatar.fd, avatar.pos);
@@ -291,7 +290,7 @@ int getBack(int dir_facing, XYPos current_pos){
 
 /* int isDeadEnd(XYPos current_pos);
  *
- * Description: checks if current position is a dead end and returns the direction to escape
+ * Description: checks if current position is a dead end and returns the direction to escape AND adds a "fake" wall to close off the dead end
  * 
  * Input: the position we would like to check
  * 
@@ -300,5 +299,75 @@ int getBack(int dir_facing, XYPos current_pos){
  *
  */
 int isDeadEnd(XYPos current_pos){
-  MazeNode current_node = maze[current_pos.x][current_pos.y];
+  int new_dir;
+  int wall_count;
+  MazeNode current_node;
+  current_node = maze[current_pos.x][current_pos.y];
+  wall_count = 0;
+
+  if (current_node.north_wall < 1) new_dir = M_NORTH;
+  else wall_count++;
+
+  if (current_node.south_wall < 1) new_dir = M_SOUTH;
+  else wall_count++;
+
+  if (current_node.west_wall < 1) new_dir = M_WEST;
+  else wall_count++;
+
+  if (current_node.east_wall < 1) new_dir = M_EAST;
+  else wall_count++;
+
+  if (wall_count == 3){
+    AddWall(current_pos.x, current_pos.y, new_dir, 2);
+    return new_dir;
+  }
+  return -1;
+}
+
+/*
+ * void AddWall(int r, int c, int dir, int value);
+ *
+ * Description: adds a wall to the given cell and the adjacent cell
+ *
+ * Input:
+ *  - r => the row of the MazeNode to which we are adding the wall
+ *  - c => the column of the MazeNode to which we are adding the wall
+ *  - dir => the direction of the wall we are adding in the MazeNode (as well as the direction of the relevant adjacent MazeNode)
+ *
+ * Output: none
+ *
+ */
+void AddWall(int r, int c, int dir, int value){
+  MazeNode current_node;
+  MazeNode adjacent_node;
+  current_node = maze[r][c];
+  if (dir == M_NORTH){
+    current_node.north_wall = value;
+    if (r > 0){
+      adjacent_node = maze[r-1][c];
+      adjacent_node.south_wall = value;
+    }
+  }
+  else if (dir == M_WEST){
+    current_node.west_wall = value;
+    if (c > 0){
+      adjacent_node = maze[r][c-1];
+      adjacent_node.east_wall = value;
+    }
+  }
+  else if (dir == M_EAST){
+    current_node.east_wall = value;
+    if (c < num_col-1){
+      adjacent_node = maze[r][c-1];
+      adjacent_node.west_wall = value;
+
+    }
+  }
+  else if (dir == M_SOUTH){
+    current_node.south_wall = value;
+    if (r < num_rows-1){
+      adjacent_node = maze[r+1][c];
+      adjacent_node.north_wall = value;
+    }
+  }
 }
