@@ -6,3 +6,6 @@ Test information:
  - To perform a unit test of the maze:
    -> from project directory, run 'make test' and then run './test/maze_test'
    -> from test/ directory, run 'make maze_test' and then run './maze_test'
+ - To perform a unit test of the stack:
+   -> from project directory, run 'make test' and then run './test/maze_test'
+   -> from test/ directory, run 'make maze_test' and then run './maze_test'

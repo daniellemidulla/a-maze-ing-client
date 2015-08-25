@@ -13,6 +13,7 @@
 #Executables
 maze
 maze_test
+list_test
 *.exe
 *.out
 *.app
