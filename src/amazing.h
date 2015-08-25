@@ -148,7 +148,7 @@ typedef struct avatarInfo {
     int avID; // avatar id
     int nAvatars; // no of avatars
     int difficulty;
-    char ip;
+    char ip[100];
     int MazePort; // port number
     FILE* pLog;
 } avatarInfo;

@@ -54,11 +54,14 @@
 // function to test threads
 // This function will run concurrently.
 void* print_i(void* ptr) {
-    int a = *((int *) ptr);
-    printf("\nTHREAD %i", a);
-    //while(1){
-            printf("\nentered thread %i", a);
-    //     }
+    avatarInfo a = *((avatarInfo *) ptr);
+    printf("\nTHREAD FOR %i", a.avID);
+
+            printf("\nmazePort %i", a.MazePort);
+            printf("\ndifficulty %i", a.difficulty);
+            printf("\nnAvatars %i", a.nAvatars);
+            printf("\nip %s", a.ip);
+ 
     return NULL;
         
 }

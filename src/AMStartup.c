@@ -265,19 +265,18 @@ printf("Pritika is working on this and doesn't know how to merge stuff.\n");
 
       // create args
 
-        int *arg = malloc(sizeof(*arg));
-        if ( arg == NULL ) {
-            fprintf(stderr, "Couldn't allocate memory for thread arg.\n");
-            exit(EXIT_FAILURE);
-        }
-
-        *arg = a;
+      avatarInfo* av = malloc(sizeof(avatarInfo));
+      av->avID = a;
+      av->nAvatars = nAvatars;
+      av->difficulty = difficulty;
+      strcpy(av->ip, ip);
+      av->MazePort = MazePort;
 
 
       // other thread stuff
-      printf("\nthread for avatar: %i", a);
-      iret1 = pthread_create(&t1[a], NULL, print_i, arg);
-      printf("\nsuccess?: %i", iret1);
+
+      iret1 = pthread_create(&t1[a], NULL, print_i, av);
+
       if(iret1){
         printf("pthread_create failed");
         exit(iret1);
