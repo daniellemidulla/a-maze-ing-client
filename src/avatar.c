@@ -48,12 +48,15 @@
 // ---------------- Private variables 
 
 // ---------------- Private prototypes 
-
+int initializeMazeport(char* ip, int MazePort, int id, int sockfd, struct sockaddr_in servaddr);
+int createAvatar(int id);
 
 /*====================================================================*/
 // function to test threads
 // This function will run concurrently.
 void* print_i(void* ptr) {
+    int sockfd = 0;
+    struct sockaddr_in servaddr;
     avatarInfo a = *((avatarInfo *) ptr);
     printf("\nTHREAD FOR %i", a.avID);
 
@@ -61,7 +64,45 @@ void* print_i(void* ptr) {
             printf("\ndifficulty %i", a.difficulty);
             printf("\nnAvatars %i", a.nAvatars);
             printf("\nip %s", a.ip);
- 
+
+    printf("\ninitializing mazeport");
+    sockfd = initializeMazeport(a.ip, a.MazePort, a.avID, sockfd, servaddr);
+
+    while(1){
+       
+        // listen to message
+        // v0: print message back out
+        // Recvd
+     AM_Message *rec_message = malloc(sizeof(AM_Message));
+     if(!rec_message){
+        perror("\nNo memory");
+        exit(4);
+     }
+     printf("\n %i", sockfd);
+     int help = recv(sockfd, rec_message, AM_MAX_MESSAGE,0);
+     printf("\nmessage type %i", ntohl(rec_message->type));
+
+     
+      if (help == 0){
+               //error: server terminated prematurely
+               perror("The server terminated prematurely"); 
+               exit(4);
+      }
+      else if (help == -1){
+        int err = errno;
+        printf("\n failure: %i", err);
+
+      }
+
+
+
+
+
+    }
+
+
+
+    
     return NULL;
         
 }
@@ -77,40 +118,53 @@ void* print_i(void* ptr) {
                 // write to log
         // close port with fclose(sockfd) 
 
-// void initializeMazeport(int id, int nAvatars, int diff, char ip, int MazePort, FILE *plog){
-//     int sockfd;
-//     struct sockaddr_in servaddr;
+int initializeMazeport(char* ip, int MazePort, int id, int sockfd, struct sockaddr_in servaddr){
 
-//     //Create a socket for the client
-//      //If sockfd<0 there was an error in the creation of the socket
-//      if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
-//           perror("Problem in creating the socket");
-//           exit(2);
-//      }
+    //Create a socket for the client
+     //If sockfd<0 there was an error in the creation of the socket
+     if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
+          perror("Problem in creating the socket");
+          exit(2);
+     }
     
-//      //Creation of the socket
-//      memset(&servaddr, 0, sizeof(servaddr));
-//      servaddr.sin_family = AF_INET;
-//      servaddr.sin_addr.s_addr= inet_addr(ip);
-//      servaddr.sin_port =  htons(MazePort); //convert to big-endian order
+     //Creation of the socket
+     memset(&servaddr, 0, sizeof(servaddr));
+     servaddr.sin_family = AF_INET;
+     servaddr.sin_addr.s_addr= inet_addr(ip);
+     servaddr.sin_port =  htons(MazePort); //convert to big-endian order
     
-//      //Connection of the client to the socket 
-//      if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr))<0) {
-//           perror("Problem in connecting to the server");
-//           exit(3);
-//      }
+     //Connection of the client to the socket 
+     int connected = connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr));
+     if (connected <0) {
+          perror("Problem in connecting to the server");
+          exit(3);
+     }
+     printf("\nconnected to socket: %i", connected);
 
-//      return;
+    AM_Message *ready = malloc(sizeof(AM_Message));
+    if (!ready){
+        perror("No memory\n");
+        exit(4);
+    }
+    printf("Building avatars ready message to server");
+    ready->type = htonl(AM_AVATAR_READY);
+    ready->avatar_ready.AvatarId = htonl(id);
+
+    //send ready message to server 
+    int sent = send(sockfd, ready, AM_MAX_MESSAGE, 0);
+    printf("\n message sent %i", sent);
+    free(ready);
     
 
-//     // do cool stuff after initialized
-// }
+     return sockfd;
+    
+}
 
 
 
 
-// //Essentially this will send a message to the server from each avatar saying they are ready, and once we have heard from all of them the server will initialze Avatare structures with their turn ID and location. Right CreateAvatar is called for each avatar thread, and startup() will be too. 
-// int createAvatar(int id, int nAvatars, int diff, char ip, int MazePort, FILE *plog){
+//Essentially this will send a message to the server from each avatar saying they are ready, and once we have heard from all of them the server will initialze Avatare structures with their turn ID and location. Right CreateAvatar is called for each avatar thread, and startup() will be too. 
+// int createAvatar(int id){
 //    //Prepare message for SENDING
 //     AM_Message *ready = malloc(sizeof(AM_Message));
 //     if (!ready){
@@ -128,9 +182,9 @@ void* print_i(void* ptr) {
 //     return 1;
 
 //     //Once the server has heard from each avatar, it will send each one it's location and it's turn ID.
-//     //inialize Avatar struct with XYPos based on message
+    //inialize Avatar struct with XYPos based on message
 
-// }
+//}
 // int startup(int id){
 //     //Prepare to RECEIVE message
 //     AM_MESSAGE *rec_message = malloc(sizeof(AM_Message));

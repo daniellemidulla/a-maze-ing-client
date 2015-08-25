@@ -256,7 +256,7 @@ printf("Pritika is working on this and doesn't know how to merge stuff.\n");
           // the server's AM_WAIT_TIME timer expires, or
           // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
     printf("*******THREADS*******");
-
+    close(sockfd);
     // create fake threads
     pthread_t t1[nAvatars];
     int iret1;
@@ -304,7 +304,6 @@ printf("Pritika is working on this and doesn't know how to merge stuff.\n");
     //}
 
      close(MazePort);
-     close(sockfd);
      fprintf(pLog, "\n\nCleared Memory");
      fclose(pLog);
 
