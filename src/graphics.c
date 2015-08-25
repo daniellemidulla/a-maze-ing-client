@@ -106,6 +106,39 @@ void draw_avatars(Avatar** avatar_list){
 	}
 }
 
+void draw_inside(Maze* maze_list){
+	
+	int i;
+	int j;
 
+	//loop through all the maze nodes
+	for (i=0; i<maze_list->num_row; i++){
+		for (j=0; j->num_col; j++){
 
-	  
+			//if the node has an east wall and south wall
+			if (maze_list[i][j].east_wall == 1){
+				//make east wall
+				move(2*(i+1)+1, j);
+				addch('|');
+
+				if (maze_list[i][j].south_wall==1){
+					//make south wall
+					move(2*(i+1),2*(j+1)+1); 
+					addch('-')
+					//make corner
+					move(2*(i+1)+1, 2*(j+1)+1);
+					addch('+');
+				}
+			}
+			//if the node has just a south wall
+			if (maze_list[i][j].east_wall !=1){
+				if (maze_list[i][j].south_wall==1)
+					//make south wall
+					move(2*(i+1), 2*(j+1)+1);
+					addch('-');
+				}
+			}
+		}
+	}
+}
+			
