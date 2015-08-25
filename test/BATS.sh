@@ -16,9 +16,13 @@ echo "Test Start: $(date '+%c')" > $logfile
 echo "hostname: $(uname -n)" >> $logfile
 echo "operating system: $(uname -o)" >> $logfile
 echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
+echo >> $logfile
 
 #Write the results of each step of the build to the log file
 cd ../src; make maze >> $logfile 2>&1
+echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
 echo >> $logfile
 
 #Write the results of running all the tests(name or purpose of the test, success/fail, etc...) to the log file
@@ -33,6 +37,8 @@ fails=0
 make clean > /dev/null
 cd ../test/
 make maze_test >> $logfile 2>&1
+echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
 echo >> $logfile
 
 #Test valid arguments => Run the unit tests for the maze
@@ -85,16 +91,20 @@ else
   fi
 fi
 echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
+echo >> $logfile
 
 #Write the results of each step of the test build to the log file
 make clean > /dev/null
 make list_test >> $logfile 2>&1
 echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
+echo >> $logfile
 
 #Test valid arguments => Run the unit tests for the maze
 expected_exit_code=$pass_exit_code
 expected_output="Test AddNode() Test case 1 passed\n\
-Test PopNode() Test case 9 passed\n\
+Test PopNode() Test case 1 passed\n\
 All passed!"
 echo "Testing valid arguments - running the unit tests for the maze." >> $logfile
 echo "Command: ./list_test" >> $logfile
@@ -127,6 +137,7 @@ fi
 echo >> $logfile
 
 #Write date and time stamp of the end of the build to the log file
+echo "--------------------------------------------------------------" >> $logfile
 echo "Test Summary:" >> $logfile
 echo "Passes: $passes" >> $logfile
 echo "Fails: $fails" >> $logfile
