@@ -72,7 +72,7 @@ main(int argc, char **argv)
 
 /////////////////////////////////////////// argument checks ///////////////////////////////////////////////
 
-
+printf("Pritika is working on this and doesn't know how to merge stuff.\n");
 
 	static struct option long_options[] =
     {
