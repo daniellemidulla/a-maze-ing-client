@@ -6,7 +6,7 @@
 make clean > /dev/null
 
 #Create a logfile
-logfile="mazeClientTestLog.$(date '+%a_%b_%d_%T_%Y')"
+logfile="../test/mazeClientTestLog.$(date '+%a_%b_%d_%T_%Y')"
 touch $logfile
 
 #Write date and time stamp of the beginning of the build to the log file
@@ -30,6 +30,7 @@ fails=0
 #TODO: insert the tests for the avatars and the startup client HERE!!!!!
 
 #Write the results of each step of the test build to the log file
+cd ../test
 make maze_test >> $logfile 2>&1
 echo >> $logfile
 
@@ -68,10 +69,12 @@ then
   echo "Test failed!" >> $logfile
   fails=$(( fails+1 ))
 else
+  echo "Exit code is correct!" >> $logfile
   output=$(echo -n "$output" | sed 's/\n/ /g')
   expected_output=$(echo -en "$expected_output" | sed 's/\n/ /g')
   if [ "$output" == "$expected_output" ]
     then
+    echo "Output matches!" >> $logfile
     echo "Test passed!" >> $logfile
     passes=$(( passes+1 ))
   else
@@ -88,4 +91,4 @@ echo "Passes: $passes" >> $logfile
 echo "Fails: $fails" >> $logfile
 echo >> $logfile
 echo "Test End: $(date '+%c')" >> $logfile
-make clean > /dev/null
+cd ../; make clean > /dev/null

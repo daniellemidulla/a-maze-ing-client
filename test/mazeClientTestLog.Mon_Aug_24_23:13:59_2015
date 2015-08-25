@@ -1,0 +1,79 @@
+Test Start: Mon 24 Aug 2015 11:13:59 PM EDT
+hostname: moose.cs.dartmouth.edu
+operating system: GNU/Linux
+
+make: 'maze' is up to date.
+
+gcc -Wall -pedantic -std=c11 -ggdb -c maze_test.c
+maze_test.c: In function ‘TestRHR1’:
+maze_test.c:195:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
+   MazeNode ** maze;
+               ^
+maze_test.c: In function ‘TestRHR2’:
+maze_test.c:208:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
+   MazeNode ** maze;
+               ^
+maze_test.c: In function ‘TestRHR3’:
+maze_test.c:230:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
+   MazeNode ** maze;
+               ^
+maze_test.c: In function ‘TestRHR4’:
+maze_test.c:259:15: warning: variable ‘maze’ set but not used [-Wunused-but-set-variable]
+   MazeNode ** maze;
+               ^
+gcc -Wall -pedantic -std=c11 -ggdb -c ../src/maze.c
+gcc -Wall -pedantic -std=c11 -ggdb -o maze_test maze_test.o maze.o
+
+Testing valid arguments - running the unit tests for the maze.
+Command: ./maze_test
+Exit code should be: 0
+Output should be:
+Test initMaze() Test case 1 passed
+Test initMaze() Test case 2 passed
+Test initMaze() Test case 3 passed
+Test initMaze() Test case 4 passed
+Test rightHandRule() Test case 1 passed
+Test rightHandRule() Test case 2 passed
+Test rightHandRule() Test case 3 passed
+Test rightHandRule() Test case 4 passed
+Test rightHandRule() Test case 5 passed
+Test AddWall() Test case 1 passed
+Test AddWall() Test case 2 passed
+Test AddWall() Test case 3 passed
+Test AddWall() Test case 4 passed
+Test AddWall() Test case 5 passed
+Test AddWall() Test case 6 passed
+Test AddWall() Test case 7 passed
+Test AddWall() Test case 8 passed
+Test AddWall() Test case 9 passed
+All passed!
+Output was:
+Test initMaze() Test case 1 passed
+Test initMaze() Test case 2 passed
+Test initMaze() Test case 3 passed
+Test initMaze() Test case 4 passed
+Test rightHandRule() Test case 1 passed
+Test rightHandRule() Test case 2 passed
+Test rightHandRule() Test case 3 passed
+Test rightHandRule() Test case 4 passed
+Test rightHandRule() Test case 5 passed
+Test AddWall() Test case 1 passed
+Test AddWall() Test case 2 passed
+Test AddWall() Test case 3 passed
+Test AddWall() Test case 4 passed
+Test AddWall() Test case 5 passed
+Test AddWall() Test case 6 passed
+Test AddWall() Test case 7 passed
+Test AddWall() Test case 8 passed
+Test AddWall() Test case 9 passed
+All passed!
+Exit code was: 0
+Exit code is correct!
+Output matches!
+Test passed!
+
+Test Summary:
+Passes: 1
+Fails: 0
+
+Test End: Mon 24 Aug 2015 11:13:59 PM EDT
