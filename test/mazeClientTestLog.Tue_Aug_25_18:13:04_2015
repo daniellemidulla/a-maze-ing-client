@@ -1,17 +1,45 @@
-Test Start: Mon 24 Aug 2015 11:31:09 PM EDT
+Test Start: Tue 25 Aug 2015 06:13:04 PM EDT
 hostname: moose.cs.dartmouth.edu
 operating system: GNU/Linux
 
+--------------------------------------------------------------
+
 gcc -Wall -pedantic -std=c11 -ggdb -c AMStartup.c
-AMStartup.c: In function ‘main’:
-AMStartup.c:260:15: warning: unused variable ‘threads’ [-Wunused-variable]
-     pthread_t threads[nAvatars];   
-               ^
-gcc -Wall -pedantic -std=c11 -ggdb -pthread -o maze AMStartup.o 
+gcc -Wall -pedantic -std=c11 -ggdb   -c -o avatar.o avatar.c
+gcc -Wall -pedantic -std=c11 -ggdb -c graphics.c
+graphics.c: In function ‘draw_inside’:
+graphics.c:116:14: error: invalid type argument of ‘->’ (have ‘int’)
+   for (j=0; j->num_col; j++){
+              ^
+graphics.c:119:20: error: subscripted value is neither array nor pointer nor vector
+    if (maze_list[i][j].east_wall == 1){
+                    ^
+graphics.c:124:21: error: subscripted value is neither array nor pointer nor vector
+     if (maze_list[i][j].south_wall==1){
+                     ^
+graphics.c:129:6: error: expected ‘;’ before ‘wmove’
+      move(2*(i+1)+1, 2*(j+1)+1);
+      ^
+graphics.c:134:20: error: subscripted value is neither array nor pointer nor vector
+    if (maze_list[i][j].east_wall !=1){
+                    ^
+graphics.c:135:21: error: subscripted value is neither array nor pointer nor vector
+     if (maze_list[i][j].south_wall==1)
+                     ^
+graphics.c: At top level:
+graphics.c:143:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^
+Makefile:22: recipe for target 'graphics.o' failed
+make: *** [graphics.o] Error 1
+
+--------------------------------------------------------------
 
 gcc -Wall -pedantic -std=c11 -ggdb -c maze_test.c
 gcc -Wall -pedantic -std=c11 -ggdb -c ../src/maze.c
 gcc -Wall -pedantic -std=c11 -ggdb -o maze_test maze_test.o maze.o
+
+--------------------------------------------------------------
 
 Testing valid arguments - running the unit tests for the maze.
 Command: ./maze_test
@@ -26,6 +54,8 @@ Test rightHandRule() Test case 2 passed
 Test rightHandRule() Test case 3 passed
 Test rightHandRule() Test case 4 passed
 Test rightHandRule() Test case 5 passed
+Test rightHandRule() Test case 6 passed
+Test rightHandRule() Test case 7 passed
 Test AddWall() Test case 1 passed
 Test AddWall() Test case 2 passed
 Test AddWall() Test case 3 passed
@@ -46,6 +76,8 @@ Test rightHandRule() Test case 2 passed
 Test rightHandRule() Test case 3 passed
 Test rightHandRule() Test case 4 passed
 Test rightHandRule() Test case 5 passed
+Test rightHandRule() Test case 6 passed
+Test rightHandRule() Test case 7 passed
 Test AddWall() Test case 1 passed
 Test AddWall() Test case 2 passed
 Test AddWall() Test case 3 passed
@@ -61,8 +93,10 @@ Exit code is correct!
 Output matches!
 Test passed!
 
+--------------------------------------------------------------
+
 Test Summary:
 Passes: 1
 Fails: 0
 
-Test End: Mon 24 Aug 2015 11:31:09 PM EDT
+Test End: Tue 25 Aug 2015 06:13:04 PM EDT

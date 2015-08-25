@@ -16,9 +16,13 @@ echo "Test Start: $(date '+%c')" > $logfile
 echo "hostname: $(uname -n)" >> $logfile
 echo "operating system: $(uname -o)" >> $logfile
 echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
+echo >> $logfile
 
 #Write the results of each step of the build to the log file
 cd ../src; make maze >> $logfile 2>&1
+echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
 echo >> $logfile
 
 #Write the results of running all the tests(name or purpose of the test, success/fail, etc...) to the log file
@@ -32,6 +36,8 @@ fails=0
 #Write the results of each step of the test build to the log file
 cd ../test
 make maze_test >> $logfile 2>&1
+echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
 echo >> $logfile
 
 #Test valid arguments => Run the unit tests for the maze
@@ -85,6 +91,8 @@ else
     fails=$(( fails+1 ))
   fi
 fi
+echo >> $logfile
+echo "--------------------------------------------------------------" >> $logfile
 echo >> $logfile
 
 #Write date and time stamp of the end of the build to the log file
