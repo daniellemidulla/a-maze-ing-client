@@ -27,11 +27,17 @@ typedef struct MazeNode {
     int west_wall;
 } MazeNode;
 
+typedef struct Maze{
+  MazeNode** maze;
+  int num_row;
+  int num_col;
+} Maze;
+
 // ---------------- Public Variables
 
 // ---------------- Prototypes/Macros
 /* initMaze - returns a 2D pointer array containing the initialized MazeNodes with walls around the outside */
-MazeNode** initMaze(int r, int c); //initializes a 2D MazeNode array with r rows and c columns and with enclosing walls
+Maze* initMaze(int r, int c); //initializes a 2D MazeNode array with r rows and c columns and with enclosing walls
 
 /* rightHandRule - returns the direction that the Avatar should move */
 int rightHandRule(Avatar avatar); //examines the avatar and returns the direction in which it should move, following the right hand rule
