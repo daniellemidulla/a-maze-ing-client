@@ -20,6 +20,7 @@
 
 // ---------------- System includes e.g., <stdio.h>
 #include <stdlib.h>         //calloc
+#include <stdio.h>          //printf
 
 // ---------------- Local includes  e.g., "file.h"
 #include "amazing.h"        //Avatar
@@ -99,30 +100,22 @@ MazeNode** initMaze(int r, int c){
  *
  */
 int rightHandRule(Avatar avatar){
+  if((avatar.pos.x >= num_col) || (avatar.pos.y >= num_rows)){
+    return -1;
+  }
   int new_dir;
   new_dir = isDeadEnd(avatar.pos);
-  if(new_dir != -1){
-    return new_dir;
-  }
-  
-  new_dir = getRight(avatar.fd, avatar.pos);
-  if (new_dir == -1) {
-    new_dir = getFront(avatar.fd, avatar.pos);
+  if(new_dir == -1){
+    new_dir = getRight(avatar.fd, avatar.pos);
     if (new_dir == -1) {
-      new_dir = getLeft(avatar.fd, avatar.pos);
+      new_dir = getFront(avatar.fd, avatar.pos);
       if (new_dir == -1) {
-        new_dir = getBack(avatar.fd, avatar.pos);
-        switch(new_dir){
-          case M_NORTH:
-            maze[avatar.pos.x][avatar.pos.y].north_wall = 2;
-          case M_SOUTH:
-            maze[avatar.pos.x][avatar.pos.y].south_wall = 2;
-          case M_WEST:
-            maze[avatar.pos.x][avatar.pos.y].west_wall = 2;
-          case M_EAST:
-            maze[avatar.pos.x][avatar.pos.y].east_wall = 2;
-          default:
-            break;
+        new_dir = getLeft(avatar.fd, avatar.pos);
+        if (new_dir == -1) {
+          new_dir = getBack(avatar.fd, avatar.pos);
+          if(new_dir != -1){
+            AddWall(avatar.pos.y, avatar.pos.x, new_dir, 2);
+          }
         }
       }
     }
@@ -160,21 +153,21 @@ void CleanupMaze(){
  *
  */
 int getRight(int dir_facing, XYPos current_pos){
-  int x, y, new_dir;
-  x = current_pos.x;
-  y = current_pos.y;
+  int new_dir;
+  MazeNode current_node;
+  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
   switch(dir_facing){
     case M_NORTH:
-      new_dir = (maze[x][y].east_wall < 1) ? M_EAST : -1;
+      new_dir = (current_node.east_wall < 1) ? M_EAST : -1;
       break;
     case M_SOUTH:
-      new_dir = (maze[x][y].west_wall < 1) ? M_WEST : -1;
+      new_dir = (current_node.west_wall < 1) ? M_WEST : -1;
       break;
     case M_WEST:
-      new_dir = (maze[x][y].north_wall < 1) ? M_NORTH : -1;
+      new_dir = (current_node.north_wall < 1) ? M_NORTH : -1;
       break;
     case M_EAST:
-      new_dir = (maze[x][y].south_wall < 1) ? M_SOUTH : -1;
+      new_dir = (current_node.south_wall < 1) ? M_SOUTH : -1;
       break;
     default:
       new_dir = -1;
@@ -195,21 +188,21 @@ int getRight(int dir_facing, XYPos current_pos){
  *
  */
 int getFront(int dir_facing, XYPos current_pos){
-  int x, y, new_dir;
-  x = current_pos.x;
-  y = current_pos.y;
+  int new_dir;
+  MazeNode current_node;
+  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
   switch(dir_facing){
     case M_NORTH:
-      new_dir = (maze[x][y].north_wall < 1) ? M_NORTH : -1;
+      new_dir = (current_node.north_wall < 1) ? M_NORTH : -1;
       break;
     case M_SOUTH:
-      new_dir = (maze[x][y].south_wall < 1) ? M_SOUTH : -1;
+      new_dir = (current_node.south_wall < 1) ? M_SOUTH : -1;
       break;
     case M_WEST:
-      new_dir = (maze[x][y].west_wall < 1) ? M_WEST : -1;
+      new_dir = (current_node.west_wall < 1) ? M_WEST : -1;
       break;
     case M_EAST:
-      new_dir = (maze[x][y].east_wall < 1) ? M_EAST : -1;
+      new_dir = (current_node.east_wall < 1) ? M_EAST : -1;
       break;
     default:
       new_dir = -1;
@@ -230,21 +223,22 @@ int getFront(int dir_facing, XYPos current_pos){
  *
  */
 int getLeft(int dir_facing, XYPos current_pos){
-  int x, y, new_dir;
-  x = current_pos.x;
-  y = current_pos.y;
+  int new_dir;
+  MazeNode current_node;
+  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
+
   switch(dir_facing){
     case M_NORTH:
-      new_dir = (maze[x][y].west_wall < 1) ? M_WEST : -1;
+      new_dir = (current_node.west_wall < 1) ? M_WEST : -1;
       break;
     case M_SOUTH:
-      new_dir = (maze[x][y].east_wall < 1) ? M_EAST : -1;
+      new_dir = (current_node.east_wall < 1) ? M_EAST : -1;
       break;
     case M_WEST:
-      new_dir = (maze[x][y].south_wall < 1) ? M_SOUTH : -1;
+      new_dir = (current_node.south_wall < 1) ? M_SOUTH : -1;
       break;
     case M_EAST:
-      new_dir = (maze[x][y].north_wall < 1) ? M_NORTH : -1;
+      new_dir = (current_node.north_wall < 1) ? M_NORTH : -1;
       break;
     default:
       new_dir = -1;
@@ -265,21 +259,22 @@ int getLeft(int dir_facing, XYPos current_pos){
  *
  */
 int getBack(int dir_facing, XYPos current_pos){
-  int x, y, new_dir;
-  x = current_pos.x;
-  y = current_pos.y;
+  int new_dir;
+  MazeNode current_node;
+  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
+
   switch(dir_facing){
     case M_NORTH:
-      new_dir = (maze[x][y].south_wall < 1) ? M_SOUTH : -1;
+      new_dir = (current_node.south_wall < 1) ? M_SOUTH : -1;
       break;
     case M_SOUTH:
-      new_dir = (maze[x][y].north_wall < 1) ? M_NORTH : -1;
+      new_dir = (current_node.north_wall < 1) ? M_NORTH : -1;
       break;
     case M_WEST:
-      new_dir = (maze[x][y].east_wall < 1) ? M_EAST : -1;
+      new_dir = (current_node.east_wall < 1) ? M_EAST : -1;
       break;
     case M_EAST:
-      new_dir = (maze[x][y].west_wall < 1) ? M_WEST : -1;
+      new_dir = (current_node.west_wall < 1) ? M_WEST : -1;
       break;
     default:
       new_dir = -1;
@@ -302,7 +297,7 @@ int isDeadEnd(XYPos current_pos){
   int new_dir;
   int wall_count;
   MazeNode current_node;
-  current_node = maze[current_pos.x][current_pos.y];
+  current_node = maze[current_pos.y][current_pos.x]; //get maze node at row y, column x
   wall_count = 0;
 
   if (current_node.north_wall < 1) new_dir = M_NORTH;
@@ -317,8 +312,8 @@ int isDeadEnd(XYPos current_pos){
   if (current_node.east_wall < 1) new_dir = M_EAST;
   else wall_count++;
 
-  if (wall_count == 3){
-    AddWall(current_pos.x, current_pos.y, new_dir, 2);
+  if (wall_count == 3){ //if there are 3 walls
+    AddWall(current_pos.y, current_pos.x, new_dir, 2); //add a fake wall at row y, column x
     return new_dir;
   }
   return -1;
@@ -338,36 +333,36 @@ int isDeadEnd(XYPos current_pos){
  *
  */
 void AddWall(int r, int c, int dir, int value){
-  MazeNode current_node;
-  MazeNode adjacent_node;
-  current_node = maze[r][c];
+  MazeNode *current_node;
+  MazeNode *adjacent_node;
+  current_node = &maze[r][c];
   if (dir == M_NORTH){
-    current_node.north_wall = value;
-    if (r > 0){
-      adjacent_node = maze[r-1][c];
-      adjacent_node.south_wall = value;
+    if (r > 0){ //if we aren't in the top row, update the north wall and the adjacent south wall
+      current_node->north_wall = value;
+      adjacent_node = &maze[r-1][c];
+      adjacent_node->south_wall = value;
     }
   }
   else if (dir == M_WEST){
-    current_node.west_wall = value;
-    if (c > 0){
-      adjacent_node = maze[r][c-1];
-      adjacent_node.east_wall = value;
+    if (c > 0){ //if we aren't in the 0th column, update the west wall and the adjacent east wall
+      current_node->west_wall = value;
+      adjacent_node = &maze[r][c-1];
+      adjacent_node->east_wall = value;
     }
   }
   else if (dir == M_EAST){
-    current_node.east_wall = value;
-    if (c < num_col-1){
-      adjacent_node = maze[r][c-1];
-      adjacent_node.west_wall = value;
+    if (c < num_col-1){ //if we aren't in the last column, update the east wall and the adjacent west wall
+      current_node->east_wall = value;
+      adjacent_node = &maze[r][c+1];
+      adjacent_node->west_wall = value;
 
     }
   }
   else if (dir == M_SOUTH){
-    current_node.south_wall = value;
-    if (r < num_rows-1){
-      adjacent_node = maze[r+1][c];
-      adjacent_node.north_wall = value;
+    if (r < num_rows-1){ //if we aren't in the bottom row, update the south wall and the adjacent north wall
+      current_node->south_wall = value;
+      adjacent_node = &maze[r+1][c];
+      adjacent_node->north_wall = value;
     }
   }
 }
