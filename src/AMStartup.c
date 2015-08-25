@@ -271,7 +271,7 @@ printf("Pritika is working on this and doesn't know how to merge stuff.\n");
             exit(EXIT_FAILURE);
         }
 
-        *arg = i;
+        *arg = a;
 
 
       // other thread stuff
