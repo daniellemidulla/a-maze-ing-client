@@ -155,21 +155,6 @@ void* print_i(void* ptr) {
             if(ntohl(rec_message->avatar_turn.TurnId) == a.avID){
                 printf("\nits my turn: %i", a.avID);
 
-                // // pick a move and make it
-                //     AM_Message *move = calloc(1, sizeof(AM_Message));
-                //     if(!move){
-                //         perror("\nNo memory");
-                //         exit(4);
-                //     }
-                //     // move->type = htonl(AM_AVATAR_MOVE);
-
-                // move->type = htonl(AM_AVATAR_MOVE);
-                // move->avatar_move.AvatarID = htonl(a.avID);
-                // move->avatar_move.Direction = htonl(3);
-                // int t = send(sockfd, move, sizeof(move), 0);
-                // printf("\nt: %i", t);
-                // free(move);
-                // // send move 
 
 
                 AM_Message *ready = calloc(1, sizeof(AM_Message));
