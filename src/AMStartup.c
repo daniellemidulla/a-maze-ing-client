@@ -283,7 +283,7 @@ main(int argc, char **argv)
 
       // other thread stuff
 
-      iret1 = pthread_create(&t1[a], NULL, print_i, av);
+      iret1 = pthread_create(&t1[a], NULL, avatar, av);
 
       if(iret1){
         printf("pthread_create failed");
@@ -311,7 +311,7 @@ main(int argc, char **argv)
   ///////////////////////////// clean stuff up
 
 
-    printf("\nFinishing");
+     printf("\nFinishing");
 
      close(MazePort);
      fprintf(pLog, "\n\nCleared Memory");

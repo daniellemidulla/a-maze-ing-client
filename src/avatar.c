@@ -54,7 +54,7 @@ int createAvatar(int id);
 /*====================================================================*/
 // function to test threads
 // This function will run concurrently.
-void* print_i(void* ptr) {
+void* avatar(void* ptr) {
 
     
 
@@ -182,16 +182,22 @@ void* print_i(void* ptr) {
         // else if the message is success, break
         else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
             printf("\nSolved!");
+            free(rec_message);
+            free(ptr);
             break;
         }
 
         else if(ntohl(rec_message->type) == AM_TOO_MANY_MOVES){
             printf("\nToo many moves! You lose.");
+            free(rec_message);
+            free(ptr);
             break;
         }
           //      How to use IS_AM_ERROR?
         else if(IS_AM_ERROR(ntohl(rec_message->type))){
             printf("\nReceived Error code");
+            free(rec_message);
+            free(ptr);
             break;
         }
 

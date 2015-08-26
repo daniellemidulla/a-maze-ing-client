@@ -23,7 +23,7 @@
 // ---------------- Prototypes/Macros
 
 
-void* print_i(void* ptr);
+void* avatar(void* ptr);
 
 
 
