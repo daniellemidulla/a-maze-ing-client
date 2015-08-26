@@ -147,11 +147,9 @@ void* avatar(void* ptr) {
 
         
 
-        // if turnID matches avID
+        ///////////////////////////////////////// if turnID matches avID, make a move
         if(ntohl(rec_message->type) == AM_AVATAR_TURN){
-            // parse and print message 
-            printf("\nTurnId: %i, XYPos x: %i, y: %i", ntohl(rec_message->avatar_turn.TurnId), ntohl(rec_message->avatar_turn.Pos[a.avID].x), ntohl(rec_message->avatar_turn.Pos[a.avID].y));
-
+     
             // if turn id is my id 
             if(ntohl(rec_message->avatar_turn.TurnId) == a.avID){
 
@@ -179,7 +177,7 @@ void* avatar(void* ptr) {
                 int move = 3;
                 // write move to the log
                 fprintf(a.pLog, "\nMove: %i", move);
-                
+
                 ready->avatar_move.Direction =htonl(move);
 
                  //send ready message to server 
@@ -208,7 +206,7 @@ void* avatar(void* ptr) {
             free(ptr);
             break;
         }
-          //      How to use IS_AM_ERROR?
+        
         else if(IS_AM_ERROR(ntohl(rec_message->type))){
             printf("\nReceived Error code");
             free(rec_message);
