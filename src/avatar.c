@@ -111,18 +111,29 @@ void* print_i(void* ptr) {
     sleep(1);
 
 
-
-
-
-    ////////////////////////////////// listen to server
+    ////////////////////////// initialize a move message and a rec message
+   
 
     AM_Message *rec_message = calloc(1, sizeof(AM_Message));
     if(!rec_message){
         perror("\nNo memory");
         exit(4);
     }
+
+    // AM_Message *move = calloc(1, sizeof(AM_Message));
+    // if(!move){
+    //     perror("\nNo memory");
+    //     exit(4);
+    // }
+    // move->type = htonl(AM_AVATAR_MOVE);
+
+
+    ////////////////////////////////// listen to server
+
+
     
     while (1){
+
         memset(rec_message, 0, sizeof(AM_Message)); 
         printf("\nsocket: %i", sockfd);
         int x = recv(sockfd, rec_message, sizeof(AM_Message), 0);
@@ -133,10 +144,37 @@ void* print_i(void* ptr) {
             return NULL;
         }
 
-        printf("message: %i", ntohl(rec_message->type) );
+        
+
+        // if turnID matches avID
+        if(ntohl(rec_message->type) == AM_AVATAR_TURN){
+            // parse and print message 
+            printf("\nTurnId: %i, XYPos x: %i, y: %i", ntohl(rec_message->avatar_turn.TurnId), ntohl(rec_message->avatar_turn.Pos[a.avID].x), ntohl(rec_message->avatar_turn.Pos[a.avID].y));
+
+            // if turn id is my id 
+            if(ntohl(rec_message->avatar_turn.TurnId) == a.avID){
+                printf("\nits my turn: %i", a.avID);
+
+                // pick a move and make it
+                AM_Message *move;
+                move->type = htonl(AM_AVATAR_MOVE);
+                move->avatar_move.AvatarID = htonl(a.avID);
+                move->avatar_move.Direction = htonl(3);
+                int t = send(sockfd, move, sizeof(move), 0);
+                printf("\nt: %i", t);
+                // send move 
 
 
-        // recieve messages 
+            }
+        }
+
+        // else if the message is success, break
+        else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
+            printf("\nSolved!");
+            break;
+        }
+
+                
     }
 
 
@@ -147,48 +185,6 @@ void* print_i(void* ptr) {
 }
 
 
-
-// int initializeMazeport(char* ip, int MazePort, int id, int sockfd, struct sockaddr_in servaddr){
-
-//     //Create a socket for the client
-//      //If sockfd<0 there was an error in the creation of the socket
-//      if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
-//           perror("Problem in creating the socket");
-//           exit(2);
-//      }
-    
-//      //Creation of the socket
-//      memset(&servaddr, 0, sizeof(servaddr));
-//      servaddr.sin_family = AF_INET;
-//      servaddr.sin_addr.s_addr= inet_addr(ip);
-//      servaddr.sin_port =  htons(MazePort); //convert to big-endian order
-    
-//      //Connection of the client to the socket 
-//      int connected = connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr));
-//      if (connected <0) {
-//           perror("Problem in connecting to the server");
-//           exit(3);
-//      }
-//      printf("\nconnected to socket: %i", connected);
-
-//     AM_Message *ready = malloc(sizeof(AM_Message));
-//     if (!ready){
-//         perror("No memory\n");
-//         exit(4);
-//     }
-    
-//     ready->type = htonl(AM_AVATAR_READY);
-//     ready->avatar_ready.AvatarId = htonl(id);
-
-//     //send ready message to server 
-//     int sent = send(sockfd, ready, sizeof(AM_Message), 0);
-//     printf("\nAvatar ready message sent: %i", sent);
-//     free(ready);
-    
-
-//      return sockfd;
-    
-// }
 
 
 

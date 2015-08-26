@@ -266,7 +266,7 @@ main(int argc, char **argv)
     close(sockfd);
   
     pthread_t t1[nAvatars];
-    void* thread_result = NULL;
+    void* thread_res = NULL;
     int iret1;
     printf("\nediting");
     for (int a = 0; a < nAvatars; a++){
@@ -297,13 +297,18 @@ main(int argc, char **argv)
 
       // --------------- WAITING FOR THREADS TO FINISH
   for(int b = nAvatars - 1; b >= 0; b--) {
-    int res = pthread_join(t1[b], &thread_result); 
+    int res = pthread_join(t1[b], &thread_res); 
     if (res == 0) {
       fprintf(stderr, "thread %d\n", b); 
     } else {
       fprintf(stderr, "pthread_join failed\n");
     } 
   }
+
+
+
+
+  ///////////////////////////// clean stuff up
 
 
     printf("\nFinishing");
