@@ -132,13 +132,15 @@ void* print_i(void* ptr) {
 
 
     
-    while (1){
+    while (1)
+    {
 
         memset(rec_message, 0, sizeof(AM_Message)); 
         printf("\nsocket: %i", sockfd);
         int x = recv(sockfd, rec_message, sizeof(AM_Message), 0);
         printf("%i", x);
-        if ( x== 0){
+        if ( x== 0)
+        {
             //error: server terminated prematurely
             printf("\n server error");
             return NULL;
@@ -182,6 +184,16 @@ void* print_i(void* ptr) {
             printf("\nSolved!");
             break;
         }
+
+        else if(ntohl(rec_message->type) == AM_TOO_MANY_MOVES){
+            printf("\nToo many moves! You lose.");
+            break;
+        }
+        //         How to use IS_AM_ERROR?
+        // else if(IS_AM_ERROR(ntohl(rec_message->type)){
+        //     printf("\nReceived Error code");
+        //     break;
+        // }
 
                 
     }
