@@ -189,11 +189,11 @@ void* print_i(void* ptr) {
             printf("\nToo many moves! You lose.");
             break;
         }
-        //         How to use IS_AM_ERROR?
-        // else if(IS_AM_ERROR(ntohl(rec_message->type)){
-        //     printf("\nReceived Error code");
-        //     break;
-        // }
+          //      How to use IS_AM_ERROR?
+        else if(IS_AM_ERROR(ntohl(rec_message->type))){
+            printf("\nReceived Error code");
+            break;
+        }
 
                 
     }
