@@ -279,6 +279,7 @@ main(int argc, char **argv)
       av->difficulty = difficulty;
       strcpy(av->ip, ip);
       av->MazePort = MazePort;
+      av->pLog = pLog;
 
 
       // other thread stuff

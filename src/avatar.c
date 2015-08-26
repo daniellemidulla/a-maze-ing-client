@@ -48,8 +48,7 @@
 // ---------------- Private variables 
 
 // ---------------- Private prototypes 
-int initializeMazeport(char* ip, int MazePort, int id, int sockfd, struct sockaddr_in servaddr);
-int createAvatar(int id);
+
 
 /*====================================================================*/
 // function to test threads
@@ -63,7 +62,7 @@ void* avatar(void* ptr) {
     int sockfd = 0;
     struct sockaddr_in servaddr;
     avatarInfo a = *((avatarInfo *) ptr);
-    printf("\nTHREAD FOR %i", a.avID);
+    fprintf(a.pLog, "\n\nTHREAD FOR %i", a.avID);
 
 
 
@@ -155,7 +154,13 @@ void* avatar(void* ptr) {
 
             // if turn id is my id 
             if(ntohl(rec_message->avatar_turn.TurnId) == a.avID){
-                printf("\nits my turn: %i", a.avID);
+
+                // write board to the log
+                fprintf(a.pLog, "\n\nits my turn: %i", a.avID);
+                fprintf(a.pLog, "\nCurrent board:");
+                for( int b = 0; b < a.nAvatars; b++){
+                    fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,  ntohl(rec_message->avatar_turn.Pos[b].x), ntohl(rec_message->avatar_turn.Pos[b].y));
+                }
 
 
 
@@ -172,6 +177,9 @@ void* avatar(void* ptr) {
                 /// GET A MOVE FROM ALGORITHM 
                 // for now im just using 3
                 int move = 3;
+                // write move to the log
+                fprintf(a.pLog, "\nMove: %i", move);
+                
                 ready->avatar_move.Direction =htonl(move);
 
                  //send ready message to server 
@@ -179,6 +187,8 @@ void* avatar(void* ptr) {
                 printf("\nAvatar ready message sent: %i, for av %i", sent, a.avID);
                 free(ready);
                 sleep(1);
+
+
 
 
             }
@@ -205,6 +215,8 @@ void* avatar(void* ptr) {
             free(ptr);
             break;
         }
+
+
 
                 
     }
