@@ -73,7 +73,6 @@ main(int argc, char **argv)
 
 /////////////////////////////////////////// argument checks ///////////////////////////////////////////////
 
-printf("Pritika is working on this and doesn't know how to merge stuff.\n");
 
 	static struct option long_options[] =
     {
@@ -257,10 +256,10 @@ printf("Pritika is working on this and doesn't know how to merge stuff.\n");
           // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
     printf("*******THREADS*******");
     close(sockfd);
-    // create fake threads
+  
     pthread_t t1[nAvatars];
     int iret1;
-
+    printf("\nediting");
     for (int a = 0; a < nAvatars; a++){
 
       // create args

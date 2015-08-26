@@ -58,47 +58,52 @@ void* print_i(void* ptr) {
     int sockfd = 0;
     struct sockaddr_in servaddr;
     avatarInfo a = *((avatarInfo *) ptr);
-    //printf("\nTHREAD FOR %i", a.avID);
+    AM_Message *rec_message = calloc(1, sizeof(AM_Message));
+    if(!rec_message){
+        perror("\nNo memory");
+        exit(4);
+    }
+    printf("\nTHREAD FOR %i", a.avID);
 
     sockfd = initializeMazeport(a.ip, a.MazePort, a.avID, sockfd, servaddr);
-
+    printf("\nsock: %i", sockfd);
     while(1){
        
         // listen to message
         // v0: print message back out
         // Recvd
-     AM_Message *rec_message = malloc(sizeof(AM_Message));
-     if(!rec_message){
-        perror("\nNo memory");
-        exit(4);
-     }
-     printf("\n %i", sockfd);
-     int rec = recv(sockfd, rec_message, sizeof(AM_Message),0);
-     printf("\nmessage type %i", ntohl(rec_message->type));
 
-     
-      if (rec == 0){
-               //error: server terminated prematurely
+
+        // create a message to be received 
+        
+        memset(rec_message, 0, sizeof(AM_Message));
+        int rec = recv(sockfd, rec_message, sizeof(AM_Message), 0);
+        printf("%i", rec);
+        if (rec == 0){
+                           //error: server terminated prematurely
                perror("The server terminated prematurely"); 
                exit(4);
-      }
-      else if (rec == -1){
-        int err = errno;
-        printf("\n failure: %i", err);
-
-      }
-
-      // if we received a message, decode it
-      else if( rec > 0){
-        printf("got a message");
-            // get a turn from the rule
-            // update maze knowledge
-            // write to log
-      }
+        }
 
 
+        // if we received a message, decode it
+        
+            printf("\nmessage type %i", ntohl(rec_message->type));
+            printf("\ngot a message");
+
+            // if it is a turn message
 
 
+                 // if avatar id matches turn id
+
+                    // get a turn from the rule
+                    // update maze knowledge
+                    // write to log
+
+        
+
+      printf("\nlooped");
+      sleep(1);
 
 
     }
@@ -153,68 +158,3 @@ int initializeMazeport(char* ip, int MazePort, int id, int sockfd, struct sockad
 
 
 
-
-//Essentially this will send a message to the server from each avatar saying they are ready, and once we have heard from all of them the server will initialze Avatare structures with their turn ID and location. Right CreateAvatar is called for each avatar thread, and startup() will be too. 
-// int createAvatar(int id){
-//    //Prepare message for SENDING
-//     AM_Message *ready = malloc(sizeof(AM_Message));
-//     if (!ready){
-//         perror("No memory\n");
-//         exit(4);
-//     }
-//     sleep (1);
-//     printf("Building avatars ready message to server");
-//     ready->type = htonl(AM_AVATAR_READY);
-//     ready->avatar_ready.AvatarId = htonl(id);
-
-//     //send ready message to server 
-//     send(sockfd, ready, AM_MAX_MESSAGE, 0);
-//     free(ready);
-//     return 1;
-
-//     //Once the server has heard from each avatar, it will send each one it's location and it's turn ID.
-    //inialize Avatar struct with XYPos based on message
-
-//}
-// int startup(int id){
-//     //Prepare to RECEIVE message
-//     AM_MESSAGE *rec_message = malloc(sizeof(AM_Message));
-//     if(!rec_message){
-//         perror("\nNo memory");
-//         exit(4);
-//     }
-
-//     if (recv((sockfd, rec_message, AM_MAX_MESSAGE, 0)) == 0){
-//             error: server terminated prematurely
-//             perror("The server terminated prematurely");
-//             exit(4);
-//      }
-
-//      printf("\n Parsing server reply");
-
-//      if (ntohl(rec_message->type == AM_NO_SUCH_AVATAR)){
-//          printf("Illegal avatar ID sent a ready to the server");
-//         exit(5);
-//         }
-
-//     if (ntohl(rec_message->type == AM_AVATAR_TURN)){
-//         Avatar *newAv = malloc(sizeof(Avatar));//Correct? Or is an Avatar instance already in existence?
-//        newAv->pos = ntohl(rec_message->avatar_turn.Pos[id]);
-//        uint32_t TurnId = ntohl(rec_message->avatar_turn.TurnId;
-//         return TurnId;
-//         }
-
-
-//     if(ntohl(rec_message->type) == AM_INIT_FAILED){
-//         printf("\nInitialization failed.");
-//         exit(5);
-//         }
-
-
-
-//     return (-1);
-
-
-
-
-// }
