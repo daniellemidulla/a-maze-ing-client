@@ -7,16 +7,13 @@ CFLAGS = -Wall -pedantic -std=c11 -ggdb
 GFLAG = -lncurses
 TFLAG = -pthread
 EXEC = maze
-OBJS = AMStartup.o avatar.o graphics.o
+OBJS = avatar.o graphics.o
 SRCS = AMStartup.c avatar.c graphics.c
 
 # luckily, make has comments too!  
 
 $(EXEC): $(OBJS)
 	$(CC) $(CFLAGS) $(TFLAG) $(GFLAG) -o $(EXEC) $(OBJS) 
-
-AMStartup.o: AMStartup.c
-	$(CC) $(CFLAGS) -c AMStartup.c
 
 graphics.o: graphics.c
 	$(CC) $(CFLAGS) -c graphics.c

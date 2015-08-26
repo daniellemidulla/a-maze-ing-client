@@ -58,14 +58,8 @@ void* print_i(void* ptr) {
     int sockfd = 0;
     struct sockaddr_in servaddr;
     avatarInfo a = *((avatarInfo *) ptr);
-    printf("\nTHREAD FOR %i", a.avID);
+    //printf("\nTHREAD FOR %i", a.avID);
 
-            printf("\nmazePort %i", a.MazePort);
-            printf("\ndifficulty %i", a.difficulty);
-            printf("\nnAvatars %i", a.nAvatars);
-            printf("\nip %s", a.ip);
-
-    printf("\ninitializing mazeport");
     sockfd = initializeMazeport(a.ip, a.MazePort, a.avID, sockfd, servaddr);
 
     while(1){
@@ -79,44 +73,41 @@ void* print_i(void* ptr) {
         exit(4);
      }
      printf("\n %i", sockfd);
-     int help = recv(sockfd, rec_message, AM_MAX_MESSAGE,0);
+     int rec = recv(sockfd, rec_message, sizeof(AM_Message),0);
      printf("\nmessage type %i", ntohl(rec_message->type));
 
      
-      if (help == 0){
+      if (rec == 0){
                //error: server terminated prematurely
                perror("The server terminated prematurely"); 
                exit(4);
       }
-      else if (help == -1){
+      else if (rec == -1){
         int err = errno;
         printf("\n failure: %i", err);
 
       }
+
+      // if we received a message, decode it
+      else if( rec > 0){
+        printf("got a message");
+            // get a turn from the rule
+            // update maze knowledge
+            // write to log
+      }
+
 
 
 
 
 
     }
-
-
-
-    
+  
     return NULL;
         
 }
 
 
-// create avatar pseudocode
-
-        // while not exit conditions (given in lab notes)
-
-            // if avatarID matches TurnID
-                // make a turn from rule
-                // update maze knowledge
-                // write to log
-        // close port with fclose(sockfd) 
 
 int initializeMazeport(char* ip, int MazePort, int id, int sockfd, struct sockaddr_in servaddr){
 
@@ -146,13 +137,13 @@ int initializeMazeport(char* ip, int MazePort, int id, int sockfd, struct sockad
         perror("No memory\n");
         exit(4);
     }
-    printf("Building avatars ready message to server");
+    
     ready->type = htonl(AM_AVATAR_READY);
     ready->avatar_ready.AvatarId = htonl(id);
 
     //send ready message to server 
-    int sent = send(sockfd, ready, AM_MAX_MESSAGE, 0);
-    printf("\n message sent %i", sent);
+    int sent = send(sockfd, ready, sizeof(AM_Message), 0);
+    printf("\nAvatar ready message sent: %i", sent);
     free(ready);
     
 
