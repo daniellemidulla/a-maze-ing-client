@@ -150,6 +150,14 @@ main(int argc, char **argv)
     if (argc != 7){
     printf("You don't have the proper number of arguments. Please enter [AVATARS 0-10] [    DIFFICULTY 0-50] [HOST NAME \"pierce.cs.dartmouth.edu\"]\n You entered %d arguments.", argc);
      }
+    
+
+
+
+
+
+
+
     //////////////////////////////////////////////////////////Socket Stuff///////////////////////////////////////////////////////////
 
      //Socket  stuff - modelled after code from lecture 23
@@ -192,7 +200,7 @@ main(int argc, char **argv)
      init_message->init.Difficulty = htonl(difficulty);
   
      // send init message to server
-     send(sockfd, init_message, AM_MAX_MESSAGE, 0);
+     send(sockfd, init_message, sizeof(AM_Message), 0);
      free(init_message);
 
      // recieve AM_INIT_OK <- contains unique mazePort, which is the TCP/IP 
@@ -206,7 +214,7 @@ main(int argc, char **argv)
       exit(4);
      }
 
-      if (recv(sockfd, rec_message, AM_MAX_MESSAGE,0) == 0){
+      if (recv(sockfd, rec_message, sizeof(AM_Message),0) == 0){
                //error: server terminated prematurely
                perror("The server terminated prematurely"); 
                exit(4);
@@ -214,7 +222,7 @@ main(int argc, char **argv)
 
       printf("\nParsing server reply.");
 
-      // TODO : set global variables from these values? 
+      
 
       if(ntohl(rec_message->type) == AM_INIT_OK){
         printf("\nReturned AM_INIT_OK");
@@ -258,6 +266,7 @@ main(int argc, char **argv)
     close(sockfd);
   
     pthread_t t1[nAvatars];
+    void* thread_result = NULL;
     int iret1;
     printf("\nediting");
     for (int a = 0; a < nAvatars; a++){
@@ -284,23 +293,20 @@ main(int argc, char **argv)
 
 
 
-    //Allocate N avatar threads
-    
-    //pthread_t threads[nAvatars];   
-    /*pthread_t threads = malloc(sizeof(pthread_t) * nAvatars); 
-     if (threads == NULL){
-         printf("No Memory allocated for avatar threads");
-         exit (1);
-     }
-     */
-    //int a;
-     //For each avatar, creating a thread. each 0-n avatar will run on thread[0-n]. Working out logistics
-     //for (a = 0; a < nAvatars; a++){
-     //if ((pthread_create(&(threads[i]), NULL, createAvatar, i, nAvatars, diffculty, ip, MazePort, plog)) != 0){
-        //fprintf(pLog, "\nNew Thread: %i", threads[i]);
-      //  printf("\nNew Thread: %i", i);
-      //  }
-    //}
+/////////////////////////////////// wait until threads are done
+
+      // --------------- WAITING FOR THREADS TO FINISH
+  for(int b = nAvatars - 1; b >= 0; b--) {
+    int res = pthread_join(t1[b], &thread_result); 
+    if (res == 0) {
+      fprintf(stderr, "thread %d\n", b); 
+    } else {
+      fprintf(stderr, "pthread_join failed\n");
+    } 
+  }
+
+
+    printf("\nFinishing");
 
      close(MazePort);
      fprintf(pLog, "\n\nCleared Memory");

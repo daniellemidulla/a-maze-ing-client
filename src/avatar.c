@@ -108,6 +108,7 @@ void* print_i(void* ptr) {
     int sent = send(sockfd, ready, sizeof(AM_Message), 0);
     printf("\nAvatar ready message sent: %i, for av %i", sent, a.avID);
     free(ready);
+    sleep(1);
 
 
 
