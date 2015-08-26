@@ -138,7 +138,7 @@ main(int argc, char **argv)
       printf("There must be between 1 and %d Avatars. You entered: %i\n", AM_MAX_AVATAR, nAvatars);
       exit(EXIT_FAILURE);
     }
-    if(!difficulty || (difficulty < 0) || (difficulty > AM_MAX_DIFFICULTY)){
+    if( (difficulty < 0) || (difficulty > AM_MAX_DIFFICULTY)){
       printf("The difficulty level must be on the scale of 0(easy) to %d(extremely difficult).\n", AM_MAX_DIFFICULTY);
       exit(EXIT_FAILURE);
     }

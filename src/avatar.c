@@ -167,7 +167,7 @@ void* avatar(void* ptr) {
     
                 ready->type = htonl(AM_AVATAR_MOVE);
                 ready->avatar_move.AvatarId = htonl(a.avID);
-                ready->avatar_move.Direction =htonl(2);
+                ready->avatar_move.Direction =htonl(3);
 
                  //send ready message to server 
                 int sent = send(sockfd, ready, sizeof(AM_Message), 0);
