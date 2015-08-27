@@ -48,7 +48,7 @@
 // ---------------- Structures/Types 
 
 // ---------------- Private variables 
-
+Maze *maze;  
 // ---------------- Private prototypes 
 
 
@@ -56,9 +56,6 @@
 // function to test threads
 // This function will run concurrently.
 void* avatar(void* ptr) {
-
-    
-
 
     // Initial variables 
     int sockfd = 0;
@@ -90,7 +87,10 @@ void* avatar(void* ptr) {
           exit(3);
      }
      printf("\nconnected to socket: %i", connected);
-
+    
+     if (!maze){
+         maze = initMaze(a.MazeWidth,a.MazeHeight);
+     }
 
 
      //////////////////////////// send initial message 
@@ -121,15 +121,10 @@ void* avatar(void* ptr) {
         exit(4);
     }
 
-
-
     ////////////////////////////////// listen to server
 
-
-    
     while (1)
     {
-
         memset(rec_message, 0, sizeof(AM_Message)); 
         printf("\n thread %i, socket %i", a.avID, sockfd);
         int x = recv(sockfd, rec_message, sizeof(AM_Message), 0);
@@ -163,11 +158,12 @@ void* avatar(void* ptr) {
                      }
                     else {
                         if ((pos.x == Avatars[a.avID].pos.x) && (pos.y == Avatars[b].pos.y)){
+                            printf("pos.x: %i, pos.y: %y \n", pos.x, pos.y);
                             AddWall(pos.y, pos.x, Avatars[b].last_move, 1);
                             Avatars[b].last_move = M_NULL_MOVE;
                      }
                         else {
-                            Avatarst [b].pos = pos;
+                            Avatars[b].pos = pos;
                             Avatars[b].direction = Avatars[b].last_move;
                             Avatars[b].last_move = M_NULL_MOVE;
                          }
@@ -189,6 +185,7 @@ void* avatar(void* ptr) {
                 //int move = rand() % 4;
                 // write move to the log
                 fprintf(a.pLog, "\nMove: %i", move);
+                printf("\nMove: %i", move);
 
                 ready->avatar_move.Direction =htonl(move);
 
