@@ -13,6 +13,7 @@
 #define INC_FILE_H
 #include "amazing.h"
 // ---------------- Prerequisites e.g., Requires "math.h"
+#include "amazing.h"
 
 // ---------------- Constants
 

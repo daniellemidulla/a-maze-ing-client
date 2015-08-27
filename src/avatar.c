@@ -38,7 +38,7 @@
 
 // ---------------- Local includes  e.g., "file.h"
 
-#include "amazing.h"
+#include "avatar.h"
 #include "maze.h"
 
 // ---------------- Constant definitions 
