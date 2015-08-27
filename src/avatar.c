@@ -146,6 +146,7 @@ void* avatar(void* ptr) {
         if(ntohl(rec_message->type) == AM_AVATAR_TURN){
      
             // if turn id is my id 
+            int move = 0;
             if(ntohl(rec_message->avatar_turn.TurnId) == a.avID){
 
                 // write board to the log
@@ -158,20 +159,20 @@ void* avatar(void* ptr) {
                     fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,pos.x, pos.y);
                     printf("\nCurrent position of avatar %i - x: %i y: %i", b,pos.x, pos.y);
                     if (Avatars[b].last_move == M_NULL_MOVE){
-                        Avatars[b]->pos = pos;
+                        Avatars[b].pos = pos;
                      }
                     else {
-                        if ((pos.x == Avatar[a.avID].pos.x) && (pos.y == Avatar[a].pos.y)){
+                        if ((pos.x == Avatars[a.avID].pos.x) && (pos.y == Avatars[b].pos.y)){
                             AddWall(pos.y, pos.x, Avatars[b].last_move, 1);
-                            Avatars[b].last_name = M_NULL_MOVE;
+                            Avatars[b].last_move = M_NULL_MOVE;
                      }
                         else {
-                            Avatar[b].pos = pos;
+                            Avatarst [b].pos = pos;
                             Avatars[b].direction = Avatars[b].last_move;
                             Avatars[b].last_move = M_NULL_MOVE;
                          }
                      }
-                 int move = rightHandRule(Avatar[a.avID]);
+                 
                 }
 
                 AM_Message *ready = calloc(1, sizeof(AM_Message));
@@ -179,8 +180,8 @@ void* avatar(void* ptr) {
                      perror("No memory\n");
                      exit(4);
                 }
-                
-                Avatar[a.avID].last_move = move;
+                move = rightHandRule(Avatars[a.avID]);
+                Avatars[a.avID].last_move = move;
                 ready->type = htonl(AM_AVATAR_MOVE);
                 ready->avatar_move.AvatarId = htonl(a.avID);
 
