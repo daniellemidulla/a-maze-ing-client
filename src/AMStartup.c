@@ -282,8 +282,8 @@ main(int argc, char **argv)
 
       //create global variable Avatars[], an array of Avatar structs.
       Avatar newAv; // = malloc(sizeof(Avatar));
-      newAv->direction = M_NORTH;
-      newAv->last_move = M_NULL_MOVE;
+      newAv.direction = M_NORTH;
+      newAv.last_move = M_NULL_MOVE;
       Avatars[a] = newAv;
 
       // other thread stuff
