@@ -193,8 +193,7 @@ int TestInitMaze4(){
 int TestRHR1(){
   START_TEST_CASE;
   Avatar avatar;
-  avatar.fd = -1;
-  //printf("in maze_test: avatar: dir: %d, x : %d, y: %d\n", avatar.fd, avatar.pos.x, avatar.pos.y);
+  avatar.direction = -1;
   initMaze(3, 3);
   SHOULD_BE(rightHandRule(avatar) == -1);
   CleanupMaze();
@@ -212,7 +211,6 @@ int TestRHR2(){
   START_TEST_CASE;
   Avatar avatar;
   avatar.pos.x = -1;
-  //printf("in maze_test: avatar: dir: %d, x : %d, y: %d\n", avatar.fd, avatar.pos.x, avatar.pos.y);
   initMaze(3, 3);
   SHOULD_BE(rightHandRule(avatar) == -1);
   CleanupMaze();
@@ -230,7 +228,6 @@ int TestRHR3(){
   START_TEST_CASE;
   Avatar avatar;
   avatar.pos.x = 3;
-  //printf("in maze_test: avatar: dir: %d, x : %d, y: %d\n", avatar.fd, avatar.pos.x, avatar.pos.y);
   initMaze(3, 3);
   SHOULD_BE(rightHandRule(avatar) == -1);
   CleanupMaze();
@@ -251,13 +248,13 @@ int TestRHR4(){
   SHOULD_BE(maze[1][1].west_wall == -1);
   SHOULD_BE(maze[1][1].east_wall == -1);
   SHOULD_BE(maze[1][1].south_wall == -1);
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   SHOULD_BE(rightHandRule(avatar) == M_WEST);
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   SHOULD_BE(rightHandRule(avatar) == M_NORTH);
   CleanupMaze();
   END_TEST_CASE;
@@ -273,22 +270,22 @@ int TestRHR5(){
   maze = initMaze(3, 3)->maze;
   avatar.pos.x = 1; //avatar is in column 1
   avatar.pos.y = 0; //avatar is in row 0
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   SHOULD_BE(maze[0][1].north_wall == 1); //there should be a wall north of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_WEST);
   avatar.pos.x = 0; //avatar is in column 0
   avatar.pos.y = 1; //avatar is in row 1
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   SHOULD_BE(maze[1][0].west_wall == 1); //there should be a wall west of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
   avatar.pos.x = 1; //avatar is in column 1
   avatar.pos.y = 2; //avatar is in row 2
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   SHOULD_BE(maze[2][1].south_wall == 1); //there should be a wall south of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
   avatar.pos.x = 2; //avatar is in column 2
   avatar.pos.y = 1; //avatar is in row 1
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   SHOULD_BE(maze[1][2].east_wall == 1); //there should be a wall east of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_NORTH);
 
@@ -307,28 +304,28 @@ int TestRHR6(){
   //avatar in the top left corner facing west, should go south
   avatar.pos.x = 0;
   avatar.pos.y = 0;
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   SHOULD_BE(maze[0][0].north_wall == 1);
   SHOULD_BE(maze[0][0].west_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
   //avatar in the bottom left corner facing south, should go east
   avatar.pos.x = 0;
   avatar.pos.y = 2;
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   SHOULD_BE(maze[2][0].west_wall == 1);
   SHOULD_BE(maze[2][0].south_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
   //avatar in the bottom right corner facing east, should go north
   avatar.pos.x = 2;
   avatar.pos.y = 2;
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   SHOULD_BE(maze[2][2].east_wall == 1);
   SHOULD_BE(maze[2][2].south_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_NORTH);
   //avatar in the top right corner facing north, should go west
   avatar.pos.x = 2;
   avatar.pos.y = 0;
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   SHOULD_BE(maze[0][2].east_wall == 1);
   SHOULD_BE(maze[0][2].north_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_WEST);
@@ -348,7 +345,7 @@ int TestRHR7(){
   avatar.pos.x = 1;
   avatar.pos.y = 1;
   //avatar facing north in a maze node with north, east, and west walls
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   AddWall(1, 1, M_NORTH, 1);
   AddWall(1, 1, M_EAST, 1);
   AddWall(1, 1, M_WEST, 1);
@@ -356,7 +353,7 @@ int TestRHR7(){
   SHOULD_BE(maze[1][1].south_wall == 2); //maze node where the avatar was now has a 4th wall
   SHOULD_BE(maze[2][1].north_wall == 2); //maze node the avatar will move to has a "fake" north wall
   //avatar facing west in a maze node with north, south, and west walls
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   AddWall(1, 1, M_NORTH, 1);
   AddWall(1, 1, M_EAST, 0); //reset value of east wall to 0
   AddWall(1, 1, M_WEST, 1);
@@ -365,7 +362,7 @@ int TestRHR7(){
   SHOULD_BE(maze[1][1].east_wall == 2); //maze node where the avatar was now has a 4th wall
   SHOULD_BE(maze[1][2].west_wall == 2); //maze node the avatar will move to has a "fake" west wall
   //avatar facing south in a maze node with east, south, and west walls
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   AddWall(1, 1, M_NORTH, 0); //reset value of north wall to 0
   AddWall(1, 1, M_EAST, 1);
   AddWall(1, 1, M_WEST, 1);
@@ -374,7 +371,7 @@ int TestRHR7(){
   SHOULD_BE(maze[1][1].north_wall == 2); //maze node where the avatar was now has a 4th wall
   SHOULD_BE(maze[0][1].south_wall == 2); //maze node the avatar will move to has a "fake" south wall
   //avatar facing east in a maze node with north, south, and west walls
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   AddWall(1, 1, M_NORTH, 1);
   AddWall(1, 1, M_EAST, 1);
   AddWall(1, 1, M_WEST, 0); //reset value of north wall to 0

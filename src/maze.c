@@ -100,20 +100,20 @@ Maze* initMaze(int r, int c){
  *
  */
 int rightHandRule(Avatar avatar){
-  if((avatar.pos.x >= full_maze.num_col) || (avatar.pos.y >= full_maze.num_row) || (avatar.fd < 0)){
+  if((avatar.pos.x >= full_maze.num_col) || (avatar.pos.y >= full_maze.num_row) || (avatar.direction < 0)){
     return -1;
   }
 
   int new_dir;
   new_dir = isDeadEnd(avatar.pos);
   if(new_dir == -1){
-    new_dir = getRight(avatar.fd, avatar.pos);
+    new_dir = getRight(avatar.direction, avatar.pos);
     if (new_dir == -1) {
-      new_dir = getFront(avatar.fd, avatar.pos);
+      new_dir = getFront(avatar.direction, avatar.pos);
       if (new_dir == -1) {
-        new_dir = getLeft(avatar.fd, avatar.pos);
+        new_dir = getLeft(avatar.direction, avatar.pos);
         if (new_dir == -1) {
-          new_dir = getBack(avatar.fd, avatar.pos);
+          new_dir = getBack(avatar.direction, avatar.pos);
           if(new_dir != -1){
             AddWall(avatar.pos.y, avatar.pos.x, new_dir, 2);
           }
