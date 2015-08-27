@@ -15,6 +15,9 @@ SRCS = AMStartup.c avatar.c
 $(EXEC): $(OBJS)
 	$(CC) $(CFLAGS) $(TFLAG) $(GFLAG) -o $(EXEC) $(OBJS) 
 
+avatar.o: avatar.c avatar.h
+	$(CC) $(CFLAGS) -c avatar.c
+
 #graphics.o: graphics.c
 #	$(CC) $(CFLAGS) -c graphics.c
 
