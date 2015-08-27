@@ -89,7 +89,7 @@ void* avatar(void* ptr) {
      printf("\nconnected to socket: %i", connected);
     
      if (!maze){
-         maze = initMaze(a.MazeWidth,a.MazeHeight);
+         maze = initMaze(a.MazeHeight,a.MazeWidth);
      }
 
 
@@ -152,17 +152,21 @@ void* avatar(void* ptr) {
                     pos.x = ntohl(rec_message->avatar_turn.Pos[b].x);
                     pos.y = ntohl(rec_message->avatar_turn.Pos[b].y);
                     fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,pos.x, pos.y);
-                    printf("\nCurrent position of avatar %i - x: %i y: %i", b,pos.x, pos.y);
                     if (Avatars[b].last_move == M_NULL_MOVE){
                         Avatars[b].pos = pos;
                      }
                     else {
-                        if ((pos.x == Avatars[a.avID].pos.x) && (pos.y == Avatars[b].pos.y)){
-                            printf("pos.x: %i, pos.y: %y \n", pos.x, pos.y);
+                        printf("\na.avID = %d", a.avID);
+                    printf("\nCurrent position of avatar %i - x: %i y: %i", b,pos.x, pos.y);
+                            printf("\nAvatar %d: pos.x: %i, pos.y: %i, last_move: %d \n", b, Avatars[b].pos.x, Avatars[b].pos.y, Avatars[b].last_move);
+                        if ((pos.x == Avatars[b].pos.x) && (pos.y == Avatars[b].pos.y)){
+                            printf("The avatar did not move!");
                             AddWall(pos.y, pos.x, Avatars[b].last_move, 1);
                             Avatars[b].last_move = M_NULL_MOVE;
                      }
                         else {
+                            printf("the avatar moved!!");
+                            AddWall(pos.y, pos.x, Avatars[b].last_move, 0);
                             Avatars[b].pos = pos;
                             Avatars[b].direction = Avatars[b].last_move;
                             Avatars[b].last_move = M_NULL_MOVE;
