@@ -181,7 +181,12 @@ void* avatar(void* ptr) {
                      exit(4);
                 }
                 move = rightHandRule(Avatars[a.avID]);
-                Avatars[a.avID].last_move = move;
+                if(move != -1){
+                  Avatars[a.avID].last_move = move;
+                }
+                else{
+                  exit(EXIT_FAILURE);
+                }
                 ready->type = htonl(AM_AVATAR_MOVE);
                 ready->avatar_move.AvatarId = htonl(a.avID);
 

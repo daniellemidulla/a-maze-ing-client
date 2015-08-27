@@ -34,8 +34,6 @@
 
 // ---------------- Private variables 
 Maze full_maze;
-// int num_rows;
-// int num_col;
 
 // ---------------- Private prototypes 
 /* getRight - returns the direction "right" of the avatar" */
@@ -69,8 +67,10 @@ int isDeadEnd(XYPos current_pos);                 //checks if current position i
 Maze* initMaze(int r, int c){
   if (r == 0) return NULL;
   if(c == 0) return NULL;
+  if((full_maze.maze != NULL) && (full_maze.maze[0] != NULL)) return &full_maze;
   full_maze.num_row = r;
   full_maze.num_col = c;
+  printf("initializing maze with %d rows and %d columns", full_maze.num_row, full_maze.num_col);
   full_maze.maze = calloc(full_maze.num_row, sizeof(MazeNode *)); //(MazeNode **) 
   int i;
   int j;
@@ -100,6 +100,8 @@ Maze* initMaze(int r, int c){
  *
  */
 int rightHandRule(Avatar avatar){
+  MazeNode * current_node = &full_maze.maze[avatar.pos.y][avatar.pos.y];
+  printf("\nin rightHandRule: avatar %d: pos: x: %d, y: %d, direction: %d\n\tmaze: north_wall: %d, south_wall: %d, west_wall: %d, east_wall: %d\n", avatar.id, avatar.pos.x, avatar.pos.y, avatar.direction, current_node->north_wall, current_node->south_wall, current_node->west_wall, current_node->east_wall);
   if((avatar.pos.x >= full_maze.num_col) || (avatar.pos.y >= full_maze.num_row) || (avatar.direction < 0)){
     return -1;
   }
@@ -107,12 +109,16 @@ int rightHandRule(Avatar avatar){
   int new_dir;
   new_dir = isDeadEnd(avatar.pos);
   if(new_dir == -1){
+    printf("not a dead end!");
     new_dir = getRight(avatar.direction, avatar.pos);
     if (new_dir == -1) {
+      printf("cannot go right");
       new_dir = getFront(avatar.direction, avatar.pos);
       if (new_dir == -1) {
+        printf("cannot go forward!");
         new_dir = getLeft(avatar.direction, avatar.pos);
         if (new_dir == -1) {
+          printf("cannot go left!");
           new_dir = getBack(avatar.direction, avatar.pos);
           if(new_dir != -1){
             AddWall(avatar.pos.y, avatar.pos.x, new_dir, 2);
@@ -138,8 +144,10 @@ void CleanupMaze(){
   int i;
   for(i = 0; i < full_maze.num_row; i++){
     free(full_maze.maze[i]);
+    full_maze.maze[i] = NULL;
   }
   free(full_maze.maze);
+  full_maze.maze = NULL;
 }
 
 /* int getRight(int dir_facing, XYPos current_pos);

@@ -70,6 +70,7 @@ typedef struct XYPos
 /* Maze avatar */
 typedef struct Avatar
 {
+    int id;
     int direction;
     XYPos pos;
     int last_move;

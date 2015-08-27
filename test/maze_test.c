@@ -183,6 +183,21 @@ int TestInitMaze4(){
   END_TEST_CASE;
 }
 
+// Test case: initMaze: 5
+// This test case calls initMaze() for the condition where the maze has already been initialized 
+// Result is for returned Maze* to be a pointer to the address of the existing Maze
+int TestInitMaze5(){
+  START_TEST_CASE;
+  Maze* maze, *new_maze;
+  maze = initMaze(3, 3);
+  SHOULD_BE(maze != NULL);
+  new_maze = initMaze(3, 3);
+  SHOULD_BE(new_maze != NULL);
+  SHOULD_BE(maze == new_maze);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
 // The following test cases are for function:
 // 
 // int rightHandRule(Avatar avatar);
@@ -579,6 +594,7 @@ int main(int argc, char** argv) {
   RUN_TEST(TestInitMaze2, "initMaze() Test case 2");
   RUN_TEST(TestInitMaze3, "initMaze() Test case 3");
   RUN_TEST(TestInitMaze4, "initMaze() Test case 4");
+  RUN_TEST(TestInitMaze5, "initMaze() Test case 5");
   RUN_TEST(TestRHR1, "rightHandRule() Test case 1");
   RUN_TEST(TestRHR2, "rightHandRule() Test case 2");
   RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
