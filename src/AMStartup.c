@@ -43,7 +43,7 @@
 // ---------------- Constant definitions 
 
 // ---------------- Macro definitions
-
+extern Avatar Avatars[];
 // ---------------- Structures/Types 
 
 // ---------------- Private variables 
@@ -271,8 +271,7 @@ main(int argc, char **argv)
     printf("\nediting");
     for (int a = 0; a < nAvatars; a++){
 
-      // create args
-
+      // create args and avatarInfo structs
       avatarInfo* av = malloc(sizeof(avatarInfo));
       av->avID = a;
       av->nAvatars = nAvatars;
@@ -281,6 +280,11 @@ main(int argc, char **argv)
       av->MazePort = MazePort;
       av->pLog = pLog;
 
+      //create global variable Avatars[], an array of Avatar structs.
+      Avatar newAv; // = malloc(sizeof(Avatar));
+      newAv->direction = M_NORTH;
+      newAv->last_move = M_NULL_MOVE;
+      Avatars[a] = newAv;
 
       // other thread stuff
 

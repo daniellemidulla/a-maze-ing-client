@@ -39,6 +39,7 @@
 // ---------------- Local includes  e.g., "file.h"
 
 #include "amazing.h"
+#include "maze.h"
 
 // ---------------- Constant definitions 
 
@@ -150,12 +151,28 @@ void* avatar(void* ptr) {
                 // write board to the log
                 fprintf(a.pLog, "\n\nits my turn: %i", a.avID);
                 fprintf(a.pLog, "\nCurrent board:");
-                for( int b = 0; b < a.nAvatars; b++){
-                    fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,  ntohl(rec_message->avatar_turn.Pos[b].x), ntohl(rec_message->avatar_turn.Pos[b].y));
-                    printf("\nCurrent position of avatar %i - x: %i y: %i", b,  ntohl(rec_message->avatar_turn.Pos[b].x), ntohl(rec_message->avatar_turn.Pos[b].y));
+                XYPos pos;
+                for(int b = 0; b < a.nAvatars; b++){
+                    pos.x = ntohl(rec_message->avatar_turn.Pos[b].x);
+                    pos.y = ntohl(rec_message->avatar_turn.Pos[b].y);
+                    fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,pos.x, pos.y);
+                    printf("\nCurrent position of avatar %i - x: %i y: %i", b,pos.x, pos.y);
+                    if (Avatars[b].last_move == M_NULL_MOVE){
+                        Avatars[b]->pos = pos;
+                     }
+                    else {
+                        if ((pos.x == Avatar[a.avID].pos.x) && (pos.y == Avatar[a].pos.y)){
+                            AddWall(pos.y, pos.x, Avatars[b].;ast_move, 1);
+                            Avatars[b].last_name = M_NULL_MOVE;
+                     }
+                        else {
+                            Avatar[b].pos = pos;
+                            Avatars[b].direction = Avatars[b].last_move;
+                            Avatars[b].last_move = M_NULL_MOVE;
+                         }
+                     }
+                 int move = rightHandRule(a);
                 }
-
-
 
                 AM_Message *ready = calloc(1, sizeof(AM_Message));
                 if (!ready){
@@ -167,10 +184,11 @@ void* avatar(void* ptr) {
                 ready->avatar_move.AvatarId = htonl(a.avID);
 
 
-                /// GET A MOVE FROM ALGORITHM 
+                /// GET A MOVE FROM ALGORITHM
                 // for now im just using random
+                int move = rightHandRule(a);
               
-                int move = rand() % 4;
+                //int move = rand() % 4;
                 // write move to the log
                 fprintf(a.pLog, "\nMove: %i", move);
 

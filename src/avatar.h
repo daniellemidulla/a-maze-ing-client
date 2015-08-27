@@ -11,7 +11,7 @@
 
 #ifndef INC_FILE_H
 #define INC_FILE_H
-
+#include "amazing.h"
 // ---------------- Prerequisites e.g., Requires "math.h"
 
 // ---------------- Constants
@@ -21,7 +21,7 @@
 // ---------------- Public Variables
 
 // ---------------- Prototypes/Macros
-
+Avatar Avatars[AM_MAX_AVATAR];
 
 void* avatar(void* ptr);
 
