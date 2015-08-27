@@ -279,6 +279,8 @@ main(int argc, char **argv)
       strcpy(av->ip, ip);
       av->MazePort = MazePort;
       av->pLog = pLog;
+      av->MazeHeight = MazeHeight;
+      av->MazeWidth = MazeWidth;
 
       //create global variable Avatars[], an array of Avatar structs.
       Avatar newAv; // = malloc(sizeof(Avatar));
