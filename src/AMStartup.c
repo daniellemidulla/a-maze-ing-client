@@ -148,7 +148,7 @@ main(int argc, char **argv)
     }
 
     if (argc != 7){
-    printf("You don't have the proper number of arguments. Please enter [AVATARS 0-10] [    DIFFICULTY 0-50] [HOST NAME \"pierce.cs.dartmouth.edu\"]\n You entered %d arguments.", argc);
+    printf("You don't have the proper number of arguments. Please enter [AVATARS 0-10] [    DIFFICULTY 1-9] [HOST NAME \"pierce.cs.dartmouth.edu\"]\n You entered %d arguments.", argc);
      }
     
 
@@ -352,11 +352,11 @@ FILE* initLog(int difficulty, int nAvatars){
 // get date for name
   FILE *pLog;
   char str[200];
-  char buff[100];
+  //char buff[100];
   time_t mytime;
   mytime = time(NULL);
-  strftime (buff, 100, "%a_%d_'%y:%H:%M", localtime(&mytime));
-  sprintf(str, "./logs/%s_%i_%i.log", buff, difficulty, nAvatars);
+  //strftime (buff, 100, "%a_%d_'%y:%H:%M", localtime(&mytime));
+  sprintf(str, "./logs/Amazing_%s_%i_%i.log", getenv("USER"), nAvatars, difficulty);
 
 
 // open log up in a log folder to append 

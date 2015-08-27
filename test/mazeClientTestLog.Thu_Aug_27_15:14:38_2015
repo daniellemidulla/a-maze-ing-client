@@ -1,19 +1,18 @@
-Test Start: Thu 27 Aug 2015 02:49:06 PM EDT
+Test Start: Thu 27 Aug 2015 03:14:38 PM EDT
 hostname: moose.cs.dartmouth.edu
 operating system: GNU/Linux
 
 --------------------------------------------------------------
 
 gcc -Wall -pedantic -std=c11 -ggdb   -c -o AMStartup.o AMStartup.c
-AMStartup.c: In function ‘main’:
-AMStartup.c:285:12: error: invalid type argument of ‘->’ (have ‘Avatar {aka struct Avatar}’)
-       newAv->direction = M_NORTH;
-            ^
-AMStartup.c:286:12: error: invalid type argument of ‘->’ (have ‘Avatar {aka struct Avatar}’)
-       newAv->last_move = M_NULL_MOVE;
-            ^
-<builtin>: recipe for target 'AMStartup.o' failed
-make: *** [AMStartup.o] Error 1
+gcc -Wall -pedantic -std=c11 -ggdb -c avatar.c
+avatar.c: In function ‘avatar’:
+avatar.c:170:29: error: ‘Avatarst’ undeclared (first use in this function)
+                             Avatarst [b].pos = pos;
+                             ^
+avatar.c:170:29: note: each undeclared identifier is reported only once for each function it appears in
+Makefile:19: recipe for target 'avatar.o' failed
+make: *** [avatar.o] Error 1
 
 --------------------------------------------------------------
 
@@ -81,4 +80,4 @@ Test Summary:
 Passes: 1
 Fails: 0
 
-Test End: Thu 27 Aug 2015 02:49:13 PM EDT
+Test End: Thu 27 Aug 2015 03:14:38 PM EDT
