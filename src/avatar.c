@@ -35,6 +35,7 @@
 #include <unistd.h>           // close()
 
 
+
 // ---------------- Local includes  e.g., "file.h"
 
 #include "amazing.h"
@@ -119,12 +120,6 @@ void* avatar(void* ptr) {
         exit(4);
     }
 
-    // AM_Message *move = calloc(1, sizeof(AM_Message));
-    // if(!move){
-    //     perror("\nNo memory");
-    //     exit(4);
-    // }
-    // move->type = htonl(AM_AVATAR_MOVE);
 
 
     ////////////////////////////////// listen to server
@@ -135,9 +130,8 @@ void* avatar(void* ptr) {
     {
 
         memset(rec_message, 0, sizeof(AM_Message)); 
-        printf("\nsocket: %i", sockfd);
+        printf("\n thread %i, socket %i", a.avID, sockfd);
         int x = recv(sockfd, rec_message, sizeof(AM_Message), 0);
-        printf("%i", x);
         if ( x== 0)
         {
             //error: server terminated prematurely
@@ -158,6 +152,7 @@ void* avatar(void* ptr) {
                 fprintf(a.pLog, "\nCurrent board:");
                 for( int b = 0; b < a.nAvatars; b++){
                     fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,  ntohl(rec_message->avatar_turn.Pos[b].x), ntohl(rec_message->avatar_turn.Pos[b].y));
+                    printf("\nCurrent position of avatar %i - x: %i y: %i", b,  ntohl(rec_message->avatar_turn.Pos[b].x), ntohl(rec_message->avatar_turn.Pos[b].y));
                 }
 
 
@@ -173,8 +168,9 @@ void* avatar(void* ptr) {
 
 
                 /// GET A MOVE FROM ALGORITHM 
-                // for now im just using 3
-                int move = 3;
+                // for now im just using random
+              
+                int move = rand() % 4;
                 // write move to the log
                 fprintf(a.pLog, "\nMove: %i", move);
 
@@ -182,7 +178,7 @@ void* avatar(void* ptr) {
 
                  //send ready message to server 
                 int sent = send(sockfd, ready, sizeof(AM_Message), 0);
-                printf("\nAvatar ready message sent: %i, for av %i", sent, a.avID);
+                printf("\nAvatar move message sent: %i, for av %i", sent, a.avID);
                 free(ready);
                 sleep(1);
 
