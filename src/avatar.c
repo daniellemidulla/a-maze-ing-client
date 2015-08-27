@@ -162,7 +162,7 @@ void* avatar(void* ptr) {
                      }
                     else {
                         if ((pos.x == Avatar[a.avID].pos.x) && (pos.y == Avatar[a].pos.y)){
-                            AddWall(pos.y, pos.x, Avatars[b].;ast_move, 1);
+                            AddWall(pos.y, pos.x, Avatars[b].last_move, 1);
                             Avatars[b].last_name = M_NULL_MOVE;
                      }
                         else {
@@ -171,7 +171,7 @@ void* avatar(void* ptr) {
                             Avatars[b].last_move = M_NULL_MOVE;
                          }
                      }
-                 int move = rightHandRule(a);
+                 int move = rightHandRule(Avatar[a.avID]);
                 }
 
                 AM_Message *ready = calloc(1, sizeof(AM_Message));
@@ -179,14 +179,11 @@ void* avatar(void* ptr) {
                      perror("No memory\n");
                      exit(4);
                 }
-    
+                
+                Avatar[a.avID].last_move = move;
                 ready->type = htonl(AM_AVATAR_MOVE);
                 ready->avatar_move.AvatarId = htonl(a.avID);
 
-
-                /// GET A MOVE FROM ALGORITHM
-                // for now im just using random
-                int move = rightHandRule(a);
               
                 //int move = rand() % 4;
                 // write move to the log
