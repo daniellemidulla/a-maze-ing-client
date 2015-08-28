@@ -17,6 +17,6 @@ Assumptions:
 	The program assumes the server running at pierce.cs.dartmouth.edu will send back Amazing information. If the correct messages are not recieved, the program will notify the user and quit. 
 
 	Inputs:
-	-d difficulty: a maze difficulty between 1 and 10 inclusive.
-	-n nAvatars: a number of avatars between 1 and 9 inclusive.
+	-d difficulty: a maze difficulty between 1 and 9 inclusive.
+	-n nAvatars: a number of avatars between 1 and 10 inclusive.
 	-h hostname: the hostname must always be pierce.cs.dartmouth.edu for this project.
