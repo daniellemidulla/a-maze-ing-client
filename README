@@ -6,3 +6,17 @@ Test information:
  - To perform a unit test of the maze:
    -> from project directory, run 'make test' and then run './test/maze_test'
    -> from test/ directory, run 'make maze_test' and then run './maze_test'
+
+
+Assumptions:
+	Usage: maze -d difficulty -n nAvatars -h pierce.cs.dartmouth.edu
+
+	The maze program can be made and run toplevel with the toplevel Makefile and a call to ./src/maze or in the src file with a call to the Makefile and ./maze.
+	In order to run the program, you must use the flags -d -n and -h.
+	The program assumes that in whatever directory it is being run, there exists a directory called logs in which to write output to. If this does not exist, maze will notify the end user and quit. 
+	The program assumes the server running at pierce.cs.dartmouth.edu will send back Amazing information. If the correct messages are not recieved, the program will notify the user and quit. 
+
+	Inputs:
+	-d difficulty: a maze difficulty between 1 and 10 inclusive.
+	-n nAvatars: a number of avatars between 1 and 9 inclusive.
+	-h hostname: the hostname must always be pierce.cs.dartmouth.edu for this project.
