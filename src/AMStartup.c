@@ -286,7 +286,7 @@ main(int argc, char **argv)
       Avatar newAv; // = malloc(sizeof(Avatar));
       newAv.id = a;
       newAv.direction = M_NORTH;
-      newAv.last_move = M_NULL_MOVE;
+      newAv.last_move = -1;
       Avatars[a] = newAv;
 
       // other thread stuff
