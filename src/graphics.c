@@ -68,27 +68,28 @@ void create_border(int w, int h){
 		//top		
 		int i;
 		move(0,0);
-                for (i=0;i<(2*w+2);i++){
+                for (i=0;i<(2*w);i++){
                         addch('-');
                 }
 
 		//bottom
-                move(2*h+1, 0);
-                for (i=0; i<2*w+2; i++){
+                move(2*h, 0);
+                for (i=0; i<2*w; i++){
                         addch('-');
                 }
 
 		//left
-                for (i=1;i<2*h+1;i++){
+                for (i=1;i<2*h-1;i++){
                         move(i,0);
                         addch('|');
                 }
 
 		//right
-                for (i=1;i<2*h+1;i++){
-                        move(i, 2*w+1);
+                for (i=1;i<2*h-1;i++){
+                        move(i, 2*w);
                         addch('|');
                 }
+
 }
 
 void draw_avatar(int avatar_y, int avatar_x){
@@ -110,15 +111,15 @@ void draw_inside(Maze* maze_list){
 			//if the node has an east wall and south wall
 			if (maze_list->maze[i][j].east_wall == 1){
 				//make east wall
-				move(2*(i+1), 2*(j+1)+1);
+				move(2*i+1, 2*(j+1));
 				addch('|');
 
 				if (maze_list->maze[i][j].south_wall==1){
 					//make south wall
-					move(2*(i+1)+1,2*(j+1)); 
+					move(2*(i+1),2*j+1); 
 					addch('-');
 					//make corner
-					move(2*(i+1)+1, 2*(j+1)+1);
+					move(2*(i+1), 2*(j+1));
 					addch('*');
 				}
 			}
@@ -126,7 +127,7 @@ void draw_inside(Maze* maze_list){
 			if (maze_list->maze[i][j].east_wall !=1){
 				if (maze_list->maze[i][j].south_wall==1){
 					//make south wall
-					move(2*(i+1)+1, 2*(j+1));
+					move(2*(i+1), 2*j+1);
 					addch('-');
 				
 				}
