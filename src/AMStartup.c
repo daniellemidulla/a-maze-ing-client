@@ -34,6 +34,7 @@
 #include <unistd.h>           // close()
 #include <time.h>
 #include <pthread.h>            //pthread_create
+#include <dirent.h>            // check dir
 
 // ---------------- Local includes  e.g., "file.h"
 
@@ -131,6 +132,21 @@ main(int argc, char **argv)
         abort();
       }
     }
+
+    // check to see if a directory to output logs exists
+
+    DIR* dir = opendir("logs");
+  if (dir)
+  {
+    /* Directory exists. */
+    closedir(dir);
+  }
+  else if (ENOENT == errno)
+  {
+    printf("Please create a directory called logs in the current directory into which the program will output run logs.");
+    exit(EXIT_FAILURE);
+    /* Directory does not exist. */
+  }
 
     //make sure that all the options were present and that all the necessary variables were set
     // NOTE-We can check that all arguments are present based on argument count,it will check the argument contents first for additional user info and then at the end if there aren't even 4 parameters it will exit. 
