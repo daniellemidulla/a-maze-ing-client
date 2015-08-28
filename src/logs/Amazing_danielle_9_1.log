@@ -12550,4 +12550,7049 @@ Position of avatar 1 - x: 2 y: 5
 Position of avatar 2 - x: 5 y: 4
 Position of avatar 3 - x: 3 y: 0
 Position of avatar 4 - x: 2 y: 5
-Position of avatar 5 - x: 4 y
+Position of avatar 5 - x: 4 yLog: Fri 28 2015, 13:44
+Difficulty: 1
+Number of Avatars: 9
+
+
+Mazeport: 50912
+Maze width: 6
+Maze height: 9
+
+THREAD FOR 0
+
+THREAD FOR 1
+
+THREAD FOR 2
+
+THREAD FOR 3
+
+THREAD FOR 4
+
+THREAD FOR 5
+
+THREAD FOR 6
+
+THREAD FOR 7
+
+THREAD FOR 8
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 4 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 4 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 4 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4Avatar 2 moved successfully.
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0Avatar 3 encountered a wall and did not move.
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6Avatar 4 encountered a wall and did not move.
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8Avatar 5 moved successfully.
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2Avatar 7 moved successfully.
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0Avatar 8 encountered a wall and did not move.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 2
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4Avatar 2 encountered a wall and did not move.
+Position of avatar 3 - x: 3 y: 0
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 0
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0Avatar 3 moved successfully.
+Position of avatar 4 - x: 2 y: 6
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5Avatar 4 moved successfully.
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8Avatar 5 moved successfully.
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 1
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2Avatar 6 moved successfully.
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 0 y: 0
+Move: 2
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3Avatar 7 moved successfully.
+Position of avatar 8 - x: 0 y: 0
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 5
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1
+Move: 0
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5Avatar 1 moved successfully.
+Position of avatar 2 - x: 5 y: 4
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1
+Move: 1
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 5
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1
+Move: 0
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5Avatar 4 moved successfully.
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8Avatar 5 moved successfully.
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1
+Move: 3
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 1
+Move: 0
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3Avatar 7 encountered a wall and did not move.
+Position of avatar 8 - x: 0 y: 1
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 5 y: 3
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2
+Move: 1
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2
+Move: 0
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5Avatar 4 encountered a wall and did not move.
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7Avatar 5 moved successfully.
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2
+Move: 1
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 2
+Move: 2
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3Avatar 7 encountered a wall and did not move.
+Position of avatar 8 - x: 0 y: 2
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 5
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3
+Move: 2
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6Avatar 1 moved successfully.
+Position of avatar 2 - x: 5 y: 2
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3
+Move: 1
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 5
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3
+Move: 2
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6Avatar 4 moved successfully.
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7Avatar 5 encountered a wall and did not move.
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3
+Move: 0
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2Avatar 6 moved successfully.
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 0 y: 3
+Move: 3
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3Avatar 7 moved successfully.
+Position of avatar 8 - x: 0 y: 3
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 6
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4
+Move: 0
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6Avatar 1 moved successfully.
+Position of avatar 2 - x: 5 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4
+Move: 1
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4
+Move: 0
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6Avatar 4 moved successfully.
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7Avatar 5 encountered a wall and did not move.
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4
+Move: 1
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 4
+Move: 2
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3Avatar 7 encountered a wall and did not move.
+Position of avatar 8 - x: 0 y: 4
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 6
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5Avatar 1 moved successfully.
+Position of avatar 2 - x: 5 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5
+Move: 0
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 6
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5Avatar 4 moved successfully.
+Position of avatar 5 - x: 5 y: 7
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5
+Move: 2
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8Avatar 5 moved successfully.
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5
+Move: 0
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 0 y: 5
+Move: 3
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3Avatar 7 moved successfully.
+Position of avatar 8 - x: 0 y: 5
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 5
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4Avatar 1 moved successfully.
+Position of avatar 2 - x: 4 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 2
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 5
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4Avatar 4 moved successfully.
+Position of avatar 5 - x: 5 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8Avatar 5 moved successfully.
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 2
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 2
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3Avatar 7 encountered a wall and did not move.
+Position of avatar 8 - x: 0 y: 6
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6Avatar 8 encountered a wall and did not move.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 4 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 0
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 4
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3Avatar 4 moved successfully.
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8Avatar 5 encountered a wall and did not move.
+Position of avatar 6 - x: 3 y: 2
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 3
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2Avatar 6 moved successfully.
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 0 y: 6
+Move: 1
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2Avatar 7 moved successfully.
+Position of avatar 8 - x: 0 y: 6
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 4
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3Avatar 1 moved successfully.
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 1
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1Avatar 2 encountered a wall and did not move.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3Avatar 4 encountered a wall and did not move.
+Position of avatar 5 - x: 4 y: 8
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8Avatar 5 moved successfully.
+Position of avatar 6 - x: 4 y: 2
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 2
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3Avatar 6 moved successfully.
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 0
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2Avatar 7 moved successfully.
+Position of avatar 8 - x: 1 y: 6
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6Avatar 8 encountered a wall and did not move.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 3
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 3 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 0
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 3
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8Avatar 5 encountered a wall and did not move.
+Position of avatar 6 - x: 4 y: 3
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 0
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3Avatar 6 moved successfully.
+Position of avatar 7 - x: 3 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 3
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2Avatar 7 moved successfully.
+Position of avatar 8 - x: 1 y: 6
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6Avatar 8 encountered a wall and did not move.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 0 y: 2
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 1
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 1
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0Avatar 2 moved successfully.
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 0 y: 2
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 3 y: 8
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8Avatar 5 moved successfully.
+Position of avatar 6 - x: 3 y: 3
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 0
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3Avatar 6 moved successfully.
+Position of avatar 7 - x: 4 y: 2
+Position of avatar 8 - x: 1 y: 6
+Move: 2
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3Avatar 7 moved successfully.
+Position of avatar 8 - x: 1 y: 6
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5
+Move: 2
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 2 y: 8
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 3
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5
+Move: 1
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2Avatar 6 moved successfully.
+Position of avatar 7 - x: 4 y: 3
+Position of avatar 8 - x: 1 y: 5
+Move: 0
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3Avatar 7 moved successfully.
+Position of avatar 8 - x: 1 y: 5
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5
+Move: 2
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3Avatar 4 moved successfully.
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7Avatar 5 encountered a wall and did not move.
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5
+Move: 1
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 3 y: 3
+Position of avatar 8 - x: 2 y: 5
+Move: 0
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3Avatar 7 moved successfully.
+Position of avatar 8 - x: 2 y: 5
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6
+Move: 2
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3Avatar 4 moved successfully.
+Position of avatar 5 - x: 2 y: 7
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 2
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6
+Move: 0
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2Avatar 6 moved successfully.
+Position of avatar 7 - x: 2 y: 3
+Position of avatar 8 - x: 2 y: 6
+Move: 1
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2Avatar 7 moved successfully.
+Position of avatar 8 - x: 2 y: 6
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3Avatar 4 moved successfully.
+Position of avatar 5 - x: 2 y: 6
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5Avatar 5 moved successfully.
+Position of avatar 6 - x: 1 y: 2
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 1
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1Avatar 6 moved successfully.
+Position of avatar 7 - x: 2 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 0
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2Avatar 7 moved successfully.
+Position of avatar 8 - x: 2 y: 7
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7Avatar 8 encountered a wall and did not move.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 2 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5Avatar 5 moved successfully.
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 3
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1Avatar 6 encountered a wall and did not move.
+Position of avatar 7 - x: 1 y: 2
+Position of avatar 8 - x: 2 y: 7
+Move: 1
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1Avatar 7 moved successfully.
+Position of avatar 8 - x: 2 y: 7
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8
+Move: 0
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 1 y: 5
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8
+Move: 2
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6Avatar 5 moved successfully.
+Position of avatar 6 - x: 1 y: 1
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8
+Move: 1
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0Avatar 6 moved successfully.
+Position of avatar 7 - x: 1 y: 1
+Position of avatar 8 - x: 2 y: 8
+Move: 1
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0Avatar 7 moved successfully.
+Position of avatar 8 - x: 2 y: 8
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 0
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 2
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 1 y: 6
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6Avatar 5 moved successfully.
+Position of avatar 6 - x: 1 y: 0
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 3
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0Avatar 6 moved successfully.
+Position of avatar 7 - x: 1 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 3
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0Avatar 7 moved successfully.
+Position of avatar 8 - x: 1 y: 8
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 2
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 2
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3Avatar 4 moved successfully.
+Position of avatar 5 - x: 0 y: 6
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 2
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 4 y: 3
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 0
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3Avatar 4 moved successfully.
+Position of avatar 5 - x: 0 y: 5
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 4 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 0
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 3 y: 3
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 0
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3Avatar 4 moved successfully.
+Position of avatar 5 - x: 0 y: 4
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8Avatar 8 encountered a wall and did not move.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 3 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 0
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 3
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 0 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 8
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 3
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 2
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 0
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2Avatar 4 moved successfully.
+Position of avatar 5 - x: 0 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 7
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 0
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 2
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1Avatar 4 moved successfully.
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 7
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 2
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 1
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 1
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0Avatar 4 moved successfully.
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 2
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 8
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 1
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 1 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 3
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0Avatar 4 moved successfully.
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 1 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 3
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0Avatar 1 moved successfully.
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 7
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 2
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 5 y: 8
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 4 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 8
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 3 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 8
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 3
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 8
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 0
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 7
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 2
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 6
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 1
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 1
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 5
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 1 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 3
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0Avatar 5 moved successfully.
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 5
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 6
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 6
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 5
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 4
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 3
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 0 y: 2
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 2
+Move: 3
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 2
+Move: 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 4 y: 3
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 3 y: 3
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 3
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 2 y: 2
+Move: 0
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 2
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 1
+Move: 1
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0Avatar 8 moved successfully.
+Move: 8
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 8
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 8
+
+its my turn: 3
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 8
+
+its my turn: 4
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 8
+
+its my turn: 5
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 8
+
+its my turn: 6
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 8
+
+its my turn: 7
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 8
+
+its my turn: 8
+Current board:
+Position of avatar 0 - x: 2 y: 0
+Position of avatar 1 - x: 2 y: 0
+Position of avatar 2 - x: 2 y: 0
+Position of avatar 3 - x: 2 y: 0
+Position of avatar 4 - x: 2 y: 0
+Position of avatar 5 - x: 2 y: 0
+Position of avatar 6 - x: 2 y: 0
+Position of avatar 7 - x: 2 y: 0
+Position of avatar 8 - x: 1 y: 0
+Move: 3
