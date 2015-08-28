@@ -100,8 +100,8 @@ Maze* initMaze(int r, int c){
  *
  */
 int rightHandRule(Avatar avatar){
-  MazeNode * current_node = &full_maze.maze[avatar.pos.y][avatar.pos.x];
-  printf("\nin rightHandRule: avatar %d: pos: x: %d, y: %d, direction: %d\n\tmaze: north_wall: %d, south_wall: %d, west_wall: %d, east_wall: %d\n", avatar.id, avatar.pos.x, avatar.pos.y, avatar.direction, current_node->north_wall, current_node->south_wall, current_node->west_wall, current_node->east_wall);
+  //MazeNode * current_node = &full_maze.maze[avatar.pos.y][avatar.pos.x];
+  //printf("\nin rightHandRule: avatar %d: pos: x: %d, y: %d, direction: %d\n\tmaze: north_wall: %d, south_wall: %d, west_wall: %d, east_wall: %d\n", avatar.id, avatar.pos.x, avatar.pos.y, avatar.direction, current_node->north_wall, current_node->south_wall, current_node->west_wall, current_node->east_wall);
   if((avatar.pos.x >= full_maze.num_col) || (avatar.pos.y >= full_maze.num_row) || (avatar.direction < 0)){
     return -1;
   }
