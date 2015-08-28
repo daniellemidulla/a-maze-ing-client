@@ -1,9 +1,9 @@
-Log: Fri 28 2015, 14:17
+Log: Fri 28 2015, 17:31
 Difficulty: 1
 Number of Avatars: 10
 
 
-Mazeport: 50399
+Mazeport: 37236
 Maze width: 6
 Maze height: 9
 
@@ -40,6 +40,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -54,6 +55,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -68,6 +70,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -82,6 +85,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -96,6 +100,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -110,6 +115,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -124,6 +130,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -138,6 +145,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -152,6 +160,7 @@ Position of avatar 7 - x: 2 y: 2Avatar 7 moved successfully.
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 0
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -166,6 +175,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0Avatar 8 encountered a wall and did not move.
 Position of avatar 9 - x: 0 y: 0
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -180,6 +190,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -194,6 +205,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -208,6 +220,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 2
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -222,6 +235,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 0
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -236,6 +250,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -250,6 +265,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -264,6 +280,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 1
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -278,6 +295,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 2
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -292,6 +310,7 @@ Position of avatar 7 - x: 2 y: 3Avatar 7 moved successfully.
 Position of avatar 8 - x: 0 y: 0
 Position of avatar 9 - x: 0 y: 1
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -306,6 +325,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 1
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -320,6 +340,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -334,6 +355,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 0
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -348,6 +370,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 1
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -362,6 +385,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -376,6 +400,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 0
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -390,6 +415,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -404,6 +430,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 3
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -418,6 +445,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 0
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -432,6 +460,7 @@ Position of avatar 7 - x: 2 y: 3Avatar 7 encountered a wall and did not move.
 Position of avatar 8 - x: 0 y: 1
 Position of avatar 9 - x: 0 y: 2
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -446,6 +475,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 2
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -460,6 +490,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -474,6 +505,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -488,6 +520,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 1
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -502,6 +535,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -516,6 +550,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 0
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -530,6 +565,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -544,6 +580,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 1
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -558,6 +595,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 2
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -572,6 +610,7 @@ Position of avatar 7 - x: 2 y: 3Avatar 7 encountered a wall and did not move.
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 3
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -586,6 +625,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 3
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -600,6 +640,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -614,6 +655,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 2
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -628,6 +670,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 1
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -642,6 +685,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -656,6 +700,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 2
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -670,6 +715,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -684,6 +730,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 0
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -698,6 +745,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 3
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -712,6 +760,7 @@ Position of avatar 7 - x: 3 y: 3Avatar 7 moved successfully.
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 4
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -726,6 +775,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 4
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -740,6 +790,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -754,6 +805,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 0
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -768,6 +820,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 1
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -782,6 +835,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -796,6 +850,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 0
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -810,6 +865,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -824,6 +880,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 1
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -838,6 +895,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 2
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -852,6 +910,7 @@ Position of avatar 7 - x: 3 y: 3Avatar 7 encountered a wall and did not move.
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 5
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -866,6 +925,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 5
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -880,6 +940,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -894,6 +955,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -908,6 +970,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 0
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -922,6 +985,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -936,6 +1000,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -950,6 +1015,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 2
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -964,6 +1030,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 0
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -978,6 +1045,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 3
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -992,6 +1060,7 @@ Position of avatar 7 - x: 4 y: 3Avatar 7 moved successfully.
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 6
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1006,6 +1075,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 6
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -1020,6 +1090,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6Avatar 9 encountered a wall and did not move.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -1034,6 +1105,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -1048,6 +1120,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 2
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -1062,6 +1135,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -1076,6 +1150,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -1090,6 +1165,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -1104,6 +1180,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 2
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -1118,6 +1195,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 2
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -1132,6 +1210,7 @@ Position of avatar 7 - x: 4 y: 3Avatar 7 encountered a wall and did not move.
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1146,6 +1225,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 6
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -1160,6 +1240,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -1174,6 +1255,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -1188,6 +1270,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 0
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -1202,6 +1285,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -1216,6 +1300,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -1230,6 +1315,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -1244,6 +1330,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 3
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -1258,6 +1345,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -1272,6 +1360,7 @@ Position of avatar 7 - x: 4 y: 2Avatar 7 moved successfully.
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1286,6 +1375,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6Avatar 8 encountered a wall and did not move.
 Position of avatar 9 - x: 1 y: 6
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -1300,6 +1390,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6Avatar 9 encountered a wall and did not move.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -1314,6 +1405,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -1328,6 +1420,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -1342,6 +1435,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -1356,6 +1450,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -1370,6 +1465,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -1384,6 +1480,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 2
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -1398,6 +1495,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 0
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -1412,6 +1510,7 @@ Position of avatar 7 - x: 3 y: 2Avatar 7 moved successfully.
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1426,6 +1525,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -1440,6 +1540,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -1454,6 +1555,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -1468,6 +1570,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 0
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -1482,6 +1585,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -1496,6 +1600,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -1510,6 +1615,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -1524,6 +1630,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 0
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -1538,6 +1645,7 @@ Position of avatar 7 - x: 3 y: 2
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 3
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -1552,6 +1660,7 @@ Position of avatar 7 - x: 4 y: 2Avatar 7 moved successfully.
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1566,6 +1675,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 5
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -1580,6 +1690,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -1594,6 +1705,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -1608,6 +1720,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 1
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -1622,6 +1735,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -1636,6 +1750,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -1650,6 +1765,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -1664,6 +1780,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 0
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -1678,6 +1795,7 @@ Position of avatar 7 - x: 4 y: 2
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 2
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -1692,6 +1810,7 @@ Position of avatar 7 - x: 4 y: 3Avatar 7 moved successfully.
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1706,6 +1825,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 5
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -1720,6 +1840,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -1734,6 +1855,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 2
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -1748,6 +1870,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -1762,6 +1885,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -1776,6 +1900,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -1790,6 +1915,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -1804,6 +1930,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 1
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -1818,6 +1945,7 @@ Position of avatar 7 - x: 4 y: 3
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 0
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -1832,6 +1960,7 @@ Position of avatar 7 - x: 3 y: 3Avatar 7 moved successfully.
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1846,6 +1975,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 6
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -1860,6 +1990,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -1874,6 +2005,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -1888,6 +2020,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -1902,6 +2035,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -1916,6 +2050,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 2
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -1930,6 +2065,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -1944,6 +2080,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 1
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -1958,6 +2095,7 @@ Position of avatar 7 - x: 3 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 0
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -1972,6 +2110,7 @@ Position of avatar 7 - x: 2 y: 3Avatar 7 moved successfully.
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -1986,6 +2125,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7Avatar 8 encountered a wall and did not move.
 Position of avatar 9 - x: 2 y: 7
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2000,6 +2140,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2014,6 +2155,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 2
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -2028,6 +2170,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -2042,6 +2185,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -2056,6 +2200,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -2070,6 +2215,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -2084,6 +2230,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 0
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -2098,6 +2245,7 @@ Position of avatar 7 - x: 2 y: 3
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 1
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -2112,6 +2260,7 @@ Position of avatar 7 - x: 2 y: 2Avatar 7 moved successfully.
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 8
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -2126,6 +2275,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 8
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2140,6 +2290,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2154,6 +2305,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -2168,6 +2320,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -2182,6 +2335,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -2196,6 +2350,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -2210,6 +2365,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -2224,6 +2380,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 1
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -2238,6 +2395,7 @@ Position of avatar 7 - x: 2 y: 2
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 0
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -2252,6 +2410,7 @@ Position of avatar 7 - x: 1 y: 2Avatar 7 moved successfully.
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -2266,6 +2425,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 8
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2280,6 +2440,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2294,6 +2455,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -2308,6 +2470,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -2322,6 +2485,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -2336,6 +2500,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -2350,6 +2515,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -2364,6 +2530,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 3
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -2378,6 +2545,7 @@ Position of avatar 7 - x: 1 y: 2
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 1
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -2392,6 +2560,7 @@ Position of avatar 7 - x: 1 y: 1Avatar 7 moved successfully.
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 7
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -2406,6 +2575,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 7
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2420,6 +2590,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2434,6 +2605,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -2448,6 +2620,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -2462,6 +2635,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -2476,6 +2650,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 0
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -2490,6 +2665,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 2
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -2504,6 +2680,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 1
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -2518,6 +2695,7 @@ Position of avatar 7 - x: 1 y: 1
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 1
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -2532,6 +2710,7 @@ Position of avatar 7 - x: 1 y: 0Avatar 7 moved successfully.
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -2546,6 +2725,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 7
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2560,6 +2740,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2574,6 +2755,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 0
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -2588,6 +2770,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -2602,6 +2785,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -2616,6 +2800,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -2630,6 +2815,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -2644,6 +2830,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 3
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -2658,6 +2845,7 @@ Position of avatar 7 - x: 1 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 3
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -2672,6 +2860,7 @@ Position of avatar 7 - x: 2 y: 0Avatar 7 moved successfully.
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 8
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -2686,6 +2875,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 8
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2700,6 +2890,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8Avatar 9 encountered a wall and did not move.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2714,6 +2905,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -2728,6 +2920,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -2742,6 +2935,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -2756,6 +2950,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 2
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -2770,6 +2965,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -2784,6 +2980,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -2798,6 +2995,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -2812,6 +3010,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 8
 Position of avatar 9 - x: 0 y: 8
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -2826,6 +3025,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 8
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2840,6 +3040,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2854,6 +3055,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 2
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -2868,6 +3070,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -2882,6 +3085,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -2896,6 +3100,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 0
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -2910,6 +3115,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -2924,6 +3130,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -2938,6 +3145,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -2952,6 +3160,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 7
 Position of avatar 9 - x: 0 y: 7
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -2966,6 +3175,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 7
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -2980,6 +3190,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -2994,6 +3205,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 0
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3008,6 +3220,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -3022,6 +3235,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -3036,6 +3250,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 0
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -3050,6 +3265,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -3064,6 +3280,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -3078,6 +3295,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -3092,6 +3310,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 7
 Position of avatar 9 - x: 1 y: 7
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -3106,6 +3325,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 7
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -3120,6 +3340,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -3134,6 +3355,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 0
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3148,6 +3370,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -3162,6 +3385,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -3176,6 +3400,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -3190,6 +3415,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -3204,6 +3430,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -3218,6 +3445,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -3232,6 +3460,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 8
 Position of avatar 9 - x: 1 y: 8
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -3246,6 +3475,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 8
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -3260,6 +3490,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -3274,6 +3505,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3288,6 +3520,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -3302,6 +3535,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -3316,6 +3550,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 0
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -3330,6 +3565,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -3344,6 +3580,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -3358,6 +3595,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -3372,6 +3610,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -3386,6 +3625,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 8
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -3400,6 +3640,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -3414,6 +3655,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 0
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3428,6 +3670,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -3442,6 +3685,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -3456,6 +3700,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -3470,6 +3715,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -3484,6 +3730,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -3498,6 +3745,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -3512,6 +3760,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -3526,6 +3775,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 3 y: 8
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -3540,6 +3790,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -3554,6 +3805,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3568,6 +3820,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -3582,6 +3835,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -3596,6 +3850,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 1
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -3610,6 +3865,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 2
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -3624,6 +3880,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -3638,6 +3895,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -3652,6 +3910,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -3666,6 +3925,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 4 y: 8
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -3680,6 +3940,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -3694,6 +3955,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 1
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3708,6 +3970,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -3722,6 +3985,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -3736,6 +4000,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 3
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -3750,6 +4015,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -3764,6 +4030,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -3778,6 +4045,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -3792,6 +4060,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -3806,6 +4075,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7Avatar 8 moved successfully.
 Position of avatar 9 - x: 5 y: 8
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -3820,6 +4090,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -3834,6 +4105,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 3
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3848,6 +4120,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -3862,6 +4135,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -3876,6 +4150,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -3890,6 +4165,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -3904,6 +4180,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -3918,6 +4195,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -3932,6 +4210,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 7
 Position of avatar 9 - x: 5 y: 7
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -3946,6 +4225,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 5 y: 7
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -3960,6 +4240,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -3974,6 +4255,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -3988,6 +4270,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4002,6 +4285,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4016,6 +4300,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -4030,6 +4315,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -4044,6 +4330,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -4058,6 +4345,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -4072,6 +4360,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 5 y: 8
 Position of avatar 9 - x: 5 y: 8
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -4086,6 +4375,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 5 y: 8
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -4100,6 +4390,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -4114,6 +4405,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -4128,6 +4420,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4142,6 +4435,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4156,6 +4450,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -4170,6 +4465,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -4184,6 +4480,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -4198,6 +4495,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -4212,6 +4510,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 8
 Position of avatar 9 - x: 4 y: 8
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -4226,6 +4525,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 4 y: 8
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -4240,6 +4540,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -4254,6 +4555,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -4268,6 +4570,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4282,6 +4585,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4296,6 +4600,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -4310,6 +4615,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -4324,6 +4630,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -4338,6 +4645,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -4352,6 +4660,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 8
 Position of avatar 9 - x: 3 y: 8
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -4366,6 +4675,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8Avatar 8 moved successfully.
 Position of avatar 9 - x: 3 y: 8
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -4380,6 +4690,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -4394,6 +4705,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -4408,6 +4720,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4422,6 +4735,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4436,6 +4750,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -4450,6 +4765,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 2
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -4464,6 +4780,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -4478,6 +4795,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -4492,6 +4810,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 8
 Position of avatar 9 - x: 2 y: 8
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -4506,6 +4825,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 8
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -4520,6 +4840,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -4534,6 +4855,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -4548,6 +4870,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4562,6 +4885,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4576,6 +4900,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -4590,6 +4915,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -4604,6 +4930,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -4618,6 +4945,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -4632,6 +4960,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 7
 Position of avatar 9 - x: 2 y: 7
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -4646,6 +4975,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 7
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -4660,6 +4990,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -4674,6 +5005,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -4688,6 +5020,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4702,6 +5035,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4716,6 +5050,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -4730,6 +5065,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -4744,6 +5080,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -4758,6 +5095,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -4772,6 +5110,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 6
 Position of avatar 9 - x: 2 y: 6
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -4786,6 +5125,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 6
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -4800,6 +5140,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -4814,6 +5155,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -4828,6 +5170,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4842,6 +5185,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4856,6 +5200,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -4870,6 +5215,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -4884,6 +5230,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -4898,6 +5245,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -4912,6 +5260,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 5
 Position of avatar 9 - x: 2 y: 5
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -4926,6 +5275,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 5
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -4940,6 +5290,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -4954,6 +5305,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -4968,6 +5320,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -4982,6 +5335,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -4996,6 +5350,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5010,6 +5365,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 0
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -5024,6 +5380,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -5038,6 +5395,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -5052,6 +5410,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 5
 Position of avatar 9 - x: 1 y: 5
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -5066,6 +5425,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 5
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -5080,6 +5440,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -5094,6 +5455,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -5108,6 +5470,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -5122,6 +5485,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -5136,6 +5500,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5150,6 +5515,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -5164,6 +5530,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -5178,6 +5545,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -5192,6 +5560,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 6
 Position of avatar 9 - x: 1 y: 6
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -5206,6 +5575,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 6
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -5220,6 +5590,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -5234,6 +5605,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -5248,6 +5620,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -5262,6 +5635,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -5276,6 +5650,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5290,6 +5665,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 1
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -5304,6 +5680,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -5318,6 +5695,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -5332,6 +5710,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 6
 Position of avatar 9 - x: 0 y: 6
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -5346,6 +5725,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 6
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -5360,6 +5740,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -5374,6 +5755,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -5388,6 +5770,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -5402,6 +5785,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -5416,6 +5800,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5430,6 +5815,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 3
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -5444,6 +5830,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -5458,6 +5845,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -5472,6 +5860,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 5
 Position of avatar 9 - x: 0 y: 5
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -5486,6 +5875,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 5
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -5500,6 +5890,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -5514,6 +5905,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -5528,6 +5920,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -5542,6 +5935,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -5556,6 +5950,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5570,6 +5965,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -5584,6 +5980,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -5598,6 +5995,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -5612,6 +6010,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 4
 Position of avatar 9 - x: 0 y: 4
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -5626,6 +6025,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 4
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -5640,6 +6040,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -5654,6 +6055,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -5668,6 +6070,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -5682,6 +6085,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -5696,6 +6100,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5710,6 +6115,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -5724,6 +6130,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -5738,6 +6145,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -5752,6 +6160,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 3
 Position of avatar 9 - x: 0 y: 3
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -5766,6 +6175,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 3
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -5780,6 +6190,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -5794,6 +6205,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -5808,6 +6220,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -5822,6 +6235,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -5836,6 +6250,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5850,6 +6265,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -5864,6 +6280,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -5878,6 +6295,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -5892,6 +6310,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 0 y: 2
 Position of avatar 9 - x: 0 y: 2
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -5906,6 +6325,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 0 y: 2
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -5920,6 +6340,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -5934,6 +6355,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -5948,6 +6370,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -5962,6 +6385,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -5976,6 +6400,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -5990,6 +6415,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6004,6 +6430,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6018,6 +6445,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -6032,6 +6460,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -6046,6 +6475,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 2
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -6060,6 +6490,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -6074,6 +6505,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -6088,6 +6520,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -6102,6 +6535,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -6116,6 +6550,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -6130,6 +6565,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6144,6 +6580,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6158,6 +6595,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -6172,6 +6610,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -6186,6 +6625,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 2
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -6200,6 +6640,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -6214,6 +6655,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -6228,6 +6670,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -6242,6 +6685,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -6256,6 +6700,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -6270,6 +6715,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6284,6 +6730,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6298,6 +6745,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -6312,6 +6760,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -6326,6 +6775,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 3
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -6340,6 +6790,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -6354,6 +6805,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -6368,6 +6820,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -6382,6 +6835,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -6396,6 +6850,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -6410,6 +6865,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6424,6 +6880,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6438,6 +6895,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -6452,6 +6910,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -6466,6 +6925,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 3 y: 3
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -6480,6 +6940,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -6494,6 +6955,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -6508,6 +6970,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -6522,6 +6985,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -6536,6 +7000,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -6550,6 +7015,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6564,6 +7030,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6578,6 +7045,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -6592,6 +7060,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -6606,6 +7075,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 4 y: 3
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -6620,6 +7090,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -6634,6 +7105,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -6648,6 +7120,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -6662,6 +7135,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -6676,6 +7150,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -6690,6 +7165,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6704,6 +7180,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6718,6 +7195,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -6732,6 +7210,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -6746,6 +7225,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 4 y: 2
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -6760,6 +7240,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -6774,6 +7255,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -6788,6 +7270,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -6802,6 +7285,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -6816,6 +7300,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -6830,6 +7315,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6844,6 +7330,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6858,6 +7345,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -6872,6 +7360,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 2
 Position of avatar 9 - x: 3 y: 2
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -6886,6 +7375,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 3 y: 2
 Move: 3
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -6900,6 +7390,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -6914,6 +7405,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -6928,6 +7420,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -6942,6 +7435,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -6956,6 +7450,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -6970,6 +7465,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -6984,6 +7480,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -6998,6 +7495,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7012,6 +7510,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 2
 Position of avatar 9 - x: 4 y: 2
 Move: 2
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -7026,6 +7525,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 4 y: 2
 Move: 2
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -7040,6 +7540,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -7054,6 +7555,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -7068,6 +7570,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -7082,6 +7585,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -7096,6 +7600,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -7110,6 +7615,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -7124,6 +7630,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -7138,6 +7645,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7152,6 +7660,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 4 y: 3
 Position of avatar 9 - x: 4 y: 3
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -7166,6 +7675,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 4 y: 3
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -7180,6 +7690,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -7194,6 +7705,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -7208,6 +7720,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -7222,6 +7735,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -7236,6 +7750,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -7250,6 +7765,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -7264,6 +7780,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -7278,6 +7795,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7292,6 +7810,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 3 y: 3
 Position of avatar 9 - x: 3 y: 3
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -7306,6 +7825,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3Avatar 8 moved successfully.
 Position of avatar 9 - x: 3 y: 3
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -7320,6 +7840,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -7334,6 +7855,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -7348,6 +7870,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -7362,6 +7885,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -7376,6 +7900,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -7390,6 +7915,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -7404,6 +7930,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -7418,6 +7945,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7432,6 +7960,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 3
 Position of avatar 9 - x: 2 y: 3
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -7446,6 +7975,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 3
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -7460,6 +7990,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -7474,6 +8005,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -7488,6 +8020,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -7502,6 +8035,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -7516,6 +8050,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -7530,6 +8065,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -7544,6 +8080,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -7558,6 +8095,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7572,6 +8110,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 2
 Position of avatar 9 - x: 2 y: 2
 Move: 0
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -7586,6 +8125,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2Avatar 8 moved successfully.
 Position of avatar 9 - x: 2 y: 2
 Move: 0
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -7600,6 +8140,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -7614,6 +8155,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -7628,6 +8170,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -7642,6 +8185,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -7656,6 +8200,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -7670,6 +8215,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -7684,6 +8230,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -7698,6 +8245,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7712,6 +8260,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 2
 Position of avatar 9 - x: 1 y: 2
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -7726,6 +8275,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 2
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -7740,6 +8290,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -7754,6 +8305,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -7768,6 +8320,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -7782,6 +8335,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -7796,6 +8350,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -7810,6 +8365,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -7824,6 +8380,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -7838,6 +8395,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7852,6 +8410,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 1
 Position of avatar 9 - x: 1 y: 1
 Move: 1
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -7866,6 +8425,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 1
 Move: 1
+Avatar move message sent: 88, for av 9
 
 its my turn: 0
 Current board:
@@ -7880,6 +8440,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0Avatar 9 moved successfully.
 Move: 8
+Avatar move message sent: 88, for av 0
 
 its my turn: 1
 Current board:
@@ -7894,6 +8455,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 8
+Avatar move message sent: 88, for av 1
 
 its my turn: 2
 Current board:
@@ -7908,6 +8470,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 8
+Avatar move message sent: 88, for av 2
 
 its my turn: 3
 Current board:
@@ -7922,6 +8485,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 8
+Avatar move message sent: 88, for av 3
 
 its my turn: 4
 Current board:
@@ -7936,6 +8500,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 8
+Avatar move message sent: 88, for av 4
 
 its my turn: 5
 Current board:
@@ -7950,6 +8515,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 8
+Avatar move message sent: 88, for av 5
 
 its my turn: 6
 Current board:
@@ -7964,6 +8530,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 8
+Avatar move message sent: 88, for av 6
 
 its my turn: 7
 Current board:
@@ -7978,6 +8545,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 8
+Avatar move message sent: 88, for av 7
 
 its my turn: 8
 Current board:
@@ -7992,6 +8560,7 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 1 y: 0
 Position of avatar 9 - x: 1 y: 0
 Move: 3
+Avatar move message sent: 88, for av 8
 
 its my turn: 9
 Current board:
@@ -8006,3 +8575,4 @@ Position of avatar 7 - x: 2 y: 0
 Position of avatar 8 - x: 2 y: 0Avatar 8 moved successfully.
 Position of avatar 9 - x: 1 y: 0
 Move: 3
+Avatar move message sent: 88, for av 9
