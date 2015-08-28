@@ -14,6 +14,7 @@
 #include "amazing.h"
 // ---------------- Prerequisites e.g., Requires "math.h"
 #include "amazing.h"
+#include "maze.h"
 
 // ---------------- Constants
 

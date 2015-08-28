@@ -272,7 +272,7 @@ main(int argc, char **argv)
     int iret1;
     printf("\nediting");
 
-    maze = initMaze(a.MazeHeight,a.MazeWidth);
+    maze = initMaze(MazeHeight,MazeWidth);
 
     for (int a = 0; a < nAvatars; a++){
 

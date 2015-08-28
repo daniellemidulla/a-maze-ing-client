@@ -37,9 +37,7 @@
 
 
 // ---------------- Local includes  e.g., "file.h"
-
 #include "avatar.h"
-#include "maze.h"
 #include "graphics.h"
 
 // ---------------- Constant definitions 
@@ -199,7 +197,7 @@ void* avatar(void* ptr) {
         // }
         /* Determine the direction of the move for Avatars that aren't Avatar 0 */
         //if Avatar is at final_destination, it should not move
-        if(((final_destination) && (Avatars[a.avID].pos.x == final_destination->x) && (Avatars[a.avID].pos.y == final_destination ->y)){
+        if((final_destination) && (Avatars[a.avID].pos.x == final_destination->x) && (Avatars[a.avID].pos.y == final_destination ->y)){
           move = M_NULL_MOVE;
         }
         else { //if the Avatar is alone, use the rightHandRule to determine the next move
