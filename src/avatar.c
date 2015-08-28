@@ -1,6 +1,5 @@
 /*	avatar.c  avatar client
 
-
 	Project name: Maze Project
 	Component name:  Avatar Client
 
@@ -33,6 +32,7 @@
 #include <errno.h>            // get ip address
 #include <netdb.h>            // get ip address
 #include <unistd.h>           // close()
+#include <pthread.h>
 
 
 
@@ -48,6 +48,9 @@
 
 // ---------------- Private variables 
 XYPos *final_destination;
+pthread_mutex_t turn_lock;
+pthread_mutex_t solved_lock;
+
 // ---------------- Private prototypes 
 
 
@@ -125,6 +128,7 @@ void* avatar(void* ptr) {
 
     ///////////////////////////////////////// if turnID matches avID, make a move
     if(ntohl(rec_message->type) == AM_AVATAR_TURN){
+      pthread_mutex_lock(&turn_lock);
       // if turn id is my id 
       int move = -1;
       if(ntohl(rec_message->avatar_turn.TurnId) == a.avID){
@@ -158,7 +162,7 @@ void* avatar(void* ptr) {
             }
           }
           //graphics for drawing border and each avatar
-  	      clear();
+          clear();
   	      initscr();
           raw();
   	      create_border(maze->num_col, maze->num_row);
@@ -169,6 +173,7 @@ void* avatar(void* ptr) {
           }        
     	    refresh();
           sleep(0.2);
+          
         }
             
         /* Determine the direction of the move for the current Avatar */
@@ -226,14 +231,16 @@ void* avatar(void* ptr) {
 
         //send ready message to server 
         int sent = send(sockfd, ready, sizeof(AM_Message), 0);
-        //printf("\nAvatar move message sent: %i, for av %i", sent, a.avID);
+        fprintf(a.pLog, "\nAvatar move message sent: %i, for av %i", sent, a.avID);
         free(ready);
         //sleep(1);
       }
+      pthread_mutex_unlock(&turn_lock);
     }
 
     // else if the message is success, break
     else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
+      pthread_mutex_lock(&solved_lock);
       //printf("\nSolved!\n");
       free(rec_message);
       free(ptr);
@@ -245,6 +252,7 @@ void* avatar(void* ptr) {
       getch();
       endwin();
       break;
+      pthread_mutex_lock(&solved_lock);
     }
 
     else if(ntohl(rec_message->type) == AM_TOO_MANY_MOVES){
