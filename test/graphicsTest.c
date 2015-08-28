@@ -35,7 +35,7 @@ int main (int argc, char *argv[]){
 	int count;
 
 	Avatar **avatar_list = (Avatar **) calloc(1, sizeof(Avatar));
-	Maze *maze = initMaze(h, w);
+	//Maze *maze = initMaze(h, w);
 	for (count=0; count<max; count++){
 		Avatar *avatar = init_random_av();
 		avatar_list[count] = avatar;
@@ -52,7 +52,7 @@ int main (int argc, char *argv[]){
         raw();
         create_border(w,h);
 	draw_avatars(avatar_list, max);
-	draw_inside(maze);
+//	draw_inside(maze);
         refresh();
         getch();
         endwin();
@@ -65,7 +65,7 @@ Avatar* init_random_av(){
 	int rand_x = (rand() % 20)*2;
 	int rand_y = (rand() % 20)*2;
 	Avatar *cur_avatar = (Avatar*)malloc(sizeof(Avatar));
-        cur_avatar->fd=1;
+        //cur_avatar->direction=1;
         cur_avatar->pos.x = rand_x;
         cur_avatar->pos.y = rand_y;
 	return cur_avatar;

@@ -40,6 +40,7 @@
 
 #include "avatar.h"
 #include "maze.h"
+#include "graphics.h"
 
 // ---------------- Constant definitions 
 
@@ -124,11 +125,11 @@ void* avatar(void* ptr) {
 
     while (1) {
       memset(rec_message, 0, sizeof(AM_Message)); 
-      printf("\n thread %i, socket %i", a.avID, sockfd);
+      //printf("\n thread %i, socket %i", a.avID, sockfd);
       int x = recv(sockfd, rec_message, sizeof(AM_Message), 0);
       if ( x== 0){
         //error: server terminated prematurely
-        printf("\n server error");
+        //printf("\n server error");
         return NULL;
       }
 
@@ -146,7 +147,7 @@ void* avatar(void* ptr) {
             pos.x = ntohl(rec_message->avatar_turn.Pos[b].x);
             pos.y = ntohl(rec_message->avatar_turn.Pos[b].y);
             fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,pos.x, pos.y);
-            printf("\nCurrent position of avatar %i - x: %i y: %i", b,pos.x, pos.y);
+            //printf("\nCurrent position of avatar %i - x: %i y: %i", b,pos.x, pos.y);
             //printf("\nAvatar %d: pos.x: %i, pos.y: %i, direction: %d, last_move: %d \n", b, Avatars[b].pos.x, Avatars[b].pos.y, Avatars[b].direction, Avatars[b].last_move);
             if (Avatars[b].last_move == -1){//if the avatar doesn't have a position yet
               Avatars[b].pos = pos;
@@ -166,6 +167,19 @@ void* avatar(void* ptr) {
                 Avatars[b].last_move = M_NULL_MOVE;
               }
             }
+	    //graphics for drawing border and each avatar
+	    clear();
+	    initscr();
+	    raw();
+	    create_border(maze->num_col, maze->num_row);
+	    //draw_inside(maze);
+	    int x;
+	    for (x = 0; x<a.nAvatars; x++){
+	  	draw_avatar(2*Avatars[x].pos.y, 2*Avatars[x].pos.x);  
+	    }	          
+  	    refresh();
+	    sleep(0.2);
+	    
           }
           
           //send a move message for the current avatar
@@ -210,13 +224,13 @@ void* avatar(void* ptr) {
           //int move = rand() % 4;
           // write move to the log
           fprintf(a.pLog, "\nMove: %i", move);
-          printf("\nMove: %i", move);
+          //printf("\nMove: %i", move);
 
           ready->avatar_move.Direction =htonl(move);
 
           //send ready message to server 
           int sent = send(sockfd, ready, sizeof(AM_Message), 0);
-          printf("\nAvatar move message sent: %i, for av %i", sent, a.avID);
+          //printf("\nAvatar move message sent: %i, for av %i", sent, a.avID);
           free(ready);
           //sleep(1);
         }
@@ -224,9 +238,16 @@ void* avatar(void* ptr) {
 
       // else if the message is success, break
       else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
-        printf("\nSolved!\n");
+        //printf("\nSolved!\n");
         free(rec_message);
         free(ptr);
+	
+	//stop at solution, wait for an input to end graphics
+	clear();
+	refresh();
+	sleep(2);
+	getch();
+	endwin();
         break;
       }
 

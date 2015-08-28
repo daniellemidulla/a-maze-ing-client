@@ -7,8 +7,8 @@ CFLAGS = -Wall -pedantic -std=c11 -ggdb
 GFLAG = -lncurses
 TFLAG = -pthread
 EXEC = maze
-OBJS = AMStartup.o avatar.o maze.o
-SRCS = AMStartup.c avatar.c maze.c
+OBJS = AMStartup.o avatar.o maze.o graphics.o
+SRCS = AMStartup.c avatar.c maze.c graphics.c
 
 # luckily, make has comments too!  
 
@@ -21,8 +21,8 @@ avatar.o: avatar.c avatar.h
 maze.o: maze.c maze.h
 	$(CC) $(CFLAGS) -c maze.c
 
-#graphics.o: graphics.c
-#	$(CC) $(CFLAGS) -c graphics.c
+graphics.o: graphics.c
+	$(CC) $(CFLAGS) -c graphics.c
 
 clean:
 	rm -f *.o
