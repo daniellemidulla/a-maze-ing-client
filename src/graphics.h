@@ -25,7 +25,8 @@
 // ---------------- Prototypes/Macros
 void create_border(int w, int h);
 
-void draw_avatars(Avatar** avatar_list, int av_num);
+
+void draw_avatars(Avatar** avatar_list, int max);
 
 void draw_inside(Maze* maze_list);
 
