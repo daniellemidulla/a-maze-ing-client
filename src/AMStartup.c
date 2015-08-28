@@ -39,11 +39,13 @@
 
 #include "amazing.h"
 #include "avatar.h"
+#include "maze.h"
 
 // ---------------- Constant definitions 
 
 // ---------------- Macro definitions
 extern Avatar Avatars[];
+extern Maze *maze;
 // ---------------- Structures/Types 
 
 // ---------------- Private variables 
@@ -269,6 +271,9 @@ main(int argc, char **argv)
     void* thread_res = NULL;
     int iret1;
     printf("\nediting");
+
+    maze = initMaze(a.MazeHeight,a.MazeWidth);
+
     for (int a = 0; a < nAvatars; a++){
 
       // create args and avatarInfo structs
