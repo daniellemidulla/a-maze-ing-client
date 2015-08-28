@@ -35,9 +35,11 @@
 #include <unistd.h>           // close()
 
 
+
 // ---------------- Local includes  e.g., "file.h"
 
-#include "amazing.h"
+#include "avatar.h"
+#include "maze.h"
 
 // ---------------- Constant definitions 
 
@@ -46,127 +48,203 @@
 // ---------------- Structures/Types 
 
 // ---------------- Private variables 
-
+Maze *maze;  
+XYPos *final_destination;
 // ---------------- Private prototypes 
 
 
 /*====================================================================*/
 // function to test threads
 // This function will run concurrently.
-void* print_i(void* ptr) {
-    int a = *((int *) ptr);
-    printf("\nTHREAD %i", a);
-    //while(1){
-            printf("\nentered thread %i", a);
-    //     }
-    return NULL;
-        
+void* avatar(void* ptr) {
+
+    // Initial variables 
+    int sockfd = 0;
+    struct sockaddr_in servaddr;
+    avatarInfo a = *((avatarInfo *) ptr);
+    fprintf(a.pLog, "\n\nTHREAD FOR %i", a.avID);
+
+    ///////////////////////// create socket
+
+    //Create a socket for the client
+    //If sockfd<0 there was an error in the creation of the socket
+    if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
+      perror("Problem in creating the socket");
+      exit(2);
+    }
+  
+    //Creation of the socket
+    memset(&servaddr, 0, sizeof(servaddr));
+    servaddr.sin_family = AF_INET;
+    servaddr.sin_addr.s_addr= inet_addr(a.ip);
+    servaddr.sin_port =  htons(a.MazePort); //convert to big-endian order
+
+    //Connection of the client to the socket 
+    int connected = connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr));
+    if (connected <0) {
+      perror("Problem in connecting to the server");
+      exit(3);
+    }
+    printf("\nconnected to socket: %i", connected);
+    
+    if (!maze){
+      maze = initMaze(a.MazeHeight,a.MazeWidth);
+    }
+
+
+    //////////////////////////// send initial message 
+
+
+    AM_Message *ready = calloc(1, sizeof(AM_Message));
+    if (!ready){
+      perror("No memory\n");
+      exit(4);
+    }
+    
+    ready->type = htonl(AM_AVATAR_READY);
+    ready->avatar_ready.AvatarId = htonl(a.avID);
+
+    //send ready message to server 
+    int sent = send(sockfd, ready, sizeof(AM_Message), 0);
+    printf("\nAvatar ready message sent: %i, for av %i", sent, a.avID);
+    free(ready);
+    sleep(1);
+
+
+    ////////////////////////// initialize a move message and a rec message
+   
+
+    AM_Message *rec_message = calloc(1, sizeof(AM_Message));
+    if(!rec_message){
+      perror("\nNo memory");
+      exit(4);
+    }
+
+    ////////////////////////////////// listen to server
+
+    while (1) {
+      memset(rec_message, 0, sizeof(AM_Message)); 
+      printf("\n thread %i, socket %i", a.avID, sockfd);
+      int x = recv(sockfd, rec_message, sizeof(AM_Message), 0);
+      if ( x== 0){
+        //error: server terminated prematurely
+        printf("\n server error");
+        return NULL;
+      }
+
+      ///////////////////////////////////////// if turnID matches avID, make a move
+      if(ntohl(rec_message->type) == AM_AVATAR_TURN){
+        // if turn id is my id 
+        int move = -1;
+        if(ntohl(rec_message->avatar_turn.TurnId) == a.avID){
+          // write board to the log
+          fprintf(a.pLog, "\n\nits my turn: %i", a.avID);
+          fprintf(a.pLog, "\nCurrent board:");
+          XYPos pos;
+          //look through the positions received from the server and add them to the Avatars, if they aren't there, or use them to update the maze based on the last move 
+          for(int b = 0; b < a.nAvatars; b++){
+            pos.x = ntohl(rec_message->avatar_turn.Pos[b].x);
+            pos.y = ntohl(rec_message->avatar_turn.Pos[b].y);
+            fprintf(a.pLog, "\nPosition of avatar %i - x: %i y: %i", b,pos.x, pos.y);
+            printf("\nCurrent position of avatar %i - x: %i y: %i", b,pos.x, pos.y);
+            //printf("\nAvatar %d: pos.x: %i, pos.y: %i, direction: %d, last_move: %d \n", b, Avatars[b].pos.x, Avatars[b].pos.y, Avatars[b].direction, Avatars[b].last_move);
+            if (Avatars[b].last_move == -1){//if the avatar doesn't have a position yet
+              Avatars[b].pos = pos;
+              Avatars[b].last_move = M_NULL_MOVE;
+            }
+            else {
+              if ((pos.x == Avatars[b].pos.x) && (pos.y == Avatars[b].pos.y)){
+                //printf("The avatar did not move!");
+                AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 1);
+                Avatars[b].last_move = M_NULL_MOVE;
+              }
+              else {
+                //printf("the avatar moved!!");
+                AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);
+                Avatars[b].pos = pos;
+                Avatars[b].direction = Avatars[b].last_move;
+                Avatars[b].last_move = M_NULL_MOVE;
+              }
+            }
+          }
+          
+          //send a move message for the current avatar
+          AM_Message *ready = calloc(1, sizeof(AM_Message));
+          if (!ready){
+             perror("No memory\n");
+             exit(4);
+          }
+          if(!final_destination){
+            for(int i = 0; i < a.nAvatars; i++){
+              if (i == a.avID) continue;
+              //if the Avatar is in the same place as another Avatar, save position as final_destination
+              if((Avatars[i].pos.x == Avatars[a.avID].pos.x) && (Avatars[i].pos.y == Avatars[a.avID].pos.y)){
+                final_destination = (XYPos *) calloc(1, sizeof(XYPos));
+                final_destination->x = Avatars[a.avID].pos.x;
+                final_destination->y = Avatars[a.avID].pos.y;
+                move = M_NULL_MOVE;
+                break;
+              }
+            }
+          }
+          else{
+            //if Avatar is at final_destination, it should not move
+            if((Avatars[a.avID].pos.x == final_destination->x) && (Avatars[a.avID].pos.y == final_destination ->y)){
+              move = M_NULL_MOVE;
+            }
+          }
+          
+          //if the Avatar is alone, use the rightHandRule to determine the next move
+          if(move == -1){
+            move = rightHandRule(Avatars[a.avID]);
+          }
+
+          //temporary fix to diagnose the initial -1 rightHandRule return
+          if(move == -1){
+            exit(EXIT_FAILURE);
+          }
+          Avatars[a.avID].last_move = move;
+          ready->type = htonl(AM_AVATAR_MOVE);
+          ready->avatar_move.AvatarId = htonl(a.avID);
+          
+          //int move = rand() % 4;
+          // write move to the log
+          fprintf(a.pLog, "\nMove: %i", move);
+          printf("\nMove: %i", move);
+
+          ready->avatar_move.Direction =htonl(move);
+
+          //send ready message to server 
+          int sent = send(sockfd, ready, sizeof(AM_Message), 0);
+          printf("\nAvatar move message sent: %i, for av %i", sent, a.avID);
+          free(ready);
+          //sleep(1);
+        }
+      }
+
+      // else if the message is success, break
+      else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
+        printf("\nSolved!\n");
+        free(rec_message);
+        free(ptr);
+        break;
+      }
+
+      else if(ntohl(rec_message->type) == AM_TOO_MANY_MOVES){
+        printf("\nToo many moves! You lose.\n");
+        free(rec_message);
+        free(ptr);
+        break;
+      }
+      
+      else if(IS_AM_ERROR(ntohl(rec_message->type))){
+        printf("\nReceived Error code\n");
+        free(rec_message);
+        free(ptr);
+        break;
+      }
+    }
+  CleanupMaze();
+  exit(EXIT_SUCCESS);
 }
 
-
-// create avatar pseudocode
-
-        // while not exit conditions (given in lab notes)
-
-            // if avatarID matches TurnID
-                // make a turn from rule
-                // update maze knowledge
-                // write to log
-        // close port with fclose(sockfd) 
-
-// void initializeMazeport(int id, int nAvatars, int diff, char ip, int MazePort, FILE *plog){
-//     int sockfd;
-//     struct sockaddr_in servaddr;
-
-//     //Create a socket for the client
-//      //If sockfd<0 there was an error in the creation of the socket
-//      if ((sockfd = socket (AF_INET, SOCK_STREAM, 0)) <0) {
-//           perror("Problem in creating the socket");
-//           exit(2);
-//      }
-    
-//      //Creation of the socket
-//      memset(&servaddr, 0, sizeof(servaddr));
-//      servaddr.sin_family = AF_INET;
-//      servaddr.sin_addr.s_addr= inet_addr(ip);
-//      servaddr.sin_port =  htons(MazePort); //convert to big-endian order
-    
-//      //Connection of the client to the socket 
-//      if (connect(sockfd, (struct sockaddr *) &servaddr, sizeof(servaddr))<0) {
-//           perror("Problem in connecting to the server");
-//           exit(3);
-//      }
-
-//      return;
-    
-
-//     // do cool stuff after initialized
-// }
-
-
-
-
-// //Essentially this will send a message to the server from each avatar saying they are ready, and once we have heard from all of them the server will initialze Avatare structures with their turn ID and location. Right CreateAvatar is called for each avatar thread, and startup() will be too. 
-// int createAvatar(int id, int nAvatars, int diff, char ip, int MazePort, FILE *plog){
-//    //Prepare message for SENDING
-//     AM_Message *ready = malloc(sizeof(AM_Message));
-//     if (!ready){
-//         perror("No memory\n");
-//         exit(4);
-//     }
-//     sleep (1);
-//     printf("Building avatars ready message to server");
-//     ready->type = htonl(AM_AVATAR_READY);
-//     ready->avatar_ready.AvatarId = htonl(id);
-
-//     //send ready message to server 
-//     send(sockfd, ready, AM_MAX_MESSAGE, 0);
-//     free(ready);
-//     return 1;
-
-//     //Once the server has heard from each avatar, it will send each one it's location and it's turn ID.
-//     //inialize Avatar struct with XYPos based on message
-
-// }
-// int startup(int id){
-//     //Prepare to RECEIVE message
-//     AM_MESSAGE *rec_message = malloc(sizeof(AM_Message));
-//     if(!rec_message){
-//         perror("\nNo memory");
-//         exit(4);
-//     }
-
-//     if (recv((sockfd, rec_message, AM_MAX_MESSAGE, 0)) == 0){
-//             error: server terminated prematurely
-//             perror("The server terminated prematurely");
-//             exit(4);
-//      }
-
-//      printf("\n Parsing server reply");
-
-//      if (ntohl(rec_message->type == AM_NO_SUCH_AVATAR)){
-//          printf("Illegal avatar ID sent a ready to the server");
-//         exit(5);
-//         }
-
-//     if (ntohl(rec_message->type == AM_AVATAR_TURN)){
-//         Avatar *newAv = malloc(sizeof(Avatar));//Correct? Or is an Avatar instance already in existence?
-//        newAv->pos = ntohl(rec_message->avatar_turn.Pos[id]);
-//        uint32_t TurnId = ntohl(rec_message->avatar_turn.TurnId;
-//         return TurnId;
-//         }
-
-
-//     if(ntohl(rec_message->type) == AM_INIT_FAILED){
-//         printf("\nInitialization failed.");
-//         exit(5);
-//         }
-
-
-
-//     return (-1);
-
-
-
-
-// }

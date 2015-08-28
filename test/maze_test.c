@@ -91,7 +91,7 @@
 // Result is for returned MazeNode** to be NULL (and an error to be thrown?).
 int TestInitMaze1(){
   START_TEST_CASE;
-  MazeNode ** maze;
+  Maze * maze;
   maze = initMaze(0, 5);
   SHOULD_BE(maze == NULL);
   CleanupMaze();
@@ -103,7 +103,7 @@ int TestInitMaze1(){
 // Result is for returned MazeNode** to be NULL (and an error to be thrown?).
 int TestInitMaze2(){
   START_TEST_CASE;
-  MazeNode ** maze;
+  Maze * maze;
   maze = initMaze(5, 0);
   SHOULD_BE(maze == NULL);
   CleanupMaze();
@@ -115,13 +115,13 @@ int TestInitMaze2(){
 // Result is for returned MazeNode** to have 1 node with 4 walls
 int TestInitMaze3(){
   START_TEST_CASE;
-  MazeNode ** maze;
+  Maze* maze;
   maze = initMaze(1, 1);
   SHOULD_BE(maze != NULL);
-  SHOULD_BE(maze[0][0].north_wall == 1);
-  SHOULD_BE(maze[0][0].south_wall == 1);
-  SHOULD_BE(maze[0][0].west_wall == 1);
-  SHOULD_BE(maze[0][0].east_wall == 1);
+  SHOULD_BE(maze->maze[0][0].north_wall == 1);
+  SHOULD_BE(maze->maze[0][0].south_wall == 1);
+  SHOULD_BE(maze->maze[0][0].west_wall == 1);
+  SHOULD_BE(maze->maze[0][0].east_wall == 1);
   CleanupMaze();
   END_TEST_CASE;
 }
@@ -132,7 +132,7 @@ int TestInitMaze3(){
 int TestInitMaze4(){
   START_TEST_CASE;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   SHOULD_BE(maze != NULL);
   //top left corner
   SHOULD_BE(maze[0][0].north_wall == 1);
@@ -183,74 +183,124 @@ int TestInitMaze4(){
   END_TEST_CASE;
 }
 
+// Test case: initMaze: 5
+// This test case calls initMaze() for the condition where the maze has already been initialized 
+// Result is for returned Maze* to be a pointer to the address of the existing Maze
+int TestInitMaze5(){
+  START_TEST_CASE;
+  Maze* maze, *new_maze;
+  maze = initMaze(3, 3);
+  SHOULD_BE(maze != NULL);
+  new_maze = initMaze(3, 3);
+  SHOULD_BE(new_maze != NULL);
+  SHOULD_BE(maze == new_maze);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
 // The following test cases are for function:
 // 
 // int rightHandRule(Avatar avatar);
 // 
 // Test case: rightHandRule: 1
-// This test case calls rightHandRule() for the condition where Avatar avatar (position and direction) is empty
+// This test case calls rightHandRule() for the condition where Avatar avatar direction is invalid (-1)
 // Result is for the returned value to be -1.
 int TestRHR1(){
   START_TEST_CASE;
   Avatar avatar;
+  avatar.direction = -1;
   initMaze(3, 3);
   SHOULD_BE(rightHandRule(avatar) == -1);
   CleanupMaze();
   END_TEST_CASE;
 }
 
+// The following test cases are for function:
+// 
+// int rightHandRule(Avatar avatar);
+// 
 // Test case: rightHandRule: 2
+// This test case calls rightHandRule() for the condition where Avatar avatar position is invalid (-1)
+// Result is for the returned value to be -1.
+int TestRHR2(){
+  START_TEST_CASE;
+  Avatar avatar;
+  avatar.pos.x = -1;
+  initMaze(3, 3);
+  SHOULD_BE(rightHandRule(avatar) == -1);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// The following test cases are for function:
+// 
+// int rightHandRule(Avatar avatar);
+// 
+// Test case: rightHandRule: 3
+// This test case calls rightHandRule() for the condition where Avatar avatar position is invalid (>num_row)
+// Result is for the returned value to be -1.
+int TestRHR3(){
+  START_TEST_CASE;
+  Avatar avatar;
+  avatar.pos.x = 3;
+  initMaze(3, 3);
+  SHOULD_BE(rightHandRule(avatar) == -1);
+  CleanupMaze();
+  END_TEST_CASE;
+}
+
+// Test case: rightHandRule: 4
 // This test case calls DisplayResults() for the condition where Avatar avatar is in a node without walls
 // Result is for the returned direction to be "right" of the position avatar is facing
-int TestRHR2(){
+int TestRHR4(){
   START_TEST_CASE;
   MazeNode ** maze;
   Avatar avatar;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   avatar.pos.x = 1;
   avatar.pos.y = 1;
   SHOULD_BE(maze[1][1].north_wall == -1);
   SHOULD_BE(maze[1][1].west_wall == -1);
   SHOULD_BE(maze[1][1].east_wall == -1);
   SHOULD_BE(maze[1][1].south_wall == -1);
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   SHOULD_BE(rightHandRule(avatar) == M_WEST);
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   SHOULD_BE(rightHandRule(avatar) == M_NORTH);
   CleanupMaze();
   END_TEST_CASE;
 }
 
-// Test case: rightHandRule: 3
+// Test case: rightHandRule: 5
 // This test case calls DisplayResults() for the condition where Avatar avatar is in a node with a wall to the Avatar's right
 // Result is for the returned direction to be in the direction that avatar is facing
-int TestRHR3(){
+int TestRHR5(){
   START_TEST_CASE;
   MazeNode ** maze;
   Avatar avatar;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   avatar.pos.x = 1; //avatar is in column 1
   avatar.pos.y = 0; //avatar is in row 0
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   SHOULD_BE(maze[0][1].north_wall == 1); //there should be a wall north of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_WEST);
   avatar.pos.x = 0; //avatar is in column 0
   avatar.pos.y = 1; //avatar is in row 1
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   SHOULD_BE(maze[1][0].west_wall == 1); //there should be a wall west of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
   avatar.pos.x = 1; //avatar is in column 1
   avatar.pos.y = 2; //avatar is in row 2
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   SHOULD_BE(maze[2][1].south_wall == 1); //there should be a wall south of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
   avatar.pos.x = 2; //avatar is in column 2
   avatar.pos.y = 1; //avatar is in row 1
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   SHOULD_BE(maze[1][2].east_wall == 1); //there should be a wall east of the avatar
   SHOULD_BE(rightHandRule(avatar) == M_NORTH);
 
@@ -258,39 +308,39 @@ int TestRHR3(){
   END_TEST_CASE;
 }
 
-// Test case: rightHandRule: 4
+// Test case: rightHandRule: 6
 // This test case calls DisplayResults() for the condition where Avatar avatar is in a node with 2 walls - right & front
 // Result is for the returned direction to be "left" of the position avatar is facing
-int TestRHR4(){
+int TestRHR6(){
   START_TEST_CASE;
   MazeNode ** maze;
   Avatar avatar;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   //avatar in the top left corner facing west, should go south
   avatar.pos.x = 0;
   avatar.pos.y = 0;
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   SHOULD_BE(maze[0][0].north_wall == 1);
   SHOULD_BE(maze[0][0].west_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_SOUTH);
   //avatar in the bottom left corner facing south, should go east
   avatar.pos.x = 0;
   avatar.pos.y = 2;
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   SHOULD_BE(maze[2][0].west_wall == 1);
   SHOULD_BE(maze[2][0].south_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_EAST);
   //avatar in the bottom right corner facing east, should go north
   avatar.pos.x = 2;
   avatar.pos.y = 2;
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   SHOULD_BE(maze[2][2].east_wall == 1);
   SHOULD_BE(maze[2][2].south_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_NORTH);
   //avatar in the top right corner facing north, should go west
   avatar.pos.x = 2;
   avatar.pos.y = 0;
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   SHOULD_BE(maze[0][2].east_wall == 1);
   SHOULD_BE(maze[0][2].north_wall == 1);
   SHOULD_BE(rightHandRule(avatar) == M_WEST);
@@ -298,19 +348,19 @@ int TestRHR4(){
   END_TEST_CASE;
 }
 
-// Test case: rightHandRule: 5
+// Test case: rightHandRule: 7
 // This test case calls DisplayResults() for the condition where Avatar avatar is in a node with 3 walls - right, front, & left
 // Result is for the returned direction to be "backwards" from the position avatar is facing and for the maze to have a new wall
-int TestRHR5(){
+int TestRHR7(){
   START_TEST_CASE;
   MazeNode ** maze;
   Avatar avatar;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   //avatar is in the middle of the maze
   avatar.pos.x = 1;
   avatar.pos.y = 1;
   //avatar facing north in a maze node with north, east, and west walls
-  avatar.fd = M_NORTH;
+  avatar.direction = M_NORTH;
   AddWall(1, 1, M_NORTH, 1);
   AddWall(1, 1, M_EAST, 1);
   AddWall(1, 1, M_WEST, 1);
@@ -318,7 +368,7 @@ int TestRHR5(){
   SHOULD_BE(maze[1][1].south_wall == 2); //maze node where the avatar was now has a 4th wall
   SHOULD_BE(maze[2][1].north_wall == 2); //maze node the avatar will move to has a "fake" north wall
   //avatar facing west in a maze node with north, south, and west walls
-  avatar.fd = M_WEST;
+  avatar.direction = M_WEST;
   AddWall(1, 1, M_NORTH, 1);
   AddWall(1, 1, M_EAST, 0); //reset value of east wall to 0
   AddWall(1, 1, M_WEST, 1);
@@ -327,7 +377,7 @@ int TestRHR5(){
   SHOULD_BE(maze[1][1].east_wall == 2); //maze node where the avatar was now has a 4th wall
   SHOULD_BE(maze[1][2].west_wall == 2); //maze node the avatar will move to has a "fake" west wall
   //avatar facing south in a maze node with east, south, and west walls
-  avatar.fd = M_SOUTH;
+  avatar.direction = M_SOUTH;
   AddWall(1, 1, M_NORTH, 0); //reset value of north wall to 0
   AddWall(1, 1, M_EAST, 1);
   AddWall(1, 1, M_WEST, 1);
@@ -336,7 +386,7 @@ int TestRHR5(){
   SHOULD_BE(maze[1][1].north_wall == 2); //maze node where the avatar was now has a 4th wall
   SHOULD_BE(maze[0][1].south_wall == 2); //maze node the avatar will move to has a "fake" south wall
   //avatar facing east in a maze node with north, south, and west walls
-  avatar.fd = M_EAST;
+  avatar.direction = M_EAST;
   AddWall(1, 1, M_NORTH, 1);
   AddWall(1, 1, M_EAST, 1);
   AddWall(1, 1, M_WEST, 0); //reset value of north wall to 0
@@ -358,7 +408,7 @@ int TestAddWall1(){
   START_TEST_CASE;
   int north, south, east, west;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   north = maze[1][1].north_wall;
   south = maze[1][1].south_wall;
   east = maze[1][1].east_wall;
@@ -379,7 +429,7 @@ int TestAddWall2(){
   START_TEST_CASE;
   int north, south, east, west;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   north = maze[0][1].north_wall;
   south = maze[0][1].south_wall;
   east = maze[0][1].east_wall;
@@ -400,7 +450,7 @@ int TestAddWall3(){
   START_TEST_CASE;
   int north, south, east, west;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   north = maze[2][1].north_wall;
   south = maze[2][1].south_wall;
   east = maze[2][1].east_wall;
@@ -421,7 +471,7 @@ int TestAddWall4(){
   START_TEST_CASE;
   int north, south, east, west;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   north = maze[1][0].north_wall;
   south = maze[1][0].south_wall;
   east = maze[1][0].east_wall;
@@ -442,7 +492,7 @@ int TestAddWall5(){
   START_TEST_CASE;
   int north, south, east, west;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   north = maze[1][2].north_wall;
   south = maze[1][2].south_wall;
   east = maze[1][2].east_wall;
@@ -463,7 +513,7 @@ int TestAddWall6(){
   START_TEST_CASE;
   int r, c;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   r = 1;
   c = 1;
   AddWall(r, c, M_NORTH, 2);
@@ -480,7 +530,7 @@ int TestAddWall7(){
   START_TEST_CASE;
   int r, c;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   r = 1;
   c = 1;
   AddWall(r, c, M_SOUTH, 2);
@@ -497,7 +547,7 @@ int TestAddWall8(){
   START_TEST_CASE;
   int r, c;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   r = 1;
   c = 1;
   AddWall(r, c, M_WEST, 2);
@@ -513,7 +563,7 @@ int TestAddWall9(){
   START_TEST_CASE;
   int r, c;
   MazeNode ** maze;
-  maze = initMaze(3, 3);
+  maze = initMaze(3, 3)->maze;
   r = 1;
   c = 1;
   AddWall(r, c, M_EAST, 2);
@@ -544,11 +594,14 @@ int main(int argc, char** argv) {
   RUN_TEST(TestInitMaze2, "initMaze() Test case 2");
   RUN_TEST(TestInitMaze3, "initMaze() Test case 3");
   RUN_TEST(TestInitMaze4, "initMaze() Test case 4");
+  RUN_TEST(TestInitMaze5, "initMaze() Test case 5");
   RUN_TEST(TestRHR1, "rightHandRule() Test case 1");
   RUN_TEST(TestRHR2, "rightHandRule() Test case 2");
   RUN_TEST(TestRHR3, "rightHandRule() Test case 3");
   RUN_TEST(TestRHR4, "rightHandRule() Test case 4");
   RUN_TEST(TestRHR5, "rightHandRule() Test case 5");
+  RUN_TEST(TestRHR6, "rightHandRule() Test case 6");
+  RUN_TEST(TestRHR7, "rightHandRule() Test case 7");
   RUN_TEST(TestAddWall1, "AddWall() Test case 1");
   RUN_TEST(TestAddWall2, "AddWall() Test case 2");
   RUN_TEST(TestAddWall3, "AddWall() Test case 3");

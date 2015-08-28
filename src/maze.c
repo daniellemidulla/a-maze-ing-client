@@ -33,9 +33,7 @@
 // ---------------- Structures/Types 
 
 // ---------------- Private variables 
-MazeNode ** maze;
-int num_rows;
-int num_col;
+Maze full_maze;
 
 // ---------------- Private prototypes 
 /* getRight - returns the direction "right" of the avatar" */
@@ -66,17 +64,19 @@ int isDeadEnd(XYPos current_pos);                 //checks if current position i
  * Output: a 2D pointer array containing the initialized MazeNodes with walls around the outside
  *
  */
-MazeNode** initMaze(int r, int c){
+Maze* initMaze(int r, int c){
   if (r == 0) return NULL;
   if(c == 0) return NULL;
-  num_rows = r;
-  num_col = c;
-  maze = calloc(num_rows, sizeof(MazeNode *)); //(MazeNode **) 
+  if((full_maze.maze != NULL) && (full_maze.maze[0] != NULL)) return &full_maze;
+  full_maze.num_row = r;
+  full_maze.num_col = c;
+  printf("initializing maze with %d rows and %d columns", full_maze.num_row, full_maze.num_col);
+  full_maze.maze = calloc(full_maze.num_row, sizeof(MazeNode *)); //(MazeNode **) 
   int i;
   int j;
-  for(i= 0; i < num_rows ; i++){
-    maze[i] = (MazeNode *)calloc(num_col, sizeof(MazeNode));
-    for(j=0; j < num_col; j++){
+  for(i= 0; i < full_maze.num_row ; i++){
+    full_maze.maze[i] = (MazeNode *)calloc(full_maze.num_col, sizeof(MazeNode));
+    for(j=0; j < full_maze.num_col; j++){
       MazeNode current_node;
       current_node.row = i;
       current_node.col = j;
@@ -84,10 +84,10 @@ MazeNode** initMaze(int r, int c){
       current_node.south_wall = (i == r - 1) ? 1 : -1;
       current_node.west_wall = (j == 0) ? 1 : -1;
       current_node.east_wall = (j == c - 1) ? 1 : -1;
-      maze[i][j] = current_node;
+      full_maze.maze[i][j] = current_node;
     }
   }
-  return maze;
+  return &full_maze;
 }
 
 /* int rightHandRule(Avatar avatar); 
@@ -100,19 +100,26 @@ MazeNode** initMaze(int r, int c){
  *
  */
 int rightHandRule(Avatar avatar){
-  if((avatar.pos.x >= num_col) || (avatar.pos.y >= num_rows)){
+  //MazeNode * current_node = &full_maze.maze[avatar.pos.y][avatar.pos.x];
+  //printf("\nin rightHandRule: avatar %d: pos: x: %d, y: %d, direction: %d\n\tmaze: north_wall: %d, south_wall: %d, west_wall: %d, east_wall: %d\n", avatar.id, avatar.pos.x, avatar.pos.y, avatar.direction, current_node->north_wall, current_node->south_wall, current_node->west_wall, current_node->east_wall);
+  if((avatar.pos.x >= full_maze.num_col) || (avatar.pos.y >= full_maze.num_row) || (avatar.direction < 0)){
     return -1;
   }
+
   int new_dir;
   new_dir = isDeadEnd(avatar.pos);
   if(new_dir == -1){
-    new_dir = getRight(avatar.fd, avatar.pos);
+    //printf("not a dead end!");
+    new_dir = getRight(avatar.direction, avatar.pos);
     if (new_dir == -1) {
-      new_dir = getFront(avatar.fd, avatar.pos);
+      //printf("cannot go right");
+      new_dir = getFront(avatar.direction, avatar.pos);
       if (new_dir == -1) {
-        new_dir = getLeft(avatar.fd, avatar.pos);
+        //printf("cannot go forward!");
+        new_dir = getLeft(avatar.direction, avatar.pos);
         if (new_dir == -1) {
-          new_dir = getBack(avatar.fd, avatar.pos);
+          //printf("cannot go left!");
+          new_dir = getBack(avatar.direction, avatar.pos);
           if(new_dir != -1){
             AddWall(avatar.pos.y, avatar.pos.x, new_dir, 2);
           }
@@ -134,11 +141,13 @@ int rightHandRule(Avatar avatar){
  *
  */
 void CleanupMaze(){
+  if(!full_maze.maze) return;
   int i;
-  for(i = 0; i < num_rows; i++){
-    free(maze[i]);
+  for(i = 0; i < full_maze.num_row; i++){
+    free(full_maze.maze[i]);
   }
-  free(maze);
+  free(full_maze.maze);
+  full_maze.maze = NULL;
 }
 
 /* int getRight(int dir_facing, XYPos current_pos);
@@ -155,7 +164,7 @@ void CleanupMaze(){
 int getRight(int dir_facing, XYPos current_pos){
   int new_dir;
   MazeNode current_node;
-  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
+  current_node = full_maze.maze[current_pos.y][current_pos.x]; //get the node at row y, column x
   switch(dir_facing){
     case M_NORTH:
       new_dir = (current_node.east_wall < 1) ? M_EAST : -1;
@@ -190,7 +199,7 @@ int getRight(int dir_facing, XYPos current_pos){
 int getFront(int dir_facing, XYPos current_pos){
   int new_dir;
   MazeNode current_node;
-  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
+  current_node = full_maze.maze[current_pos.y][current_pos.x]; //get the node at row y, column x
   switch(dir_facing){
     case M_NORTH:
       new_dir = (current_node.north_wall < 1) ? M_NORTH : -1;
@@ -225,7 +234,7 @@ int getFront(int dir_facing, XYPos current_pos){
 int getLeft(int dir_facing, XYPos current_pos){
   int new_dir;
   MazeNode current_node;
-  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
+  current_node = full_maze.maze[current_pos.y][current_pos.x]; //get the node at row y, column x
 
   switch(dir_facing){
     case M_NORTH:
@@ -261,7 +270,7 @@ int getLeft(int dir_facing, XYPos current_pos){
 int getBack(int dir_facing, XYPos current_pos){
   int new_dir;
   MazeNode current_node;
-  current_node = maze[current_pos.y][current_pos.x]; //get the node at row y, column x
+  current_node = full_maze.maze[current_pos.y][current_pos.x]; //get the node at row y, column x
 
   switch(dir_facing){
     case M_NORTH:
@@ -297,7 +306,7 @@ int isDeadEnd(XYPos current_pos){
   int new_dir;
   int wall_count;
   MazeNode current_node;
-  current_node = maze[current_pos.y][current_pos.x]; //get maze node at row y, column x
+  current_node = full_maze.maze[current_pos.y][current_pos.x]; //get maze node at row y, column x
   wall_count = 0;
 
   if (current_node.north_wall < 1) new_dir = M_NORTH;
@@ -333,35 +342,36 @@ int isDeadEnd(XYPos current_pos){
  *
  */
 void AddWall(int r, int c, int dir, int value){
+  if((r < 0) || (c < 0) || (r >= full_maze.num_row) || (c >= full_maze.num_col)) return;
   MazeNode *current_node;
   MazeNode *adjacent_node;
-  current_node = &maze[r][c];
+  current_node = &full_maze.maze[r][c];
   if (dir == M_NORTH){
     if (r > 0){ //if we aren't in the top row, update the north wall and the adjacent south wall
       current_node->north_wall = value;
-      adjacent_node = &maze[r-1][c];
+      adjacent_node = &full_maze.maze[r-1][c];
       adjacent_node->south_wall = value;
     }
   }
   else if (dir == M_WEST){
     if (c > 0){ //if we aren't in the 0th column, update the west wall and the adjacent east wall
       current_node->west_wall = value;
-      adjacent_node = &maze[r][c-1];
+      adjacent_node = &full_maze.maze[r][c-1];
       adjacent_node->east_wall = value;
     }
   }
   else if (dir == M_EAST){
-    if (c < num_col-1){ //if we aren't in the last column, update the east wall and the adjacent west wall
+    if (c < full_maze.num_col-1){ //if we aren't in the last column, update the east wall and the adjacent west wall
       current_node->east_wall = value;
-      adjacent_node = &maze[r][c+1];
+      adjacent_node = &full_maze.maze[r][c+1];
       adjacent_node->west_wall = value;
 
     }
   }
   else if (dir == M_SOUTH){
-    if (r < num_rows-1){ //if we aren't in the bottom row, update the south wall and the adjacent north wall
+    if (r < full_maze.num_row-1){ //if we aren't in the bottom row, update the south wall and the adjacent north wall
       current_node->south_wall = value;
-      adjacent_node = &maze[r+1][c];
+      adjacent_node = &full_maze.maze[r+1][c];
       adjacent_node->north_wall = value;
     }
   }

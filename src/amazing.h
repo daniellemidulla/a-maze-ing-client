@@ -70,8 +70,10 @@ typedef struct XYPos
 /* Maze avatar */
 typedef struct Avatar
 {
-    int fd;
+    int id;
+    int direction;
     XYPos pos;
+    int last_move;
 } Avatar;
 
 /* AM Message description */
@@ -142,6 +144,18 @@ typedef struct AM_Message
         } unknown_msg_type;
     };
 } AM_Message;
+
+
+typedef struct avatarInfo {
+    int avID; // avatar id
+    int nAvatars; // no of avatars
+    int difficulty;
+    char ip[100];
+    int MazePort; // port number
+    int MazeWidth;
+    int MazeHeight;
+    FILE* pLog;
+} avatarInfo;
 
 // ---------------- Public Variables
 

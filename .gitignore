@@ -2,7 +2,7 @@
 *.o
 
 #Log files
-*.log
+#*.log
 
 #Shared objects (inc. Windows DLLs)
 *.dll

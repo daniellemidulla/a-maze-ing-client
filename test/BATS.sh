@@ -52,6 +52,8 @@ Test rightHandRule() Test case 2 passed\n\
 Test rightHandRule() Test case 3 passed\n\
 Test rightHandRule() Test case 4 passed\n\
 Test rightHandRule() Test case 5 passed\n\
+Test rightHandRule() Test case 6 passed\n\
+Test rightHandRule() Test case 7 passed\n\
 Test AddWall() Test case 1 passed\n\
 Test AddWall() Test case 2 passed\n\
 Test AddWall() Test case 3 passed\n\
