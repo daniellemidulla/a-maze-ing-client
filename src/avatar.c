@@ -40,7 +40,7 @@
 
 #include "avatar.h"
 #include "maze.h"
-#include "graphics.c"
+#include "graphics.h"
 
 // ---------------- Constant definitions 
 
