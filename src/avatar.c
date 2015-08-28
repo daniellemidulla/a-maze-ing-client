@@ -161,20 +161,20 @@ void* avatar(void* ptr) {
               Avatars[b].last_move = M_NULL_MOVE;
             }
           }
-          //graphics for drawing border and each avatar
-          clear();
-  	  initscr();
-          raw();
-  	  create_border(maze->num_col, maze->num_row);
-          draw_inside(maze);
-          int x;
-          for (x = 0; x<a.nAvatars; x++){
-  	  	    draw_avatar(2*Avatars[x].pos.y, 2*Avatars[x].pos.x);  
-          }        
-    	  refresh();
-          sleep(0.2);
           
         }
+
+	////////////////graphics////////////////
+	initscr();
+	clear();
+	raw();
+	create_border(maze->num_col, maze->num_row);
+     	draw_inside(maze);
+      	int f;
+      	for (f = 0; f<a.nAvatars; f++){
+       	              draw_avatar(2*Avatars[f].pos.y, 2*Avatars[f].pos.x);
+      	}
+      	refresh();
             
         /* Determine the direction of the move for the current Avatar */
 
@@ -245,11 +245,13 @@ void* avatar(void* ptr) {
       free(rec_message);
       free(ptr);
   	
-    	//stop at solution, wait for an input to end graphics
-      clear();
+    	//stop at solution, wait for an input to end graphics     
       refresh();
-      sleep(2);
+      sleep(1);
+      clear();
+      printw("Maze solved!");    
       getch();
+      clear();
       endwin();
       break;
       pthread_mutex_lock(&solved_lock);
