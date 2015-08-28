@@ -163,15 +163,15 @@ void* avatar(void* ptr) {
           }
           //graphics for drawing border and each avatar
           clear();
-  	      initscr();
+  	  initscr();
           raw();
-  	      create_border(maze->num_col, maze->num_row);
-          //draw_inside(maze);
+  	  create_border(maze->num_col, maze->num_row);
+          draw_inside(maze);
           int x;
           for (x = 0; x<a.nAvatars; x++){
   	  	    draw_avatar(2*Avatars[x].pos.y, 2*Avatars[x].pos.x);  
           }        
-    	    refresh();
+    	  refresh();
           sleep(0.2);
           
         }
