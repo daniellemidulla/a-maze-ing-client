@@ -70,7 +70,6 @@ Maze* initMaze(int r, int c){
   if((full_maze.maze != NULL) && (full_maze.maze[0] != NULL)) return &full_maze;
   full_maze.num_row = r;
   full_maze.num_col = c;
-  printf("initializing maze with %d rows and %d columns", full_maze.num_row, full_maze.num_col);
   full_maze.maze = calloc(full_maze.num_row, sizeof(MazeNode *)); //(MazeNode **) 
   int i;
   int j;

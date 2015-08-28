@@ -264,13 +264,13 @@ main(int argc, char **argv)
           // the maximum number of moves (a function of AM_MAX_MOVES and Difficulty) is exceeded,
           // the server's AM_WAIT_TIME timer expires, or
           // the server determines that all of the Avatars are located at the same (x,y) position, meaning the maze has been solved.
-    printf("*******THREADS*******");
+    printf("*******THREADS*******\n");
     close(sockfd);
   
     pthread_t t1[nAvatars];
     void* thread_res = NULL;
     int iret1;
-    printf("\nediting");
+    printf("editing\n");
 
     maze = initMaze(MazeHeight,MazeWidth);
 
@@ -366,16 +366,16 @@ FILE* initLog(int difficulty, int nAvatars){
 
 
 // open log up in a log folder to append 
-  pLog = fopen(str, "a");
+  pLog = fopen(str, "w");
   if(pLog){
     char date[100];
     strftime(date, 100, "%a %d %Y, %H:%M", localtime(&mytime));
     fprintf(pLog, "Log: %s\n", date);
     fprintf(pLog, "Difficulty: %i\nNumber of Avatars: %i\n", difficulty, nAvatars);
   }
-
+  fclose(pLog);
+  pLog = fopen(str, "a");
   return(pLog);
-
 }
 
 

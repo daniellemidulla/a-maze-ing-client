@@ -83,7 +83,7 @@ void* avatar(void* ptr) {
     perror("Problem in connecting to the server");
     exit(3);
   }
-  printf("\nconnected to socket: %i", connected);
+  printf("connected to socket: %i\n", connected);
   
 
   //////////////////////////// send initial message 
@@ -99,7 +99,7 @@ void* avatar(void* ptr) {
 
   //send ready message to server 
   int sent = send(sockfd, ready, sizeof(AM_Message), 0);
-  printf("\nAvatar ready message sent: %i, for av %i", sent, a.avID);
+  printf("Avatar ready message sent: %i, for av %i\n", sent, a.avID);
   free(ready);
   sleep(1);
 
@@ -263,5 +263,5 @@ void* avatar(void* ptr) {
   }
   CleanupMaze();
   exit(EXIT_SUCCESS);
-  }
+}
 
