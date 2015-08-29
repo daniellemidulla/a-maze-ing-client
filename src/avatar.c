@@ -240,7 +240,10 @@ void* avatar(void* ptr) {
 
         //temporary fix to diagnose the initial -1 rightHandRule return
         if(move == -1){
-          exit(EXIT_FAILURE);
+          //exit(EXIT_FAILURE);
+          ClearFakeWalls(Avatars[a.avID].pos.y, Avatars[a.avID].pos.x);
+          move = rightHandRule(Avatars[a.avID]);
+          move = (move == -1) ? M_NULL_MOVE : move;
         }
         Avatars[a.avID].last_move = move;
         //int move = rand() % 4;

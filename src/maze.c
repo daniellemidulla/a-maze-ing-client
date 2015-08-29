@@ -375,3 +375,21 @@ void AddWall(int r, int c, int dir, int value){
     }
   }
 }
+/* void ClearFakeWalls(int r, int c);
+ *
+ * Description: sets the fake walls of a MazeNode to have a value of 0
+ *
+ * Input:
+ *  - r => the row of the MazeNode
+ *  - c => the column of the MazeNode
+ * 
+ * Output: none
+ *
+ */
+void ClearFakeWalls(int r, int c){
+  MazeNode* current_node = &full_maze.maze[r][c];
+  if (current_node->north_wall == 2) current_node->north_wall = 0;
+  if (current_node->south_wall == 2) current_node->south_wall = 0;
+  if (current_node->west_wall == 2) current_node->west_wall = 0;
+  if (current_node->east_wall == 2) current_node->east_wall = 0;
+}
