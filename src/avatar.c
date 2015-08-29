@@ -273,6 +273,14 @@ void* avatar(void* ptr) {
     // else if the message is success, break
     else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
       pthread_mutex_lock(&solved_lock);
+      if (a.avID == 0){
+        char buff[100];
+        time_t myTime;
+        myTime = time(NULL);
+        strftime(buff, 100, "%a %d %Y, %H:%M", localtime(&myTime));
+        printf("%s", buff);
+        fprintf(a.pLog, "\nMaze Solved on %s!", buff);;
+      }
       //printf("\nSolved!\n");
       free(rec_message);
       free(ptr);
