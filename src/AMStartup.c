@@ -330,7 +330,7 @@ main(int argc, char **argv)
 
 /////////////////////////////////// wait until threads are done
 
-      // --------------- WAITING FOR THREADS TO FINISH
+  // --------------- WAITING FOR THREADS TO FINISH
   for(int b = nAvatars - 1; b >= 0; b--) {
     int res = pthread_join(t1[b], (void**)&thread_res); 
     if (res == 0) {
@@ -349,6 +349,7 @@ main(int argc, char **argv)
   free(thread_res);
   CleanupMaze();//free the maze resources
   endwin();//free the graphics resources
+  delwin(stdscr);
   close(MazePort);
   fprintf(pLog, "\nCleared Memory\n");
   fclose(pLog);

@@ -201,16 +201,11 @@ void* avatar(void* ptr) {
         //draw_fakes(maze);       
       	int f;
       	for (f = 0; f<a.nAvatars; f++){
-<<<<<<< HEAD
-       	              draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
-      	}	
-=======
           draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
       	}
         //unsigned int microseconds;
         //microseconds = 200;
         //usleep(microseconds);
->>>>>>> 8f66972b96cada85c9676122e08c7760f21805ee
       	refresh();
             
         /* Determine the direction of the move for the current Avatar */
@@ -293,17 +288,16 @@ void* avatar(void* ptr) {
         //free(ptr);
       }
   	
-<<<<<<< HEAD
     	//stop at solution, wait for an input to end graphics     
-      refresh();
-      sleep(1);
-      clear();
-      printw("Maze solved!");    
-      getch();
-      clear();
-      endwin();
-      delwin(stdscr);
-=======
+      //refresh();
+      //sleep(1);
+      //clear();
+      //printw("Maze solved!");    
+      //getch();
+      //clear();
+      //endwin();
+      //delwin(stdscr);
+
       if(a.avID == 0){
       //stop at solution, wait for an input to end graphics     
         refresh();
@@ -315,7 +309,6 @@ void* avatar(void* ptr) {
         //endwin();
       }
       pthread_mutex_unlock(&solved_lock);
->>>>>>> 8f66972b96cada85c9676122e08c7760f21805ee
       break;
     }
 

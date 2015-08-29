@@ -14,22 +14,23 @@
  *
  *                  ======================================================================*/
 
-// // ---------------- Open Issues
-//
-// // ---------------- System includes e.g., <stdio.h>
+// ---------------- Open Issues
+
+// ---------------- System includes e.g., <stdio.h>
 #include <ncurses.h>
 #include <unistd.h>
 #include <stdlib.h>
+
 // ---------------- Local includes  e.g., "file.h"
 #include "graphics.h"
 
 //function prototypes
 
 // ---------------- Constant definitions
-//
-// // ---------------- Macro definitions
-//
-// // ---------------- Structures/Types
+
+// ---------------- Macro definitions
+
+// ---------------- Structures/Types
 
 //draw outside border in green
 void create_border(int w, int h){
@@ -101,20 +102,15 @@ void draw_inside(Maze* maze_list){
 					//make south wall
 					move(2*(i+1),2*j+1); 
 					addch('-');
-<<<<<<< HEAD
 					//make southeast corner
 					move(2*(i+1), 2*(j+1));
-=======
-					//make corner
-					move(2*(i+1), 2*j);
->>>>>>> 8f66972b96cada85c9676122e08c7760f21805ee
 					addch('*');
 				}
 				//northeast corner
 				if (maze_list->maze[i][j].north_wall==1){		
-                                        move(2*i, 2*(j+1));
-                                        addch('*');
-				}
+            move(2*i, 2*(j+1));
+          addch('*');
+      }
 			}
 			//if the node has a south wall
 			if (maze_list->maze[i][j].east_wall !=1){
@@ -124,17 +120,11 @@ void draw_inside(Maze* maze_list){
           addch('*');
           move(2*(i+1), 2*j+1);
 					addch('-');
-<<<<<<< HEAD
 				}
 				//southwest corner
 				if (maze_list->maze[i][j].west_wall==1){	
 					move(2*(i+1),2*j);
 					addch('*');	
-=======
-          move(2*(i+1), 2*j+2);
-          addch('*');
-				
->>>>>>> 8f66972b96cada85c9676122e08c7760f21805ee
 				}
 			}
 			
@@ -155,29 +145,28 @@ void draw_inside(Maze* maze_list){
 //look through maze nodes and draw fake walls as magenta
 void draw_fakes(Maze* maze_list){
 
-        int i;
-        int j;
-	//initialize magenta
-        init_pair(5, COLOR_MAGENTA, COLOR_BLACK);
-        attron(COLOR_PAIR(5));
-	//iterate through all nodes, looking for fake walls marked as 2
-        for (i=0; i<maze_list->num_row; i++){
-                for (j=0; j<maze_list->num_col; j++){
-			//east
-                        if (maze_list->maze[i][j].east_wall == 2){ 
-                                move(2*i+1, 2*(j+1));
-                                addch('|');
-		                           
-                        }                        
-			//south
-                        if (maze_list->maze[i][j].east_wall !=2){
-                                if (maze_list->maze[i][j].south_wall==2){                                
-                                        move(2*(i+1), 2*j+1);
-                                        addch('-');
-                                }
-                        }
-                }
+  int i;
+  int j;
+//initialize magenta
+  init_pair(5, COLOR_MAGENTA, COLOR_BLACK);
+  attron(COLOR_PAIR(5));
+//iterate through all nodes, looking for fake walls marked as 2
+  for (i=0; i<maze_list->num_row; i++){
+    for (j=0; j<maze_list->num_col; j++){
+//east
+      if (maze_list->maze[i][j].east_wall == 2){ 
+        move(2*i+1, 2*(j+1));
+        addch('|');
+      }                        
+//south
+      if (maze_list->maze[i][j].east_wall !=2){
+        if (maze_list->maze[i][j].south_wall==2){                                
+          move(2*(i+1), 2*j+1);
+          addch('-');
         }
+      }
+    }
+  }
 	//turn off magenta
-        attroff(COLOR_PAIR(5));
+  attroff(COLOR_PAIR(5));
 }
