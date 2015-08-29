@@ -32,85 +32,51 @@
 //
 // // ---------------- Structures/Types
 
-
-/*
-//main for testing movement
-int main (int argc, char *argv[]){
-		
-	int h=20;
-	int w=20;
-	int avatar_x = 1;
-	int avatar_y = 10;
-
-	while(avatar_x<2*w+1){
-
-		clear();	
-		initscr();
-		raw();
-		
-		//make outside walls
-		create_border(w,h);
-
-		move(avatar_y, avatar_x);
-		addch('*');
-		avatar_x = avatar_x +1;
-
-		refresh();	
-		getch();
-		endwin();
-		}
-	
-	return 0;
-}
-*/
-
+//draw outside border in green
 void create_border(int w, int h){
-
+		
+		//initialize green
 		init_pair(1, COLOR_GREEN, COLOR_BLACK);
 		attron(COLOR_PAIR(1));
+
 		//top		
 		int i;
 		move(0,0);
                 for (i=0;i<(2*w);i++){
                         addch('-');
                 }
-
 		//bottom
                 move(2*h, 0);
                 for (i=0; i<2*w; i++){
                         addch('-');
                 }
-
 		//left
-                for (i=1;i<2*h;i++){
-                        move(i,0);
-                        addch('|');
+                for (i=1;i<2*h;i++){               
+			mvaddch(i,0,'|');
                 }
-
 		//right
                 for (i=1;i<2*h-1;i++){
-                        move(i, 2*w);
-                        addch('|');
+               		mvaddch(i,2*w,'|');
                 }
+		//turn off green
 		attroff(COLOR_PAIR(1));
 
 }
-
+//draws avatars given their coordinates
 void draw_avatar(int avatar_y, int avatar_x){
 	
 	init_pair(3, COLOR_RED, COLOR_BLACK);
         attron(COLOR_PAIR(3));	
-	move(avatar_y, avatar_x);
-	addch('A');
+	mvaddch(avatar_y,avatar_x, 'A');
 	attroff(COLOR_PAIR(3));
 
 }
-
+//given a list of mazenodes, draw the inner walls of the maze
 void draw_inside(Maze* maze_list){
 	
 	int i;
 	int j;
-	
+	//draw walls as green
 	init_pair(2, COLOR_GREEN, COLOR_BLACK);
         attron(COLOR_PAIR(2));
 	
@@ -147,15 +113,15 @@ void draw_inside(Maze* maze_list){
 	attroff(COLOR_PAIR(2));
 }
 
+//look through maze nodes and draw fake walls as magenta
 void draw_fakes(Maze* maze_list){
 
         int i;
         int j;
-
+	//initialize magenta
         init_pair(5, COLOR_MAGENTA, COLOR_BLACK);
         attron(COLOR_PAIR(5));
-
-
+	//iterate through all nodes, looking for fake walls marked as 2
         for (i=0; i<maze_list->num_row; i++){
                 for (j=0; j<maze_list->num_col; j++){
 			//east
@@ -173,5 +139,6 @@ void draw_fakes(Maze* maze_list){
                         }
                 }
         }
+	//turn off magenta
         attroff(COLOR_PAIR(5));
 }

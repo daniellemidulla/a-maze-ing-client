@@ -64,8 +64,6 @@ void* avatar(void* ptr) {
   struct sockaddr_in servaddr;
   avatarInfo a = *((avatarInfo *) ptr);
   fprintf(a.pLog, "\n\nTHREAD FOR %i", a.avID);
-  
-
 
   ///////////////////////// create socket
 
@@ -178,7 +176,9 @@ void* avatar(void* ptr) {
       	for (f = 0; f<a.nAvatars; f++){
        	              draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
       	}
-	//attroff(COLOR_PAIR(3));
+	//unsigned int microseconds;
+	//microseconds = 200;
+	//usleep(microseconds);
       	refresh();
             
         /* Determine the direction of the move for the current Avatar */
@@ -245,14 +245,6 @@ void* avatar(void* ptr) {
 
     // else if the message is success, break
     else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
-        if (a.avID == 0){
-            char buff[100];
-            time_t myTime;
-            myTime = time(NULL);
-            strftime(buff, 100, "%a %d %Y, %H:%M", localtime(&myTime));
-            printf("%s", buff);
-            fprintf(a.pLog, "\nMaze Solved on %s!", buff);;
-        }
       pthread_mutex_lock(&solved_lock);
       //printf("\nSolved!\n");
       free(rec_message);

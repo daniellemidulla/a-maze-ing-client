@@ -23,12 +23,13 @@
 // ---------------- Structures/Types
 //
 // ---------------- Prototypes/Macros
+// draws maze border
 void create_border(int w, int h);
-
+// draws avatar
 void draw_avatar(int x, int y);
-
+// draws maze inner walls
 void draw_inside(Maze* maze_list);
-
+// draws maze fake walls
 void draw_fakes(Maze* maze_list);
 
 #endif //GRAPHICS_H
