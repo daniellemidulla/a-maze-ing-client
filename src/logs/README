@@ -1,0 +1,6 @@
+Log file README
+
+
+
+Our log directory contains folders of various runs at each difficulty level. Every maze level run has been solved by our current heuristic. 
+To view the end of the log file, call "tail -5 <logname>" to see the outcome of the run. To view every move made, "cat" the file. 
