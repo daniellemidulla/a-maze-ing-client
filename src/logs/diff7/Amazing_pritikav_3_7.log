@@ -1,0 +1,4276 @@
+Log: Sat 29 2015, 16:36
+Difficulty: 7
+Number of Avatars: 3
+
+
+Mazeport: 53052
+Maze width: 40
+Maze height: 40
+
+THREAD FOR 2
+
+THREAD FOR 1
+
+THREAD FOR 0Avatar 2 connected to socket: 0
+Avatar ready message sent: 88, for av 2
+Avatar 1 connected to socket: 0
+Avatar ready message sent: 88, for av 1
+Avatar 0 connected to socket: 0
+Avatar ready message sent: 88, for av 0
+
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 17
+Position of avatar 2 - x: 28 y: 26
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 17
+Position of avatar 2 - x: 28 y: 26
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 17Avatar 1 moved successfully.
+Position of avatar 2 - x: 28 y: 26
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 17
+Position of avatar 2 - x: 29 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 17
+Position of avatar 2 - x: 29 y: 26
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 17Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 29 y: 26
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 17
+Position of avatar 2 - x: 29 y: 26Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 17
+Position of avatar 2 - x: 29 y: 26
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 17Avatar 1 moved successfully.
+Position of avatar 2 - x: 29 y: 26
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 17
+Position of avatar 2 - x: 29 y: 26Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 17
+Position of avatar 2 - x: 29 y: 26
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 18Avatar 1 moved successfully.
+Position of avatar 2 - x: 29 y: 26
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 18
+Position of avatar 2 - x: 29 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 18
+Position of avatar 2 - x: 29 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 18Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 29 y: 25
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 18
+Position of avatar 2 - x: 30 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 18
+Position of avatar 2 - x: 30 y: 25
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 19Avatar 1 moved successfully.
+Position of avatar 2 - x: 30 y: 25
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 19
+Position of avatar 2 - x: 30 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 19
+Position of avatar 2 - x: 30 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 19Avatar 1 moved successfully.
+Position of avatar 2 - x: 30 y: 25
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 19
+Position of avatar 2 - x: 31 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 19
+Position of avatar 2 - x: 31 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 18Avatar 1 moved successfully.
+Position of avatar 2 - x: 31 y: 25
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 18
+Position of avatar 2 - x: 31 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 18
+Position of avatar 2 - x: 31 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18Avatar 1 moved successfully.
+Position of avatar 2 - x: 31 y: 25
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18
+Position of avatar 2 - x: 31 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18
+Position of avatar 2 - x: 31 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 31 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18
+Position of avatar 2 - x: 31 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18
+Position of avatar 2 - x: 31 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 31 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18
+Position of avatar 2 - x: 30 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 18
+Position of avatar 2 - x: 30 y: 25
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 19Avatar 1 moved successfully.
+Position of avatar 2 - x: 30 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 19
+Position of avatar 2 - x: 30 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 19
+Position of avatar 2 - x: 30 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 19Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 30 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 19
+Position of avatar 2 - x: 29 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 19
+Position of avatar 2 - x: 29 y: 25
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 20Avatar 1 moved successfully.
+Position of avatar 2 - x: 29 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 20
+Position of avatar 2 - x: 29 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 20
+Position of avatar 2 - x: 29 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 20Avatar 1 moved successfully.
+Position of avatar 2 - x: 29 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 20
+Position of avatar 2 - x: 29 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 20
+Position of avatar 2 - x: 29 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 19Avatar 1 moved successfully.
+Position of avatar 2 - x: 29 y: 25
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 19
+Position of avatar 2 - x: 29 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 19
+Position of avatar 2 - x: 29 y: 26
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 18Avatar 1 moved successfully.
+Position of avatar 2 - x: 29 y: 26
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 18
+Position of avatar 2 - x: 28 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 18
+Position of avatar 2 - x: 28 y: 26
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17Avatar 1 moved successfully.
+Position of avatar 2 - x: 28 y: 26
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17
+Position of avatar 2 - x: 28 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17
+Position of avatar 2 - x: 28 y: 25
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 28 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17
+Position of avatar 2 - x: 28 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17
+Position of avatar 2 - x: 28 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 28 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17
+Position of avatar 2 - x: 27 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 17
+Position of avatar 2 - x: 27 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 17Avatar 1 moved successfully.
+Position of avatar 2 - x: 27 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 17
+Position of avatar 2 - x: 27 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 17
+Position of avatar 2 - x: 27 y: 24
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16Avatar 1 moved successfully.
+Position of avatar 2 - x: 27 y: 24
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16
+Position of avatar 2 - x: 27 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16
+Position of avatar 2 - x: 27 y: 24
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 27 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16
+Position of avatar 2 - x: 27 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16
+Position of avatar 2 - x: 27 y: 24
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 27 y: 24
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16
+Position of avatar 2 - x: 26 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 16
+Position of avatar 2 - x: 26 y: 24
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 16Avatar 1 moved successfully.
+Position of avatar 2 - x: 26 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 16
+Position of avatar 2 - x: 26 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 16
+Position of avatar 2 - x: 26 y: 24
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 15Avatar 1 moved successfully.
+Position of avatar 2 - x: 26 y: 24
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 15
+Position of avatar 2 - x: 25 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 15
+Position of avatar 2 - x: 25 y: 24
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 15Avatar 1 moved successfully.
+Position of avatar 2 - x: 25 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 15
+Position of avatar 2 - x: 25 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 15
+Position of avatar 2 - x: 25 y: 24
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 15Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 25 y: 24
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 15
+Position of avatar 2 - x: 25 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 15
+Position of avatar 2 - x: 25 y: 24
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 14Avatar 1 moved successfully.
+Position of avatar 2 - x: 25 y: 24
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 14
+Position of avatar 2 - x: 25 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 14
+Position of avatar 2 - x: 25 y: 25
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14Avatar 1 moved successfully.
+Position of avatar 2 - x: 25 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 25 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 25 y: 25
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 25 y: 25
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 25 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 25 y: 25
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 25 y: 25
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 26 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 26 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 26 y: 25
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 26 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 26 y: 25
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 26 y: 25
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 26 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 26 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 26 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 26 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 26 y: 25
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 26 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 25 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 25 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11Avatar 1 moved successfully.
+Position of avatar 2 - x: 25 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 25 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 25 y: 24
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11Avatar 1 moved successfully.
+Position of avatar 2 - x: 25 y: 24
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 26 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 26 y: 24
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 26 y: 24
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12
+Position of avatar 2 - x: 27 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12
+Position of avatar 2 - x: 27 y: 24
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 27 y: 24
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12
+Position of avatar 2 - x: 27 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12
+Position of avatar 2 - x: 27 y: 25
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 27 y: 25
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 27 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 27 y: 26
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 27 y: 26
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 26 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 26 y: 26
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 26 y: 26
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12
+Position of avatar 2 - x: 25 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12
+Position of avatar 2 - x: 25 y: 26
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 25 y: 26
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 24 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 24 y: 26
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 24 y: 26
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13
+Position of avatar 2 - x: 24 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13
+Position of avatar 2 - x: 24 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 24 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 13
+Position of avatar 2 - x: 24 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 13
+Position of avatar 2 - x: 24 y: 24
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 24 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 13
+Position of avatar 2 - x: 24 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 13
+Position of avatar 2 - x: 24 y: 24
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 24 y: 24
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13
+Position of avatar 2 - x: 23 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13
+Position of avatar 2 - x: 23 y: 24
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 23 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13
+Position of avatar 2 - x: 23 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 13
+Position of avatar 2 - x: 23 y: 23
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 23 y: 23
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 23 y: 23Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 23 y: 23
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 23 y: 23
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 23 y: 23Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 23 y: 23
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 23 y: 23
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 22 y: 23
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 22 y: 23
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 22 y: 23
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 22 y: 24
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 22 y: 24
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 22 y: 24
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 12
+Position of avatar 2 - x: 22 y: 24
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 22 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 18 y: 13
+Position of avatar 2 - x: 22 y: 23
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 22 y: 23
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 23 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 13
+Position of avatar 2 - x: 23 y: 23
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 23 y: 23
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12
+Position of avatar 2 - x: 23 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12
+Position of avatar 2 - x: 23 y: 24
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 23 y: 24
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12
+Position of avatar 2 - x: 23 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 17 y: 12
+Position of avatar 2 - x: 23 y: 25
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 23 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 23 y: 25Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 23 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 23 y: 25
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 23 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 16 y: 12
+Position of avatar 2 - x: 23 y: 26
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 23 y: 26
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12
+Position of avatar 2 - x: 22 y: 26Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 12
+Position of avatar 2 - x: 22 y: 26
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11Avatar 1 moved successfully.
+Position of avatar 2 - x: 22 y: 26
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 22 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 22 y: 25
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 22 y: 25
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 21 y: 25Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 21 y: 25
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 21 y: 25
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 21 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 15 y: 11
+Position of avatar 2 - x: 21 y: 24
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11Avatar 1 moved successfully.
+Position of avatar 2 - x: 21 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 21 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 21 y: 23
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 21 y: 23
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 21 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 21 y: 22
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 21 y: 22
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 21 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 11
+Position of avatar 2 - x: 21 y: 22
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12Avatar 1 moved successfully.
+Position of avatar 2 - x: 21 y: 22
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 21 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 21 y: 22
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 21 y: 22
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 20 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 12
+Position of avatar 2 - x: 20 y: 22
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 22
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 20 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 20 y: 21
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 21
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 20 y: 21Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 20 y: 21
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 20 y: 21
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 20 y: 21Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 20 y: 21
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 20 y: 21
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 19 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 19 y: 21
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 19 y: 21
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 19 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 13
+Position of avatar 2 - x: 19 y: 20
+Move: 3
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13Avatar 1 moved successfully.
+Position of avatar 2 - x: 19 y: 20
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 20 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 13
+Position of avatar 2 - x: 20 y: 20
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 20
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 20 y: 20Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 14 y: 14
+Position of avatar 2 - x: 20 y: 20
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 14Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 20
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 14
+Position of avatar 2 - x: 20 y: 20Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 13 y: 14
+Position of avatar 2 - x: 20 y: 20
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 14Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 20
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 14
+Position of avatar 2 - x: 19 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 14
+Position of avatar 2 - x: 19 y: 20
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 14Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 19 y: 20
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 14
+Position of avatar 2 - x: 19 y: 20Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 12 y: 14
+Position of avatar 2 - x: 19 y: 20
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14Avatar 1 moved successfully.
+Position of avatar 2 - x: 19 y: 20
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14
+Position of avatar 2 - x: 18 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14
+Position of avatar 2 - x: 18 y: 20
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 18 y: 20
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14
+Position of avatar 2 - x: 18 y: 20Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14
+Position of avatar 2 - x: 18 y: 20
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 18 y: 20
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14
+Position of avatar 2 - x: 18 y: 20Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 14
+Position of avatar 2 - x: 18 y: 20
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 15Avatar 1 moved successfully.
+Position of avatar 2 - x: 18 y: 20
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 15
+Position of avatar 2 - x: 18 y: 20Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 11 y: 15
+Position of avatar 2 - x: 18 y: 20
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15Avatar 1 moved successfully.
+Position of avatar 2 - x: 18 y: 20
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15
+Position of avatar 2 - x: 19 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15
+Position of avatar 2 - x: 19 y: 20
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 19 y: 20
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15
+Position of avatar 2 - x: 19 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15
+Position of avatar 2 - x: 19 y: 21
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 19 y: 21
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15
+Position of avatar 2 - x: 19 y: 21Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 15
+Position of avatar 2 - x: 19 y: 21
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 16Avatar 1 moved successfully.
+Position of avatar 2 - x: 19 y: 21
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 16
+Position of avatar 2 - x: 19 y: 21Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 10 y: 16
+Position of avatar 2 - x: 19 y: 21
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16Avatar 1 moved successfully.
+Position of avatar 2 - x: 19 y: 21
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16
+Position of avatar 2 - x: 20 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16
+Position of avatar 2 - x: 20 y: 21
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 20 y: 21
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16
+Position of avatar 2 - x: 20 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16
+Position of avatar 2 - x: 20 y: 22
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 20 y: 22
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16
+Position of avatar 2 - x: 20 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 16
+Position of avatar 2 - x: 20 y: 22
+Move: 2
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 17Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 22
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 17
+Position of avatar 2 - x: 20 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 9 y: 17
+Position of avatar 2 - x: 20 y: 22
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 17Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 22
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 17
+Position of avatar 2 - x: 21 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 17
+Position of avatar 2 - x: 21 y: 22
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 16Avatar 1 moved successfully.
+Position of avatar 2 - x: 21 y: 22
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 16
+Position of avatar 2 - x: 21 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 16
+Position of avatar 2 - x: 21 y: 23
+Move: 1
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 16Avatar 1 encountered a wall and did not move.
+Position of avatar 2 - x: 21 y: 23
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 16
+Position of avatar 2 - x: 20 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 8 y: 16
+Position of avatar 2 - x: 20 y: 23
+Move: 0
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16Avatar 1 moved successfully.
+Position of avatar 2 - x: 20 y: 23
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 19 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 19 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 19 y: 23
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 19 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 19 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 19 y: 22
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 18 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 18 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 18 y: 22
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 18 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 18 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 18 y: 21
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 21
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 22
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 22
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 23
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 22
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 22
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 22
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 23
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 23
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 24
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 24
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 24
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 24
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 24Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 24
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 24
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 23
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 23Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 23
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 23
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 22Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 22
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 22
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 21
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 21
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 21
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 21Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 21
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 21
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 20
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 20
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 20
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 20
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 17
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 17Avatar 2 encountered a wall and did not move.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 17
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 17
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 17
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 18
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 17 y: 19
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 19Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 19
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 19
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 18Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 18
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 16 y: 18
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 18Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 18
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 18
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 19Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 19
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 19
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 20
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 15 y: 20
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 20Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 20
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 20
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 19Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 19
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 19
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 18Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 18
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 18
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 14 y: 17
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 17
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 16Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 16
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 16
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 16Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 16
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 16
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 15Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 15
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 15
+Move: 3
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 15Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 15
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 15
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 14Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 14
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 13 y: 14
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 14Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 14
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 12 y: 14
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 11 y: 14Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 11 y: 14
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 11 y: 14
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 11 y: 15Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 11 y: 15
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 11 y: 15
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 10 y: 15Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 10 y: 15
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 10 y: 15
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 10 y: 16Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 10 y: 16
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 10 y: 16
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 9 y: 16Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 9 y: 16
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 9 y: 16
+Move: 2
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 9 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 9 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 9 y: 17
+Move: 0
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 8 y: 17Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 8 y: 17
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 8 y: 17
+Move: 1
+Avatar move message sent: 88, for av 2
+
+its my turn: 0
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 8 y: 16Avatar 2 moved successfully.
+Move: 8
+Avatar move message sent: 88, for av 0
+
+its my turn: 1
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 8 y: 16
+Move: 8
+Avatar move message sent: 88, for av 1
+
+its my turn: 2
+Current board:
+Position of avatar 0 - x: 7 y: 16
+Position of avatar 1 - x: 7 y: 16
+Position of avatar 2 - x: 8 y: 16
+Move: 0
+Avatar move message sent: 88, for av 2Joined thread 2
+Joined thread 1
+Joined thread 0
+
+Maze Solved on Sat 29 2015, 16:36!
+
+Finishing
+
+Cleared Memory

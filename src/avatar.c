@@ -5,7 +5,7 @@
 
 	This file contains client side startup to communiate with server
 	
-	Primary Author:	Pritika Vig
+	Authors:	Pritika Vig, Kathleen Sprout, Danielle Midulla, James Jia
 	Date Created:	Aug 2015
 
 	Special considerations:  
@@ -50,6 +50,9 @@
 XYPos *final_destination;
 pthread_mutex_t turn_lock;
 pthread_mutex_t solved_lock;
+pthread_mutex_t too_many_moves_lock;
+pthread_mutex_t error_lock;
+char * thread_return;
 
 // ---------------- Private prototypes 
 
@@ -86,7 +89,7 @@ void* avatar(void* ptr) {
     perror("Problem in connecting to the server");
     exit(3);
   }
-  printf("connected to socket: %i\n", connected);
+  fprintf(a.pLog, "Avatar %d connected to socket: %i\n", a.avID, connected);
   
 
   //////////////////////////// send initial message 
@@ -102,7 +105,7 @@ void* avatar(void* ptr) {
 
   //send ready message to server 
   int sent = send(sockfd, ready, sizeof(AM_Message), 0);
-  printf("Avatar ready message sent: %i, for av %i\n", sent, a.avID);
+  fprintf(a.pLog, "Avatar ready message sent: %i, for av %i\n", sent, a.avID);
   free(ready);
   sleep(1);
 
@@ -188,21 +191,21 @@ void* avatar(void* ptr) {
           
         }
 
-	////////////////graphics////////////////
-	initscr();	
-	clear();
-	raw();
-	start_color();
-	create_border(maze->num_col, maze->num_row);
-     	draw_inside(maze);
-	draw_fakes(maze);       
+        ////////////////graphics////////////////
+        //initscr();	
+        clear();
+        raw();
+        //start_color();
+        create_border(maze->num_col, maze->num_row);
+        draw_inside(maze);
+        //draw_fakes(maze);       
       	int f;
       	for (f = 0; f<a.nAvatars; f++){
-       	              draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
+          draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
       	}
-	//unsigned int microseconds;
-	//microseconds = 200;
-	//usleep(microseconds);
+        //unsigned int microseconds;
+        //microseconds = 200;
+        //usleep(microseconds);
       	refresh();
             
         /* Determine the direction of the move for the current Avatar */
@@ -240,7 +243,6 @@ void* avatar(void* ptr) {
 
         //temporary fix to diagnose the initial -1 rightHandRule return
         if(move == -1){
-          //exit(EXIT_FAILURE);
           ClearFakeWalls(Avatars[a.avID].pos.y, Avatars[a.avID].pos.x);
           move = rightHandRule(Avatars[a.avID]);
           move = (move == -1) ? M_NULL_MOVE : move;
@@ -273,45 +275,58 @@ void* avatar(void* ptr) {
     // else if the message is success, break
     else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
       pthread_mutex_lock(&solved_lock);
-      if (a.avID == 0){
-        char buff[100];
+      if(!thread_return){
         time_t myTime;
+        char buff[100];
+        thread_return = (char *) calloc(100, sizeof(char));
         myTime = time(NULL);
         strftime(buff, 100, "%a %d %Y, %H:%M", localtime(&myTime));
         //printf("%s\n", buff);
-        fprintf(a.pLog, "\nMaze Solved on %s!\n", buff);
+        sprintf(thread_return, "\nMaze Solved on %s!\n", buff);
+        //printf("\nSolved!\n");
+        //free(rec_message);
+        //free(ptr);
       }
-      //printf("\nSolved!\n");
-      free(rec_message);
-      free(ptr);
   	
-    	//stop at solution, wait for an input to end graphics     
-      refresh();
-      sleep(1);
-      clear();
-      printw("Maze solved!");    
-      getch();
-      clear();
-      endwin();
+      if(a.avID == 0){
+      //stop at solution, wait for an input to end graphics     
+        refresh();
+        sleep(1);
+        clear();
+        printw("Maze solved!");    
+        getch();
+        clear();
+        //endwin();
+      }
+      pthread_mutex_unlock(&solved_lock);
       break;
-      pthread_mutex_lock(&solved_lock);
     }
 
     else if(ntohl(rec_message->type) == AM_TOO_MANY_MOVES){
+      pthread_mutex_lock(&too_many_moves_lock);
       printf("\nToo many moves! You lose.\n");
-      free(rec_message);
-      free(ptr);
+      //fprintf(a.pLog,"\nToo many moves! You lose.\n");
+      thread_return = "\nToo many moves! You lose.\n";
+      //free(rec_message);
+      //free(ptr);
+      pthread_mutex_unlock(&too_many_moves_lock);
       break;
     }
         
     else if(IS_AM_ERROR(ntohl(rec_message->type))){
+      pthread_mutex_lock(&error_lock);
+      thread_return = (char *) calloc(100, sizeof(char));
       printf("\nReceived Error code\n");
-      free(rec_message);
-      free(ptr);
+      sprintf(thread_return, "\nReceived Error code: %u\n", ntohl(rec_message->type));
+      //free(rec_message);
+      //free(ptr);
+      pthread_mutex_unlock(&error_lock);
       break;
     }
   }
-  CleanupMaze();
-  exit(EXIT_SUCCESS);
+  //CleanupMaze();
+  free(rec_message);
+  free(ptr);
+  pthread_exit(thread_return);
 }
 

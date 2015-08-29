@@ -21,8 +21,7 @@
 #include <unistd.h>
 #include <stdlib.h>
 // ---------------- Local includes  e.g., "file.h"
-#include "amazing.h"
-#include "maze.h"
+#include "graphics.h"
 
 //function prototypes
 
@@ -123,6 +122,9 @@ void draw_inside(Maze* maze_list){
 		}
 	}
 	attroff(COLOR_PAIR(2));
+  if(print_fake == 1){
+    draw_fakes(maze_list);
+  }
 }
 
 //look through maze nodes and draw fake walls as magenta
