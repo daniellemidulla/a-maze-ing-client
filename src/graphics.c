@@ -94,20 +94,36 @@ void draw_inside(Maze* maze_list){
 					//make south wall
 					move(2*(i+1),2*j+1); 
 					addch('-');
-					//make corner
+					//make southeast corner
 					move(2*(i+1), 2*(j+1));
 					addch('*');
 				}
+				//northeast corner
+				if (maze_list->maze[i][j].north_wall==1){		
+                                        move(2*i, 2*(j+1));
+                                        addch('*');
+				}
 			}
-			//if the node has just a south wall
+			//if the node has a south wall
 			if (maze_list->maze[i][j].east_wall !=1){
 				if (maze_list->maze[i][j].south_wall==1){
 					//make south wall
 					move(2*(i+1), 2*j+1);
 					addch('-');
-				
+				}
+				//southwest corner
+				if (maze_list->maze[i][j].west_wall==1){	
+					move(2*(i+1),2*j);
+					addch('*');	
 				}
 			}
+			
+			if (maze_list->maze[i][j].west_wall == 1){
+				if (maze_list->maze[i][j].north_wall == 1){
+					move(2*i ,2*j);
+					addch('*');
+				}
+			}			
 		}
 	}
 	attroff(COLOR_PAIR(2));

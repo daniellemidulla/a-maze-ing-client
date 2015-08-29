@@ -199,10 +199,7 @@ void* avatar(void* ptr) {
       	int f;
       	for (f = 0; f<a.nAvatars; f++){
        	              draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
-      	}
-	//unsigned int microseconds;
-	//microseconds = 200;
-	//usleep(microseconds);
+      	}	
       	refresh();
             
         /* Determine the direction of the move for the current Avatar */
@@ -282,6 +279,7 @@ void* avatar(void* ptr) {
       getch();
       clear();
       endwin();
+      delwin(stdscr);
       break;
       pthread_mutex_lock(&solved_lock);
     }

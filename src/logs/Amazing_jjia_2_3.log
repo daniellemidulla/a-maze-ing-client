@@ -1,9 +1,9 @@
-Log: Fri 28 2015, 20:24
+Log: Sat 29 2015, 18:24
 Difficulty: 3
 Number of Avatars: 2
 
 
-Mazeport: 35579
+Mazeport: 43738
 Maze width: 20
 Maze height: 20
 
@@ -2082,4 +2082,3 @@ Position of avatar 0 - x: 8 y: 9
 Position of avatar 1 - x: 8 y: 10
 Move: 1
 Avatar move message sent: 88, for av 1
-Maze Solved on Fri 28 2015, 20:24!
