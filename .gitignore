@@ -1,6 +1,9 @@
 #Object files
 *.o
 
+#Swap files
+*.swp
+
 #Log files
 #*.log
 

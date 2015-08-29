@@ -174,7 +174,7 @@ void* avatar(void* ptr) {
      	draw_inside(maze);
       	int f;
       	for (f = 0; f<a.nAvatars; f++){
-       	              draw_avatar(2*Avatars[f].pos.y, 2*Avatars[f].pos.x);
+       	              draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
       	}
       	refresh();
             
