@@ -49,6 +49,6 @@ void CleanupMaze();//frees all the memory associated with the maze
 void AddWall(int r, int c, int dir, int value); //adds a wall to the given cell and the adjacent cell
 
 /* ClearFakeWalls */
-void ClearFakeWalls(int r, int c); //sets the fake walls to have a value of 0
+void ClearFakeWalls(); //sets the fake walls to have a value of 0
 
 #endif // MAZE_H

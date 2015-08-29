@@ -43,20 +43,24 @@ void create_border(int w, int h){
 		int i;
 		move(0,0);
                 for (i=0;i<(2*w);i++){
-                        addch('-');
+                  if(i%2 == 0) addch('*');
+                  else addch('-');
                 }
 		//bottom
                 move(2*h, 0);
                 for (i=0; i<2*w; i++){
-                        addch('-');
+                  if(i%2 == 0) addch('*');
+                  else addch('-');
                 }
 		//left
                 for (i=1;i<2*h;i++){               
-			mvaddch(i,0,'|');
+                  if(i%2 == 0) mvaddch(i, 0, '*');
+			            else mvaddch(i,0,'|');
                 }
 		//right
                 for (i=1;i<2*h-1;i++){
-               		mvaddch(i,2*w,'|');
+               		if (i%2 == 0) mvaddch(i, 2*w, '*');
+                  else mvaddch(i,2*w,'|');
                 }
 		//turn off green
 		attroff(COLOR_PAIR(1));
@@ -87,15 +91,19 @@ void draw_inside(Maze* maze_list){
 			//if the node has an east wall and south wall
 			if (maze_list->maze[i][j].east_wall == 1){
 				//make east wall
+        move(2*i, 2*(j+1));
+        addch('*');
 				move(2*i+1, 2*(j+1));
 				addch('|');
+        move(2*i+2, 2*(j+1));
+        addch('*');
 
 				if (maze_list->maze[i][j].south_wall==1){
 					//make south wall
 					move(2*(i+1),2*j+1); 
 					addch('-');
 					//make corner
-					move(2*(i+1), 2*(j+1));
+					move(2*(i+1), 2*j);
 					addch('*');
 				}
 			}
@@ -103,8 +111,12 @@ void draw_inside(Maze* maze_list){
 			if (maze_list->maze[i][j].east_wall !=1){
 				if (maze_list->maze[i][j].south_wall==1){
 					//make south wall
-					move(2*(i+1), 2*j+1);
+			    move(2*(i+1), 2*j);
+          addch('*');
+          move(2*(i+1), 2*j+1);
 					addch('-');
+          move(2*(i+1), 2*j+2);
+          addch('*');
 				
 				}
 			}

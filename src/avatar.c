@@ -278,8 +278,8 @@ void* avatar(void* ptr) {
         time_t myTime;
         myTime = time(NULL);
         strftime(buff, 100, "%a %d %Y, %H:%M", localtime(&myTime));
-        printf("%s", buff);
-        fprintf(a.pLog, "\nMaze Solved on %s!", buff);;
+        //printf("%s\n", buff);
+        fprintf(a.pLog, "\nMaze Solved on %s!\n", buff);
       }
       //printf("\nSolved!\n");
       free(rec_message);
