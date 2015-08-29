@@ -41,15 +41,18 @@
 #include "amazing.h"
 #include "avatar.h"
 #include "maze.h"
+#include "graphics.h"
 
 // ---------------- Constant definitions 
 
 // ---------------- Macro definitions
-extern Avatar Avatars[];
-extern Maze *maze;
+
 // ---------------- Structures/Types 
 
 // ---------------- Private variables 
+extern Avatar Avatars[];
+extern Maze *maze;
+extern int print_fake;
 
 // ---------------- Private prototypes 
 int get_ip(char *  , char *);
@@ -63,15 +66,11 @@ main(int argc, char **argv)
 {
 	int sockfd;
   struct sockaddr_in servaddr;
-	int c;
-  int i;
-  int nAvatars;
-  int difficulty;
+	int c, i;
+  int nAvatars, difficulty;
   char * hostname;
   char ip[100];
-  int MazePort;
-  int MazeWidth;
-  int MazeHeight;
+  int MazePort, MazeWidth, MazeHeight;
 
 
 /////////////////////////////////////////// argument checks ///////////////////////////////////////////////
@@ -82,12 +81,13 @@ main(int argc, char **argv)
       {"nAvatars",     required_argument,       0, 'n'},
       {"difficulty",  required_argument,       0, 'd'},
       {"hostname",  required_argument, 0, 'h'},
+      {"fakeWalls", no_argument, 0, 'f'},
       {0, 0, 0, 0}
     };
     
   int option_index = 0;
   //Set the necessary variables from the given parameters
-  while((c = getopt_long (argc, argv, "n:d:h:", long_options, &option_index)) != -1){  
+  while((c = getopt_long (argc, argv, "fn:d:h:", long_options, &option_index)) != -1){  
     /* Break at the end of options */
     switch (c)
       {
@@ -122,6 +122,10 @@ main(int argc, char **argv)
 
       case 'h':
         hostname = optarg;
+        break;
+
+      case 'f':
+        print_fake = 1;
         break;
 
       case '?':
@@ -165,7 +169,7 @@ main(int argc, char **argv)
       exit(EXIT_FAILURE);
     }
 
-    if (argc != 7){
+    if (argc < 7){
     printf("You don't have the proper number of arguments. Please enter [AVATARS 0-10] [    DIFFICULTY 1-9] [HOST NAME \"pierce.cs.dartmouth.edu\"]\n You entered %d arguments.", argc);
      }
     
@@ -284,11 +288,13 @@ main(int argc, char **argv)
     close(sockfd);
   
     pthread_t t1[nAvatars];
-    void* thread_res = NULL;
+    char* thread_res = NULL;
     int iret1;
     printf("editing\n");
 
-    maze = initMaze(MazeHeight,MazeWidth);
+    maze = initMaze(MazeHeight,MazeWidth);//initialize the maze
+    initscr();//initialize the graphics screen
+    start_color();//initialize the graphics colors
 
     for (int a = 0; a < nAvatars; a++){
 
@@ -326,9 +332,9 @@ main(int argc, char **argv)
 
       // --------------- WAITING FOR THREADS TO FINISH
   for(int b = nAvatars - 1; b >= 0; b--) {
-    int res = pthread_join(t1[b], &thread_res); 
+    int res = pthread_join(t1[b], (void**)&thread_res); 
     if (res == 0) {
-      fprintf(stderr, "thread %d\n", b); 
+      fprintf(pLog, "Joined thread %d\n", b); 
     } else {
       fprintf(stderr, "pthread_join failed\n");
     } 
@@ -338,15 +344,15 @@ main(int argc, char **argv)
 
 
   ///////////////////////////// clean stuff up
-
-
-     printf("\nFinishing");
-
-     close(MazePort);
-     fprintf(pLog, "\n\nCleared Memory");
-     fclose(pLog);
-
-     exit(0);
+  fprintf(pLog,"%s\n", thread_res);
+  fprintf(pLog, "Finishing\n");
+  free(thread_res);
+  CleanupMaze();//free the maze resources
+  endwin();//free the graphics resources
+  close(MazePort);
+  fprintf(pLog, "\nCleared Memory\n");
+  fclose(pLog);
+  exit(EXIT_SUCCESS);
 }
 
 
