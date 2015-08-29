@@ -165,15 +165,18 @@ void* avatar(void* ptr) {
         }
 
 	////////////////graphics////////////////
-	initscr();
+	initscr();	
 	clear();
 	raw();
+	start_color();
 	create_border(maze->num_col, maze->num_row);
      	draw_inside(maze);
+	draw_fakes(maze);       
       	int f;
       	for (f = 0; f<a.nAvatars; f++){
        	              draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
       	}
+	//attroff(COLOR_PAIR(3));
       	refresh();
             
         /* Determine the direction of the move for the current Avatar */

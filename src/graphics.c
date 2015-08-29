@@ -65,6 +65,9 @@ int main (int argc, char *argv[]){
 */
 
 void create_border(int w, int h){
+
+		init_pair(1, COLOR_GREEN, COLOR_BLACK);
+		attron(COLOR_PAIR(1));
 		//top		
 		int i;
 		move(0,0);
@@ -79,7 +82,7 @@ void create_border(int w, int h){
                 }
 
 		//left
-                for (i=1;i<2*h-1;i++){
+                for (i=1;i<2*h;i++){
                         move(i,0);
                         addch('|');
                 }
@@ -89,13 +92,17 @@ void create_border(int w, int h){
                         move(i, 2*w);
                         addch('|');
                 }
+		attroff(COLOR_PAIR(1));
 
 }
 
 void draw_avatar(int avatar_y, int avatar_x){
 	
+	init_pair(3, COLOR_RED, COLOR_BLACK);
+        attron(COLOR_PAIR(3));	
 	move(avatar_y, avatar_x);
 	addch('A');
+	attroff(COLOR_PAIR(3));
 
 }
 
@@ -103,7 +110,10 @@ void draw_inside(Maze* maze_list){
 	
 	int i;
 	int j;
-
+	
+	init_pair(2, COLOR_GREEN, COLOR_BLACK);
+        attron(COLOR_PAIR(2));
+	
 	//loop through all the maze nodes
 	for (i=0; i<maze_list->num_row; i++){
 		for (j=0; j<maze_list->num_col; j++){
@@ -134,5 +144,34 @@ void draw_inside(Maze* maze_list){
 			}
 		}
 	}
+	attroff(COLOR_PAIR(2));
 }
-			
+
+void draw_fakes(Maze* maze_list){
+
+        int i;
+        int j;
+
+        init_pair(5, COLOR_MAGENTA, COLOR_BLACK);
+        attron(COLOR_PAIR(5));
+
+
+        for (i=0; i<maze_list->num_row; i++){
+                for (j=0; j<maze_list->num_col; j++){
+			//east
+                        if (maze_list->maze[i][j].east_wall == 2){ 
+                                move(2*i+1, 2*(j+1));
+                                addch('|');
+		                           
+                        }                        
+			//south
+                        if (maze_list->maze[i][j].east_wall !=2){
+                                if (maze_list->maze[i][j].south_wall==2){                                
+                                        move(2*(i+1), 2*j+1);
+                                        addch('-');
+                                }
+                        }
+                }
+        }
+        attroff(COLOR_PAIR(5));
+}

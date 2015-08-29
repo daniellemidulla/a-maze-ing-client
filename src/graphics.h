@@ -29,4 +29,6 @@ void draw_avatar(int x, int y);
 
 void draw_inside(Maze* maze_list);
 
+void draw_fakes(Maze* maze_list);
+
 #endif //GRAPHICS_H
