@@ -90,13 +90,9 @@ void draw_inside(Maze* maze_list){
 
 			//if the node has an east wall and south wall
 			if (maze_list->maze[i][j].east_wall == 1){
-				//make east wall
-        move(2*i, 2*(j+1));
-        addch('*');
+				//make east wall   		
 				move(2*i+1, 2*(j+1));
 				addch('|');
-        move(2*i+2, 2*(j+1));
-        addch('*');
 
 				if (maze_list->maze[i][j].south_wall==1){
 					//make south wall
@@ -112,15 +108,11 @@ void draw_inside(Maze* maze_list){
           addch('*');
       }
 			}
-			//if the node has a south wall
-			if (maze_list->maze[i][j].east_wall !=1){
-				if (maze_list->maze[i][j].south_wall==1){
-					//make south wall
-			    move(2*(i+1), 2*j);
-          addch('*');
-          move(2*(i+1), 2*j+1);
+			//if the node has a south wall		
+			if (maze_list->maze[i][j].south_wall==1){
+					//make south wall   			
+          				move(2*(i+1), 2*j+1);
 					addch('-');
-				}
 				//southwest corner
 				if (maze_list->maze[i][j].west_wall==1){	
 					move(2*(i+1),2*j);
@@ -128,6 +120,7 @@ void draw_inside(Maze* maze_list){
 				}
 			}
 			
+			//if node has west wall, draw northwest if also has north wall	
 			if (maze_list->maze[i][j].west_wall == 1){
 				if (maze_list->maze[i][j].north_wall == 1){
 					move(2*i ,2*j);
