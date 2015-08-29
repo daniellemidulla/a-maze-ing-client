@@ -155,7 +155,31 @@ void* avatar(void* ptr) {
             }
             else {
               fprintf(a.pLog, "Avatar %d moved successfully.", b);
-              AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);
+              switch(Avatars[b].last_move){
+                case M_NORTH:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].north_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                case M_SOUTH:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].south_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                case M_EAST:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].east_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                case M_WEST:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].west_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                default:
+                  AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);
+                  break;
+              }
               Avatars[b].pos = pos;
               Avatars[b].direction = Avatars[b].last_move;
               Avatars[b].last_move = M_NULL_MOVE;
