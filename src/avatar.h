@@ -23,7 +23,6 @@
 // ---------------- Public Variables
 Maze *maze;
 Avatar Avatars[AM_MAX_AVATAR];
-
 // ---------------- Prototypes/Macros
 void* avatar(void* ptr);
 
