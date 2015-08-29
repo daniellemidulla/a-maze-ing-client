@@ -64,8 +64,6 @@ void* avatar(void* ptr) {
   struct sockaddr_in servaddr;
   avatarInfo a = *((avatarInfo *) ptr);
   fprintf(a.pLog, "\n\nTHREAD FOR %i", a.avID);
-  
-
 
   ///////////////////////// create socket
 
@@ -157,7 +155,31 @@ void* avatar(void* ptr) {
             }
             else {
               fprintf(a.pLog, "Avatar %d moved successfully.", b);
-              AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);
+              switch(Avatars[b].last_move){
+                case M_NORTH:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].north_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                case M_SOUTH:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].south_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                case M_EAST:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].east_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                case M_WEST:
+                  if (maze->maze[Avatars[b].pos.y][Avatars[b].pos.x].west_wall != 2){
+                    AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);      
+                  }
+                  break;
+                default:
+                  AddWall(Avatars[b].pos.y, Avatars[b].pos.x, Avatars[b].last_move, 0);
+                  break;
+              }
               Avatars[b].pos = pos;
               Avatars[b].direction = Avatars[b].last_move;
               Avatars[b].last_move = M_NULL_MOVE;
@@ -167,15 +189,20 @@ void* avatar(void* ptr) {
         }
 
 	////////////////graphics////////////////
-	initscr();
+	initscr();	
 	clear();
 	raw();
+	start_color();
 	create_border(maze->num_col, maze->num_row);
      	draw_inside(maze);
+	draw_fakes(maze);       
       	int f;
       	for (f = 0; f<a.nAvatars; f++){
        	              draw_avatar(2*Avatars[f].pos.y+1, 2*Avatars[f].pos.x+1);
       	}
+	//unsigned int microseconds;
+	//microseconds = 200;
+	//usleep(microseconds);
       	refresh();
             
         /* Determine the direction of the move for the current Avatar */
@@ -213,7 +240,10 @@ void* avatar(void* ptr) {
 
         //temporary fix to diagnose the initial -1 rightHandRule return
         if(move == -1){
-          exit(EXIT_FAILURE);
+          //exit(EXIT_FAILURE);
+          ClearFakeWalls(Avatars[a.avID].pos.y, Avatars[a.avID].pos.x);
+          move = rightHandRule(Avatars[a.avID]);
+          move = (move == -1) ? M_NULL_MOVE : move;
         }
         Avatars[a.avID].last_move = move;
         //int move = rand() % 4;
@@ -242,15 +272,15 @@ void* avatar(void* ptr) {
 
     // else if the message is success, break
     else if(ntohl(rec_message->type) == AM_MAZE_SOLVED){
-        if (a.avID == 0){
-            char buff[100];
-            time_t myTime;
-            myTime = time(NULL);
-            strftime(buff, 100, "%a %d %Y, %H:%M", localtime(&myTime));
-            printf("%s", buff);
-            fprintf(a.pLog, "\nMaze Solved on %s!", buff);;
-        }
       pthread_mutex_lock(&solved_lock);
+      if (a.avID == 0){
+        char buff[100];
+        time_t myTime;
+        myTime = time(NULL);
+        strftime(buff, 100, "%a %d %Y, %H:%M", localtime(&myTime));
+        //printf("%s\n", buff);
+        fprintf(a.pLog, "\nMaze Solved on %s!\n", buff);
+      }
       //printf("\nSolved!\n");
       free(rec_message);
       free(ptr);
